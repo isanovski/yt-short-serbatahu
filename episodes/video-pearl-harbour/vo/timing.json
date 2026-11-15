@@ -1,0 +1,442 @@
+{
+ "scene_starts": [
+  0.0,
+  21.34,
+  39.24,
+  55.82,
+  73.34,
+  89.78
+ ],
+ "phrases": [
+  {
+   "scene": 0,
+   "t": 0.0,
+   "text": "Tujuh Desember seribu sembilan"
+  },
+  {
+   "scene": 0,
+   "t": 4.42,
+   "text": "ratus empat puluh satu"
+  },
+  {
+   "scene": 0,
+   "t": 5.26,
+   "text": "Pagi Minggu yang tenang"
+  },
+  {
+   "scene": 0,
+   "t": 6.53,
+   "text": "di Pearl Harbor, Hawaii"
+  },
+  {
+   "scene": 0,
+   "t": 8.15,
+   "text": "Armada Pasifik Amerika"
+  },
+  {
+   "scene": 0,
+   "t": 9.22,
+   "text": "sedang tertidur di pelabuhan"
+  },
+  {
+   "scene": 0,
+   "t": 10.83,
+   "text": "Lalu sekitar pukul tujuh"
+  },
+  {
+   "scene": 0,
+   "t": 12.11,
+   "text": "empat puluh delapan"
+  },
+  {
+   "scene": 0,
+   "t": 13.68,
+   "text": "langit di utara tiba-tiba"
+  },
+  {
+   "scene": 0,
+   "t": 14.5,
+   "text": "penuh pesawat Jepang"
+  },
+  {
+   "scene": 0,
+   "t": 15.19,
+   "text": "Tiga ratus lima puluh"
+  },
+  {
+   "scene": 0,
+   "t": 17.49,
+   "text": "tiga pesawat"
+  },
+  {
+   "scene": 0,
+   "t": 18.76,
+   "text": "Padahal Amerika belum berperang"
+  },
+  {
+   "scene": 0,
+   "t": 19.94,
+   "text": "dengan siapa pun"
+  },
+  {
+   "scene": 1,
+   "t": 21.34,
+   "text": "Kenapa Jepang berani menyerang?"
+  },
+  {
+   "scene": 1,
+   "t": 22.68,
+   "text": "Karena Amerika memotong"
+  },
+  {
+   "scene": 1,
+   "t": 23.45,
+   "text": "pasokan minyak Jepang"
+  },
+  {
+   "scene": 1,
+   "t": 24.25,
+   "text": "lewat embargo"
+  },
+  {
+   "scene": 1,
+   "t": 25.0,
+   "text": "Tanpa minyak, mesin perang"
+  },
+  {
+   "scene": 1,
+   "t": 26.07,
+   "text": "Jepang akan berhenti"
+  },
+  {
+   "scene": 1,
+   "t": 26.83,
+   "text": "Laksamana Yamamoto lalu"
+  },
+  {
+   "scene": 1,
+   "t": 27.64,
+   "text": "menyusun rencana gila"
+  },
+  {
+   "scene": 1,
+   "t": 28.3,
+   "text": "Enam kapal induk berlayar"
+  },
+  {
+   "scene": 1,
+   "t": 29.53,
+   "text": "diam-diam dari Jepang"
+  },
+  {
+   "scene": 1,
+   "t": 30.42,
+   "text": "sejak 26 November"
+  },
+  {
+   "scene": 1,
+   "t": 31.57,
+   "text": "tanpa menyalakan radio"
+  },
+  {
+   "scene": 1,
+   "t": 33.23,
+   "text": "sama sekali"
+  },
+  {
+   "scene": 1,
+   "t": 33.77,
+   "text": "Targetnya satu"
+  },
+  {
+   "scene": 1,
+   "t": 34.57,
+   "text": "Lumpuhkan armada Pasifik Amerika"
+  },
+  {
+   "scene": 1,
+   "t": 36.3,
+   "text": "dalam satu pukulan"
+  },
+  {
+   "scene": 1,
+   "t": 37.19,
+   "text": "sebelum Amerika sempat melawan"
+  },
+  {
+   "scene": 2,
+   "t": 39.24,
+   "text": "Padahal Amerika sempat"
+  },
+  {
+   "scene": 2,
+   "t": 40.07,
+   "text": "diberi peringatan"
+  },
+  {
+   "scene": 2,
+   "t": 40.75,
+   "text": "Pukul 07.02, dua prajurit"
+  },
+  {
+   "scene": 2,
+   "t": 42.34,
+   "text": "di stasiun radar Opana"
+  },
+  {
+   "scene": 2,
+   "t": 43.57,
+   "text": "melihat titik raksasa mendekat"
+  },
+  {
+   "scene": 2,
+   "t": 45.37,
+   "text": "di layar mereka"
+  },
+  {
+   "scene": 2,
+   "t": 45.72,
+   "text": "Mereka menelepon markas"
+  },
+  {
+   "scene": 2,
+   "t": 46.65,
+   "text": "Tapi perwira yang bertugas"
+  },
+  {
+   "scene": 2,
+   "t": 47.9,
+   "text": "mengira itu pesawat Amerika"
+  },
+  {
+   "scene": 2,
+   "t": 48.92,
+   "text": "yang memang sedang ditunggu"
+  },
+  {
+   "scene": 2,
+   "t": 49.91,
+   "text": "Tenang saja, katanya"
+  },
+  {
+   "scene": 2,
+   "t": 50.97,
+   "text": "Peringatan itu pun dibuang"
+  },
+  {
+   "scene": 2,
+   "t": 52.34,
+   "text": "46 menit kemudian"
+  },
+  {
+   "scene": 2,
+   "t": 53.44,
+   "text": "bom pertama jatuh"
+  },
+  {
+   "scene": 3,
+   "t": 55.82,
+   "text": "Gelombang pertama menghantam"
+  },
+  {
+   "scene": 3,
+   "t": 56.74,
+   "text": "barisan kapal tempur"
+  },
+  {
+   "scene": 3,
+   "t": 57.71,
+   "text": "Puncaknya adalah kapal Arizona"
+  },
+  {
+   "scene": 3,
+   "t": 59.09,
+   "text": "Satu bom menembus geladak"
+  },
+  {
+   "scene": 3,
+   "t": 60.47,
+   "text": "dan meledakkan gudang amunisinya"
+  },
+  {
+   "scene": 3,
+   "t": 61.4,
+   "text": "Kapal seberat lebih dari"
+  },
+  {
+   "scene": 3,
+   "t": 63.13,
+   "text": "30 ribu ton itu meledak"
+  },
+  {
+   "scene": 3,
+   "t": 64.46,
+   "text": "lalu tenggelam hanya dalam"
+  },
+  {
+   "scene": 3,
+   "t": 65.36,
+   "text": "sembilan menit"
+  },
+  {
+   "scene": 3,
+   "t": 65.91,
+   "text": "1.177 awaknya tewas"
+  },
+  {
+   "scene": 3,
+   "t": 68.36,
+   "text": "Hari itu total 2.403"
+  },
+  {
+   "scene": 3,
+   "t": 70.51,
+   "text": "orang Amerika meninggal"
+  },
+  {
+   "scene": 4,
+   "t": 73.34,
+   "text": "Tapi di balik kemenangan"
+  },
+  {
+   "scene": 4,
+   "t": 74.12,
+   "text": "besar itu, Jepang melakukan"
+  },
+  {
+   "scene": 4,
+   "t": 75.36,
+   "text": "kesalahan fatal"
+  },
+  {
+   "scene": 4,
+   "t": 76.52,
+   "text": "Tiga kapal induk Amerika"
+  },
+  {
+   "scene": 4,
+   "t": 77.58,
+   "text": "ternyata sedang tidak ada"
+  },
+  {
+   "scene": 4,
+   "t": 78.62,
+   "text": "di pelabuhan"
+  },
+  {
+   "scene": 4,
+   "t": 79.44,
+   "text": "Tangki minyak berisi"
+  },
+  {
+   "scene": 4,
+   "t": 80.18,
+   "text": "4,5 juta barel juga"
+  },
+  {
+   "scene": 4,
+   "t": 81.56,
+   "text": "tidak disentuh sama sekali"
+  },
+  {
+   "scene": 4,
+   "t": 82.28,
+   "text": "Komandan Jepang membatalkan"
+  },
+  {
+   "scene": 4,
+   "t": 83.46,
+   "text": "gelombang ketiga, lalu pulang"
+  },
+  {
+   "scene": 4,
+   "t": 85.1,
+   "text": "Enam bulan kemudian"
+  },
+  {
+   "scene": 4,
+   "t": 86.14,
+   "text": "kapal induk yang lolos itulah"
+  },
+  {
+   "scene": 4,
+   "t": 87.68,
+   "text": "yang membalikkan keadaan"
+  },
+  {
+   "scene": 4,
+   "t": 88.12,
+   "text": "di Midway"
+  },
+  {
+   "scene": 5,
+   "t": 89.78,
+   "text": "Fakta bonusnya, sampai"
+  },
+  {
+   "scene": 5,
+   "t": 90.88,
+   "text": "hari ini bangkai Arizona"
+  },
+  {
+   "scene": 5,
+   "t": 91.79,
+   "text": "masih meneteskan minyak"
+  },
+  {
+   "scene": 5,
+   "t": 92.95,
+   "text": "ke laut"
+  },
+  {
+   "scene": 5,
+   "t": 93.27,
+   "text": "Tetesan itu dijuluki"
+  },
+  {
+   "scene": 5,
+   "t": 94.27,
+   "text": "air mata hitam"
+  },
+  {
+   "scene": 5,
+   "t": 95.15,
+   "text": "Keesokan harinya Amerika"
+  },
+  {
+   "scene": 5,
+   "t": 96.27,
+   "text": "menyatakan perang"
+  },
+  {
+   "scene": 5,
+   "t": 96.57,
+   "text": "dan dunia tidak pernah"
+  },
+  {
+   "scene": 5,
+   "t": 98.18,
+   "text": "sama lagi"
+  }
+ ],
+ "events": {
+  "s1_cut": 10.83,
+  "s1_card": 15.19,
+  "s2_yama": 26.83,
+  "s2_chip6": 28.3,
+  "s2_radio": 31.57,
+  "s2_target": 33.77,
+  "s3_blip": 40.75,
+  "s3_stamp": 50.97,
+  "s3_bomb": 53.44,
+  "s4_cut": 61.4,
+  "s4_boom": 64.16,
+  "s4_card": 65.91,
+  "s4_total": 68.36,
+  "s5_chip1": 76.52,
+  "s5_chip2": 79.44,
+  "s5_stamp": 82.28,
+  "s6_emph": 94.27,
+  "s6_question": 98.61
+ }
+}

@@ -1,0 +1,486 @@
+{
+ "scene_starts": [
+  0.0,
+  14.4,
+  28.37,
+  42.44,
+  59.84,
+  83.28
+ ],
+ "phrases": [
+  {
+   "scene": 0,
+   "t": 0.0,
+   "text": "Tsunami tidak lahir sebagai"
+  },
+  {
+   "scene": 0,
+   "t": 1.44,
+   "text": "tembok air raksasa"
+  },
+  {
+   "scene": 0,
+   "t": 2.8,
+   "text": "Ia lahir di dasar laut"
+  },
+  {
+   "scene": 0,
+   "t": 4.19,
+   "text": "tingginya cuma sekitar"
+  },
+  {
+   "scene": 0,
+   "t": 5.11,
+   "text": "setengah meter, nyaris"
+  },
+  {
+   "scene": 0,
+   "t": 6.18,
+   "text": "tidak terlihat"
+  },
+  {
+   "scene": 0,
+   "t": 7.09,
+   "text": "Tapi jangan tertipu"
+  },
+  {
+   "scene": 0,
+   "t": 8.29,
+   "text": "Gelombang kecil itu membawa"
+  },
+  {
+   "scene": 0,
+   "t": 9.46,
+   "text": "energi dari seluruh"
+  },
+  {
+   "scene": 0,
+   "t": 10.37,
+   "text": "kolom air di atasnya"
+  },
+  {
+   "scene": 0,
+   "t": 11.54,
+   "text": "dan ia sedang melaju"
+  },
+  {
+   "scene": 0,
+   "t": 12.64,
+   "text": "secepat pesawat jet"
+  },
+  {
+   "scene": 0,
+   "t": 13.63,
+   "text": "menuju pantai"
+  },
+  {
+   "scene": 1,
+   "t": 14.4,
+   "text": "Ceritanya mulai jauh"
+  },
+  {
+   "scene": 1,
+   "t": 15.29,
+   "text": "di bawah sana"
+  },
+  {
+   "scene": 1,
+   "t": 16.09,
+   "text": "Dua lempeng raksasa Bumi"
+  },
+  {
+   "scene": 1,
+   "t": 17.18,
+   "text": "terus saling mendorong"
+  },
+  {
+   "scene": 1,
+   "t": 18.2,
+   "text": "Satu lempeng menyelip turun"
+  },
+  {
+   "scene": 1,
+   "t": 19.33,
+   "text": "ke bawah lempeng lainnya"
+  },
+  {
+   "scene": 1,
+   "t": 20.59,
+   "text": "persis seperti yang terjadi"
+  },
+  {
+   "scene": 1,
+   "t": 21.54,
+   "text": "di selatan Jawa dan Sumatra"
+  },
+  {
+   "scene": 1,
+   "t": 23.23,
+   "text": "Kadang tepinya terkunci"
+  },
+  {
+   "scene": 1,
+   "t": 24.39,
+   "text": "Lempeng terus bergerak"
+  },
+  {
+   "scene": 1,
+   "t": 25.3,
+   "text": "tepi itu melengkung"
+  },
+  {
+   "scene": 1,
+   "t": 26.35,
+   "text": "dan energi menumpuk"
+  },
+  {
+   "scene": 1,
+   "t": 27.22,
+   "text": "diam-diam selama ratusan tahun"
+  },
+  {
+   "scene": 2,
+   "t": 28.37,
+   "text": "Sampai suatu hari"
+  },
+  {
+   "scene": 2,
+   "t": 29.32,
+   "text": "kuncinya jebol"
+  },
+  {
+   "scene": 2,
+   "t": 30.22,
+   "text": "Tepi lempeng yang melengkung"
+  },
+  {
+   "scene": 2,
+   "t": 31.2,
+   "text": "itu menghentak balik"
+  },
+  {
+   "scene": 2,
+   "t": 32.23,
+   "text": "dalam hitungan detik"
+  },
+  {
+   "scene": 2,
+   "t": 33.31,
+   "text": "Dasar laut terangkat"
+  },
+  {
+   "scene": 2,
+   "t": 34.32,
+   "text": "beberapa meter sekaligus"
+  },
+  {
+   "scene": 2,
+   "t": 35.33,
+   "text": "dan seluruh air"
+  },
+  {
+   "scene": 2,
+   "t": 35.98,
+   "text": "di atasnya ikut terdorong"
+  },
+  {
+   "scene": 2,
+   "t": 37.24,
+   "text": "ke atas"
+  },
+  {
+   "scene": 2,
+   "t": 37.99,
+   "text": "Gelombang pun lahir"
+  },
+  {
+   "scene": 2,
+   "t": 38.94,
+   "text": "Ia menyebar ke segala arah"
+  },
+  {
+   "scene": 2,
+   "t": 40.39,
+   "text": "membawa energi gempa itu"
+  },
+  {
+   "scene": 2,
+   "t": 41.7,
+   "text": "menyeberangi samudra"
+  },
+  {
+   "scene": 3,
+   "t": 42.44,
+   "text": "Di laut dalam, tsunami"
+  },
+  {
+   "scene": 3,
+   "t": 43.57,
+   "text": "hampir tidak kelihatan"
+  },
+  {
+   "scene": 3,
+   "t": 44.82,
+   "text": "Tingginya cuma 30 sampai"
+  },
+  {
+   "scene": 3,
+   "t": 46.45,
+   "text": "60 sentimeter, tapi satu"
+  },
+  {
+   "scene": 3,
+   "t": 48.47,
+   "text": "gelombang bisa membentang"
+  },
+  {
+   "scene": 3,
+   "t": 49.52,
+   "text": "ratusan kilometer"
+  },
+  {
+   "scene": 3,
+   "t": 50.58,
+   "text": "Kapal di atasnya naik"
+  },
+  {
+   "scene": 3,
+   "t": 51.66,
+   "text": "turun perlahan dan kru"
+  },
+  {
+   "scene": 3,
+   "t": 52.8,
+   "text": "kapal sering tidak sadar"
+  },
+  {
+   "scene": 3,
+   "t": 53.92,
+   "text": "baru saja dilewati tsunami"
+  },
+  {
+   "scene": 3,
+   "t": 55.45,
+   "text": "Padahal di bawah mereka"
+  },
+  {
+   "scene": 3,
+   "t": 56.37,
+   "text": "air sedang melesat sampai"
+  },
+  {
+   "scene": 3,
+   "t": 57.75,
+   "text": "800 kilometer per jam"
+  },
+  {
+   "scene": 4,
+   "t": 59.84,
+   "text": "Drama sesungguhnya mulai saat"
+  },
+  {
+   "scene": 4,
+   "t": 61.28,
+   "text": "ia tiba di pantai"
+  },
+  {
+   "scene": 4,
+   "t": 61.92,
+   "text": "yang dangkal"
+  },
+  {
+   "scene": 4,
+   "t": 62.86,
+   "text": "Dasar yang dangkal menahan"
+  },
+  {
+   "scene": 4,
+   "t": 64.46,
+   "text": "lajunya"
+  },
+  {
+   "scene": 4,
+   "t": 64.7,
+   "text": "Gelombang melambat, menumpuk"
+  },
+  {
+   "scene": 4,
+   "t": 66.06,
+   "text": "lalu meninggi"
+  },
+  {
+   "scene": 4,
+   "t": 66.78,
+   "text": "Di Aceh tahun 2004"
+  },
+  {
+   "scene": 4,
+   "t": 68.4,
+   "text": "tingginya lewat dari"
+  },
+  {
+   "scene": 4,
+   "t": 69.16,
+   "text": "30 meter dan ia tiba"
+  },
+  {
+   "scene": 4,
+   "t": 70.9,
+   "text": "hanya 15 sampai 20 menit"
+  },
+  {
+   "scene": 4,
+   "t": 73.16,
+   "text": "setelah gempa magnitudo 9,1"
+  },
+  {
+   "scene": 4,
+   "t": 74.94,
+   "text": "Sekitar 228 ribu orang"
+  },
+  {
+   "scene": 4,
+   "t": 76.52,
+   "text": "tewas di 14 negara"
+  },
+  {
+   "scene": 4,
+   "t": 77.94,
+   "text": "Kadang laut lebih dulu"
+  },
+  {
+   "scene": 4,
+   "t": 78.9,
+   "text": "surut jauh sebelum"
+  },
+  {
+   "scene": 4,
+   "t": 79.96,
+   "text": "gelombangnya datang"
+  },
+  {
+   "scene": 4,
+   "t": 80.64,
+   "text": "Itu bukan tontonan"
+  },
+  {
+   "scene": 4,
+   "t": 81.76,
+   "text": "Itu tanda terakhir"
+  },
+  {
+   "scene": 4,
+   "t": 82.62,
+   "text": "untuk lari"
+  },
+  {
+   "scene": 5,
+   "t": 83.28,
+   "text": "Fakta bonusnya, gelombang tertinggi"
+  },
+  {
+   "scene": 5,
+   "t": 84.51,
+   "text": "yang pernah tercatat justru"
+  },
+  {
+   "scene": 5,
+   "t": 85.49,
+   "text": "bukan lahir dari gempa"
+  },
+  {
+   "scene": 5,
+   "t": 86.53,
+   "text": "lempeng"
+  },
+  {
+   "scene": 5,
+   "t": 86.88,
+   "text": "Tahun 1958 di Teluk"
+  },
+  {
+   "scene": 5,
+   "t": 88.64,
+   "text": "Lituya, Alaska"
+  },
+  {
+   "scene": 5,
+   "t": 89.08,
+   "text": "longsor batu raksasa"
+  },
+  {
+   "scene": 5,
+   "t": 90.3,
+   "text": "menghantam teluk sempit"
+  },
+  {
+   "scene": 5,
+   "t": 91.3,
+   "text": "dan airnya naik sampai"
+  },
+  {
+   "scene": 5,
+   "t": 92.27,
+   "text": "524 meter di lereng"
+  },
+  {
+   "scene": 5,
+   "t": 93.82,
+   "text": "seberang"
+  },
+  {
+   "scene": 5,
+   "t": 94.1,
+   "text": "Lebih tinggi dari kebanyakan"
+  },
+  {
+   "scene": 5,
+   "t": 95.07,
+   "text": "gedung pencakar langit"
+  },
+  {
+   "scene": 5,
+   "t": 96.09,
+   "text": "Menurut kamu, kalau laut"
+  },
+  {
+   "scene": 5,
+   "t": 97.13,
+   "text": "tiba-tiba surut jauh"
+  },
+  {
+   "scene": 5,
+   "t": 97.76,
+   "text": "apa yang kamu lakukan?"
+  }
+ ],
+ "total": 100.16,
+ "bounds": [
+  0.0,
+  14.256,
+  28.368,
+  42.312,
+  59.472,
+  83.232,
+  98.856
+ ],
+ "events": {
+  "s1_card": 5.11,
+  "s1_cut": 11.54,
+  "s2_lock": 23.23,
+  "s2_chip": 27.51,
+  "s3_snap": 31.54,
+  "s3_born": 37.99,
+  "s4_chip1": 44.82,
+  "s4_chip2": 49.52,
+  "s4_card": 57.75,
+  "s5_aceh": 66.78,
+  "s5_card": 69.16,
+  "s5_chip": 74.94,
+  "s5_recede": 77.94,
+  "s5_emph": 81.76,
+  "s6_slide": 89.08,
+  "s6_card": 92.27,
+  "s6_question": 96.09
+ }
+}

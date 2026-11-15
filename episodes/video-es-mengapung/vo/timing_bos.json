@@ -1,0 +1,453 @@
+{
+ "scene_starts": [
+  0.0,
+  17.68,
+  36.7,
+  55.7,
+  72.24,
+  93.26
+ ],
+ "bounds": [
+  0.0,
+  17.68,
+  36.7,
+  55.7,
+  72.24,
+  93.26,
+  113.58
+ ],
+ "total": 113.58,
+ "phrases": [
+  {
+   "scene": 0,
+   "t": 0.0,
+   "text": "Es batu di gelas kamu"
+  },
+  {
+   "scene": 0,
+   "t": 1.5,
+   "text": "selalu mengapung"
+  },
+  {
+   "scene": 0,
+   "t": 3.12,
+   "text": "Kelihatannya sepele, tapi sebenarnya"
+  },
+  {
+   "scene": 0,
+   "t": 5.32,
+   "text": "es sedang melanggar aturan"
+  },
+  {
+   "scene": 0,
+   "t": 6.94,
+   "text": "yang dipatuhi hampir semua"
+  },
+  {
+   "scene": 0,
+   "t": 8.52,
+   "text": "zat di dunia"
+  },
+  {
+   "scene": 0,
+   "t": 9.9,
+   "text": "Kalau es menuruti aturan itu"
+  },
+  {
+   "scene": 0,
+   "t": 11.82,
+   "text": "ia akan tenggelam"
+  },
+  {
+   "scene": 0,
+   "t": 12.62,
+   "text": "ke dasar"
+  },
+  {
+   "scene": 0,
+   "t": 13.64,
+   "text": "Dan kalau es tenggelam"
+  },
+  {
+   "scene": 0,
+   "t": 14.76,
+   "text": "kehidupan di Bumi"
+  },
+  {
+   "scene": 0,
+   "t": 15.8,
+   "text": "bisa ikut selesai"
+  },
+  {
+   "scene": 1,
+   "t": 17.68,
+   "text": "Aturan normalnya begini"
+  },
+  {
+   "scene": 1,
+   "t": 19.54,
+   "text": "Saat membeku, hampir semua"
+  },
+  {
+   "scene": 1,
+   "t": 21.06,
+   "text": "zat menyusut"
+  },
+  {
+   "scene": 1,
+   "t": 22.66,
+   "text": "Molekul-molekulnya merapat, wujud padatnya"
+  },
+  {
+   "scene": 1,
+   "t": 24.64,
+   "text": "menjadi lebih padat"
+  },
+  {
+   "scene": 1,
+   "t": 25.78,
+   "text": "daripada cairan, lalu tenggelam"
+  },
+  {
+   "scene": 1,
+   "t": 28.04,
+   "text": "Besi padat tenggelam"
+  },
+  {
+   "scene": 1,
+   "t": 29.22,
+   "text": "di dalam besi cair"
+  },
+  {
+   "scene": 1,
+   "t": 30.66,
+   "text": "Lilin padat tenggelam"
+  },
+  {
+   "scene": 1,
+   "t": 31.6,
+   "text": "di dalam lilin cair"
+  },
+  {
+   "scene": 1,
+   "t": 33.02,
+   "text": "Hampir semua zat begitu"
+  },
+  {
+   "scene": 1,
+   "t": 34.64,
+   "text": "kecuali satu"
+  },
+  {
+   "scene": 1,
+   "t": 35.76,
+   "text": "Air"
+  },
+  {
+   "scene": 2,
+   "t": 36.7,
+   "text": "Saat air membeku"
+  },
+  {
+   "scene": 2,
+   "t": 38.24,
+   "text": "molekul-molekulnya saling mengunci"
+  },
+  {
+   "scene": 2,
+   "t": 39.5,
+   "text": "lewat ikatan hidrogen"
+  },
+  {
+   "scene": 2,
+   "t": 40.62,
+   "text": "membentuk kisi segi enam"
+  },
+  {
+   "scene": 2,
+   "t": 42.3,
+   "text": "yang renggang, mirip"
+  },
+  {
+   "scene": 2,
+   "t": 43.42,
+   "text": "sarang lebah"
+  },
+  {
+   "scene": 2,
+   "t": 44.5,
+   "text": "Di tengah setiap"
+  },
+  {
+   "scene": 2,
+   "t": 45.22,
+   "text": "segi enam ada"
+  },
+  {
+   "scene": 2,
+   "t": 46.1,
+   "text": "ruang kosong"
+  },
+  {
+   "scene": 2,
+   "t": 47.2,
+   "text": "Karena penuh ruang kosong"
+  },
+  {
+   "scene": 2,
+   "t": 48.7,
+   "text": "es mengembang sekitar"
+  },
+  {
+   "scene": 2,
+   "t": 49.78,
+   "text": "9 persen"
+  },
+  {
+   "scene": 2,
+   "t": 50.52,
+   "text": "Isinya sama, ruangnya bertambah"
+  },
+  {
+   "scene": 2,
+   "t": 53.18,
+   "text": "jadi es lebih ringan"
+  },
+  {
+   "scene": 2,
+   "t": 54.58,
+   "text": "daripada air"
+  },
+  {
+   "scene": 3,
+   "t": 55.7,
+   "text": "Massa jenis es cuma"
+  },
+  {
+   "scene": 3,
+   "t": 56.82,
+   "text": "sekitar 917 kilogram"
+  },
+  {
+   "scene": 3,
+   "t": 58.78,
+   "text": "per meter kubik"
+  },
+  {
+   "scene": 3,
+   "t": 60.12,
+   "text": "sedangkan air 1.000"
+  },
+  {
+   "scene": 3,
+   "t": 61.86,
+   "text": "Karena itu sekitar"
+  },
+  {
+   "scene": 3,
+   "t": 62.88,
+   "text": "90 persen gunung es"
+  },
+  {
+   "scene": 3,
+   "t": 64.28,
+   "text": "bersembunyi di bawah"
+  },
+  {
+   "scene": 3,
+   "t": 65.28,
+   "text": "permukaan laut"
+  },
+  {
+   "scene": 3,
+   "t": 66.54,
+   "text": "Yang terlihat dari kapal"
+  },
+  {
+   "scene": 3,
+   "t": 67.64,
+   "text": "cuma ujung kecilnya saja"
+  },
+  {
+   "scene": 3,
+   "t": 69.44,
+   "text": "Sisanya raksasa yang"
+  },
+  {
+   "scene": 3,
+   "t": 70.72,
+   "text": "tidak kelihatan"
+  },
+  {
+   "scene": 4,
+   "t": 72.24,
+   "text": "Dampak terbesarnya terasa"
+  },
+  {
+   "scene": 4,
+   "t": 73.52,
+   "text": "di danau saat"
+  },
+  {
+   "scene": 4,
+   "t": 74.2,
+   "text": "musim dingin"
+  },
+  {
+   "scene": 4,
+   "t": 75.4,
+   "text": "Air justru paling padat"
+  },
+  {
+   "scene": 4,
+   "t": 76.62,
+   "text": "di suhu 4 derajat"
+  },
+  {
+   "scene": 4,
+   "t": 78.28,
+   "text": "jadi air 4 derajat"
+  },
+  {
+   "scene": 4,
+   "t": 79.5,
+   "text": "tenggelam dan berkumpul"
+  },
+  {
+   "scene": 4,
+   "t": 80.56,
+   "text": "di dasar"
+  },
+  {
+   "scene": 4,
+   "t": 81.56,
+   "text": "Air yang lebih dingin"
+  },
+  {
+   "scene": 4,
+   "t": 82.5,
+   "text": "naik ke atas"
+  },
+  {
+   "scene": 4,
+   "t": 83.5,
+   "text": "lalu membeku di permukaan"
+  },
+  {
+   "scene": 4,
+   "t": 84.64,
+   "text": "Lapisan es itu"
+  },
+  {
+   "scene": 4,
+   "t": 85.94,
+   "text": "berubah menjadi selimut"
+  },
+  {
+   "scene": 4,
+   "t": 87.52,
+   "text": "Air di bawahnya tetap cair"
+  },
+  {
+   "scene": 4,
+   "t": 88.86,
+   "text": "di sekitar 4 derajat"
+  },
+  {
+   "scene": 4,
+   "t": 90.36,
+   "text": "dan ikan bisa bertahan"
+  },
+  {
+   "scene": 4,
+   "t": 91.5,
+   "text": "hidup sampai musim semi"
+  },
+  {
+   "scene": 5,
+   "t": 93.26,
+   "text": "Fakta bonusnya, coba bayangkan"
+  },
+  {
+   "scene": 5,
+   "t": 95.08,
+   "text": "kalau es tenggelam"
+  },
+  {
+   "scene": 5,
+   "t": 95.98,
+   "text": "seperti zat normal"
+  },
+  {
+   "scene": 5,
+   "t": 97.46,
+   "text": "Danau akan membeku"
+  },
+  {
+   "scene": 5,
+   "t": 98.36,
+   "text": "dari dasar ke atas"
+  },
+  {
+   "scene": 5,
+   "t": 99.64,
+   "text": "sampai beku seluruhnya"
+  },
+  {
+   "scene": 5,
+   "t": 101.32,
+   "text": "Ikan dan tumbuhan air"
+  },
+  {
+   "scene": 5,
+   "t": 102.36,
+   "text": "musnah setiap musim dingin"
+  },
+  {
+   "scene": 5,
+   "t": 104.16,
+   "text": "Laut pun berisiko"
+  },
+  {
+   "scene": 5,
+   "t": 104.98,
+   "text": "ikut membeku total"
+  },
+  {
+   "scene": 5,
+   "t": 106.52,
+   "text": "Jadi menurut kamu"
+  },
+  {
+   "scene": 5,
+   "t": 107.84,
+   "text": "es yang mengapung ini"
+  },
+  {
+   "scene": 5,
+   "t": 108.7,
+   "text": "cuma kebetulan yang beruntung"
+  },
+  {
+   "scene": 5,
+   "t": 110.16,
+   "text": "atau syarat wajib"
+  },
+  {
+   "scene": 5,
+   "t": 111.08,
+   "text": "supaya kehidupan bisa ada?"
+  }
+ ],
+ "events": {
+  "s2_reveal": 34.64,
+  "s3_lattice": 40.62,
+  "s3_card": 48.8,
+  "s4_chip": 55.7,
+  "s4_card": 63.78,
+  "s5_chip": 76.08,
+  "s5_cut": 82.12,
+  "s6_stamp": 100.2,
+  "s6_question": 106.78
+ }
+}

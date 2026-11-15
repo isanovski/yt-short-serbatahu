@@ -1,0 +1,156 @@
+{
+ "map_indonesia": {
+  "artist": "Uwe Dedering",
+  "license": "CC BY-SA 3.0",
+  "credit_line": "Own work",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Indonesia_relief_location_map.jpg",
+  "file": "map_indonesia.jpg",
+  "commons_title": "File:Indonesia relief location map.jpg",
+  "width": 1200,
+  "height": 460,
+  "label": "peta relief Indonesia"
+ },
+ "wallace_portrait": {
+  "artist": "Maull &amp; Fox photographers, London. Upload, stitch and restoration by Jebulon",
+  "license": "Public domain",
+  "credit_line": "Bibliothèque nationale de France",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Alfred_Russel_Wallace_Maull%26Fox_BNF_Gallica.jpg",
+  "file": "wallace_portrait.jpg",
+  "commons_title": "File:Alfred Russel Wallace Maull&Fox BNF Gallica.jpg",
+  "width": 1470,
+  "height": 2400,
+  "label": "potret Wallace"
+ },
+ "tiger": {
+  "artist": "Sriyantha12003",
+  "license": "CC BY-SA 4.0",
+  "credit_line": "Own work",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Sumatran_tiger_in_srilanka.jpg",
+  "file": "tiger.jpg",
+  "commons_title": "File:Sumatran tiger in srilanka.jpg",
+  "width": 6000,
+  "height": 4000,
+  "label": "harimau sumatra"
+ },
+ "cockatoo": {
+  "artist": "Kestrel",
+  "license": "CC BY-SA 4.0",
+  "credit_line": "Own work",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Cacatua_sulphurea_Yumemigasaki_Zoo_P6179406.jpg",
+  "file": "cockatoo.jpg",
+  "commons_title": "File:Cacatua sulphurea Yumemigasaki Zoo P6179406.jpg",
+  "width": 1920,
+  "height": 2560,
+  "label": "kakatua jambul kuning"
+ },
+ "treekangaroo": {
+  "artist": "Tim Williams",
+  "license": "CC BY 2.0",
+  "credit_line": "https://www.flickr.com/photos/timmythesuk/202658559/",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Tree_kangaroo2.jpg",
+  "file": "treekangaroo.jpg",
+  "commons_title": "File:Tree kangaroo2.jpg",
+  "width": 2050,
+  "height": 2870,
+  "label": "kanguru pohon"
+ },
+ "cenderawasih": {
+  "artist": "markaharper1",
+  "license": "CC BY-SA 2.0",
+  "credit_line": "Raggiana Bird-of-Paradise 5",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Raggiana_Bird-of-Paradise_wild_5.jpg",
+  "file": "cenderawasih.jpg",
+  "commons_title": "File:Raggiana Bird-of-Paradise wild 5.jpg",
+  "width": 2736,
+  "height": 3648,
+  "label": "burung cenderawasih"
+ },
+ "cuscus": {
+  "artist": "Carlquist, Sherwin John, 1930-2021",
+  "license": "CC BY 4.0",
+  "credit_line": "File URL IIIF manifest Catalog record",
+  "source_page": "https://commons.wikimedia.org/wiki/File:(Cuscus_marsupial_in_Lae,_Papua_New_Guinea)_-_DPLA_-_6edb578939ce52aa1e5a354b2d3dace0.jpg",
+  "file": "cuscus.jpg",
+  "commons_title": "File:(Cuscus marsupial in Lae, Papua New Guinea) - DPLA - 6edb578939ce52aa1e5a354b2d3dace0.jpg",
+  "width": 1500,
+  "height": 1008,
+  "label": "kuskus"
+ },
+ "anoa": {
+  "artist": "Sakurai Midori",
+  "license": "CC BY 3.0",
+  "credit_line": "This image has been extracted from another file",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Anoa_Bubalus_depressicornis_Surabaya_Zoo.jpg",
+  "file": "anoa.jpg",
+  "commons_title": "File:Anoa Bubalus depressicornis Surabaya Zoo.jpg",
+  "width": 2000,
+  "height": 1950,
+  "label": "anoa"
+ },
+ "babirusa": {
+  "artist": "edenpictures",
+  "license": "CC BY 2.0",
+  "credit_line": "https://www.flickr.com/photos/10485077@N06/52823368574/",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Babirusa,_Audubon_Zoo_New_Orleans.jpg",
+  "file": "babirusa.jpg",
+  "commons_title": "File:Babirusa, Audubon Zoo New Orleans.jpg",
+  "width": 4080,
+  "height": 3072,
+  "label": "babirusa hidup"
+ },
+ "komodo": {
+  "artist": "Arturo de Frias Marques",
+  "license": "CC BY-SA 4.0",
+  "credit_line": "Own work",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Komodo_Dragon_AdF.jpg",
+  "file": "komodo.jpg",
+  "commons_title": "File:Komodo Dragon AdF.jpg",
+  "width": 1920,
+  "height": 1280,
+  "label": "komodo"
+ },
+ "ternate": {
+  "artist": "Fabio Achilli from Milano, Italy",
+  "license": "CC BY 2.0",
+  "credit_line": "Danau Tolire Besar and Gunung Api Gamalama, Ternate Island, The Moluccas",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Danau_Tolire_Besar_and_Gunung_Api_Gamalama,_Ternate_Island,_The_Moluccas_(15197982332).jpg",
+  "file": "ternate.jpg",
+  "commons_title": "File:Danau Tolire Besar and Gunung Api Gamalama, Ternate Island, The Moluccas (15197982332).jpg",
+  "width": 4608,
+  "height": 3456,
+  "label": "pulau Ternate"
+ },
+ "boat": {
+  "artist": "Ivu Fajar Samsumar",
+  "license": "CC BY-SA 4.0",
+  "credit_line": "Own work",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Madura_Fisherman%27s_Traditional_Boat.jpg",
+  "file": "boat.jpg",
+  "commons_title": "File:Madura Fisherman's Traditional Boat.jpg",
+  "width": 4288,
+  "height": 2848,
+  "label": "perahu tradisional"
+ },
+ "sulawesi": {
+  "artist": "Matt Kieffer",
+  "license": "CC BY-SA 2.0",
+  "credit_line": "Flickr: Pulau Manado Tua Island",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pulau_Manado_Tua_Island.jpg",
+  "file": "sulawesi.jpg",
+  "commons_title": "File:Pulau Manado Tua Island.jpg",
+  "width": 4000,
+  "height": 3000,
+  "label": "Sulawesi"
+ },
+ "strait": {
+  "artist": "Vyacheslav Argenberg",
+  "license": "CC BY 4.0",
+  "credit_line": "Own work",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Clouds_over_Lombok_Strait,_Gili_Islands,_West_Nusa_Tenggara,_Indonesia.jpg",
+  "file": "strait.jpg",
+  "commons_title": "File:Clouds over Lombok Strait, Gili Islands, West Nusa Tenggara, Indonesia.jpg",
+  "width": 4032,
+  "height": 2688,
+  "label": "Selat Lombok dari Gili"
+ }
+}

@@ -1,0 +1,314 @@
+{
+ "scene_starts": [
+  0.0,
+  11.74,
+  32.52,
+  45.9,
+  68.88,
+  91.22
+ ],
+ "bounds": [
+  0.0,
+  11.74,
+  32.52,
+  45.9,
+  68.88,
+  91.22,
+  108.4
+ ],
+ "total": 108.4,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Kalau wakil presiden berhenti hari ini",
+   "start": 0.0,
+   "end": 2.28
+  },
+  {
+   "scene": 0,
+   "text": "besok kursi itu tetap kosong",
+   "start": 2.28,
+   "end": 4.0
+  },
+  {
+   "scene": 0,
+   "text": "Tidak ada wakil presiden cadangan",
+   "start": 4.0,
+   "end": 6.02
+  },
+  {
+   "scene": 0,
+   "text": "tidak ada pejabat yang otomatis naik mengisinya",
+   "start": 6.02,
+   "end": 8.6
+  },
+  {
+   "scene": 0,
+   "text": "dan tidak ada pemilu baru",
+   "start": 8.6,
+   "end": 9.72
+  },
+  {
+   "scene": 0,
+   "text": "hanya untuk satu kursi itu",
+   "start": 9.72,
+   "end": 11.74
+  },
+  {
+   "scene": 1,
+   "text": "Jalurnya diatur Pasal 8 ayat 2",
+   "start": 11.74,
+   "end": 14.34
+  },
+  {
+   "scene": 1,
+   "text": "Undang-Undang Dasar 1945",
+   "start": 14.34,
+   "end": 17.16
+  },
+  {
+   "scene": 1,
+   "text": "Begitu kursi wakil presiden kosong",
+   "start": 17.16,
+   "end": 18.92
+  },
+  {
+   "scene": 1,
+   "text": "presiden mengusulkan dua nama calon kepada MPR",
+   "start": 18.92,
+   "end": 21.72
+  },
+  {
+   "scene": 1,
+   "text": "MPR wajib bersidang paling lambat enam puluh hari",
+   "start": 21.72,
+   "end": 24.2
+  },
+  {
+   "scene": 1,
+   "text": "untuk memilih satu dari dua nama itu",
+   "start": 24.2,
+   "end": 26.54
+  },
+  {
+   "scene": 1,
+   "text": "Yang terpilih menjabat sampai akhir masa jabatan",
+   "start": 26.54,
+   "end": 29.04
+  },
+  {
+   "scene": 1,
+   "text": "Selama kosong",
+   "start": 29.04,
+   "end": 30.4
+  },
+  {
+   "scene": 1,
+   "text": "tidak ada pelaksana tugas wakil presiden",
+   "start": 30.4,
+   "end": 32.52
+  },
+  {
+   "scene": 2,
+   "text": "Dua nama itu sepenuhnya pilihan presiden",
+   "start": 32.52,
+   "end": 35.4
+  },
+  {
+   "scene": 2,
+   "text": "Syarat calonnya sama seperti calon wakil presiden saat pemilu",
+   "start": 35.4,
+   "end": 38.76
+  },
+  {
+   "scene": 2,
+   "text": "tapi konstitusi tidak mewajibkan calonnya berasal dari partai pengusung",
+   "start": 38.76,
+   "end": 42.5
+  },
+  {
+   "scene": 2,
+   "text": "Presiden bahkan bisa mengusulkan tokoh dari luar koalisinya",
+   "start": 42.5,
+   "end": 45.9
+  },
+  {
+   "scene": 3,
+   "text": "Lain cerita kalau wakil presiden dimakzulkan",
+   "start": 45.9,
+   "end": 48.78
+  },
+  {
+   "scene": 3,
+   "text": "Alasannya terbatas di Pasal 7A",
+   "start": 48.78,
+   "end": 50.7
+  },
+  {
+   "scene": 3,
+   "text": "dari pengkhianatan terhadap negara",
+   "start": 50.7,
+   "end": 52.7
+  },
+  {
+   "scene": 3,
+   "text": "korupsi penyuapan tindak pidana berat",
+   "start": 52.7,
+   "end": 55.0
+  },
+  {
+   "scene": 3,
+   "text": "perbuatan tercela",
+   "start": 55.0,
+   "end": 55.76
+  },
+  {
+   "scene": 3,
+   "text": "sampai tidak lagi memenuhi syarat",
+   "start": 55.76,
+   "end": 57.36
+  },
+  {
+   "scene": 3,
+   "text": "DPR menyatakan pendapat",
+   "start": 57.36,
+   "end": 59.5
+  },
+  {
+   "scene": 3,
+   "text": "Mahkamah Konstitusi memeriksa dan memutus paling lama sembilan puluh hari",
+   "start": 59.5,
+   "end": 62.78
+  },
+  {
+   "scene": 3,
+   "text": "lalu MPR yang memutuskan",
+   "start": 62.78,
+   "end": 64.44
+  },
+  {
+   "scene": 3,
+   "text": "Setelah resmi diberhentikan",
+   "start": 64.44,
+   "end": 65.86
+  },
+  {
+   "scene": 3,
+   "text": "pengisian kursinya kembali ke jalur enam puluh hari tadi",
+   "start": 65.86,
+   "end": 68.88
+  },
+  {
+   "scene": 4,
+   "text": "Sejarahnya sudah pernah terjadi",
+   "start": 68.88,
+   "end": 70.66
+  },
+  {
+   "scene": 4,
+   "text": "Mohammad Hatta mengundurkan diri pada 1 Desember 1956",
+   "start": 70.66,
+   "end": 74.58
+  },
+  {
+   "scene": 4,
+   "text": "dan kursi wakil presiden kosong tujuh belas tahun",
+   "start": 74.58,
+   "end": 76.94
+  },
+  {
+   "scene": 4,
+   "text": "karena konstitusi saat itu belum mengatur cara mengisinya",
+   "start": 76.94,
+   "end": 79.72
+  },
+  {
+   "scene": 4,
+   "text": "Tahun 1998 Habibie naik menjadi presiden",
+   "start": 79.72,
+   "end": 83.1
+  },
+  {
+   "scene": 4,
+   "text": "dan kursi wakil presiden kosong tujuh belas bulan",
+   "start": 83.1,
+   "end": 85.06
+  },
+  {
+   "scene": 4,
+   "text": "Aturan enam puluh hari baru lahir lewat amandemen tahun 2001",
+   "start": 85.06,
+   "end": 88.8
+  },
+  {
+   "scene": 4,
+   "text": "dan sampai hari ini belum pernah dipakai",
+   "start": 88.8,
+   "end": 91.22
+  },
+  {
+   "scene": 5,
+   "text": "Fakta bonus",
+   "start": 91.22,
+   "end": 92.08
+  },
+  {
+   "scene": 5,
+   "text": "Kalau presiden dan wakil presiden kosong bersamaan",
+   "start": 92.08,
+   "end": 94.5
+  },
+  {
+   "scene": 5,
+   "text": "pelaksana tugas kepresidenan adalah tiga menteri sekaligus",
+   "start": 94.5,
+   "end": 97.3
+  },
+  {
+   "scene": 5,
+   "text": "Menteri Luar Negeri Menteri Dalam Negeri dan Menteri Pertahanan",
+   "start": 97.3,
+   "end": 100.22
+  },
+  {
+   "scene": 5,
+   "text": "dan MPR memilih pasangan baru dalam tiga puluh hari",
+   "start": 100.22,
+   "end": 103.04
+  },
+  {
+   "scene": 5,
+   "text": "Jadi kalau besok kursi itu kosong ingat",
+   "start": 103.04,
+   "end": 105.13
+  },
+  {
+   "scene": 5,
+   "text": "enam puluh hari dan dua nama dari presiden",
+   "start": 105.13,
+   "end": 108.4
+  }
+ ],
+ "events": {
+  "s2_flow1": 18.92,
+  "s2_flow2": 21.72,
+  "s2_card60": 21.72,
+  "s2_flow3": 26.54,
+  "s3_chip": 35.4,
+  "s4_r1": 50.7,
+  "s4_r2": 52.7,
+  "s4_r3": 55.0,
+  "s4_r4": 55.76,
+  "s4_flow": 57.36,
+  "s4_card90": 59.5,
+  "s5_card17y": 74.58,
+  "s5_cut": 79.72,
+  "s5_card17m": 83.1,
+  "s5_card2001": 85.06,
+  "s6_card3": 94.5,
+  "s6_ministers": 97.3,
+  "s6_question": 103.04
+ },
+ "matched": 259,
+ "script_tokens": 280
+}

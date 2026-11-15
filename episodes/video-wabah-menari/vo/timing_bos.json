@@ -1,0 +1,268 @@
+{
+ "scene_starts": [
+  0.39,
+  16.56,
+  37.88,
+  56.46,
+  78.74,
+  101.52
+ ],
+ "bounds": [
+  0.39,
+  16.56,
+  37.88,
+  56.46,
+  78.74,
+  101.52,
+  116.08
+ ],
+ "total": 116.08,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Empat ratus orang di satu kota menari siang dan malam",
+   "start": 0.39,
+   "end": 4.8
+  },
+  {
+   "scene": 0,
+   "text": "dan tidak ada satu pun yang bisa berhenti",
+   "start": 4.8,
+   "end": 8.06
+  },
+  {
+   "scene": 0,
+   "text": "Ini bukan pesta",
+   "start": 8.06,
+   "end": 9.7
+  },
+  {
+   "scene": 0,
+   "text": "Ini wabah yang benar-benar terjadi di kota Strasbourg",
+   "start": 9.7,
+   "end": 13.22
+  },
+  {
+   "scene": 0,
+   "text": "pada tahun seribu lima ratus delapan belas",
+   "start": 13.22,
+   "end": 16.56
+  },
+  {
+   "scene": 1,
+   "text": "Semuanya mulai dari satu perempuan",
+   "start": 16.56,
+   "end": 18.92
+  },
+  {
+   "scene": 1,
+   "text": "Pada pertengahan Juli seorang perempuan yang di catatan belakangan disebut Frau Troffea",
+   "start": 18.92,
+   "end": 24.34
+  },
+  {
+   "scene": 1,
+   "text": "keluar rumah dan mulai menari di jalan",
+   "start": 24.34,
+   "end": 26.5
+  },
+  {
+   "scene": 1,
+   "text": "Ia menari berhari-hari tanpa musik dan tidak bisa berhenti",
+   "start": 26.5,
+   "end": 31.26
+  },
+  {
+   "scene": 1,
+   "text": "Dalam hitungan hari puluhan warga ikut menari",
+   "start": 31.26,
+   "end": 34.4
+  },
+  {
+   "scene": 1,
+   "text": "Dalam sebulan jumlahnya menjadi empat ratus orang",
+   "start": 34.4,
+   "end": 37.88
+  },
+  {
+   "scene": 2,
+   "text": "Para penari menari sampai kaki mereka berdarah dan badan mereka gemetar",
+   "start": 37.88,
+   "end": 42.48
+  },
+  {
+   "scene": 2,
+   "text": "Sebagian jatuh pingsan di jalan",
+   "start": 42.48,
+   "end": 44.6
+  },
+  {
+   "scene": 2,
+   "text": "Kronik lama bahkan mencatat ada orang yang menari sampai mati",
+   "start": 44.6,
+   "end": 48.28
+  },
+  {
+   "scene": 2,
+   "text": "meski jumlah pastinya masih diperdebatkan sampai sekarang",
+   "start": 48.28,
+   "end": 51.66
+  },
+  {
+   "scene": 2,
+   "text": "Warga percaya mereka kena kutukan Santo Vitus",
+   "start": 51.66,
+   "end": 54.52
+  },
+  {
+   "scene": 2,
+   "text": "santo pelindung para penari",
+   "start": 54.52,
+   "end": 56.46
+  },
+  {
+   "scene": 3,
+   "text": "Ternyata obat yang dipilih pemerintah kota jauh lebih gila",
+   "start": 56.46,
+   "end": 60.48
+  },
+  {
+   "scene": 3,
+   "text": "Para dokter zaman itu menyimpulkan penyakit ini berasal dari darah yang terlalu panas",
+   "start": 60.48,
+   "end": 65.32
+  },
+  {
+   "scene": 3,
+   "text": "dan obatnya adalah menari sampai tuntas",
+   "start": 65.32,
+   "end": 68.24
+  },
+  {
+   "scene": 3,
+   "text": "Maka balai kota diubah jadi lantai dansa",
+   "start": 68.24,
+   "end": 70.9
+  },
+  {
+   "scene": 3,
+   "text": "panggung dibangun di pasar",
+   "start": 70.9,
+   "end": 72.44
+  },
+  {
+   "scene": 3,
+   "text": "dan musisi disewa untuk bermain siang malam",
+   "start": 72.44,
+   "end": 75.04
+  },
+  {
+   "scene": 3,
+   "text": "Hasilnya bisa ditebak",
+   "start": 75.04,
+   "end": 76.46
+  },
+  {
+   "scene": 3,
+   "text": "Yang menari malah makin banyak",
+   "start": 76.46,
+   "end": 78.74
+  },
+  {
+   "scene": 4,
+   "text": "Akhirnya musik dan tarian dilarang di seluruh kota",
+   "start": 78.74,
+   "end": 81.4
+  },
+  {
+   "scene": 4,
+   "text": "Para penari diangkut memakai gerobak ke kapel Santo Vitus",
+   "start": 81.4,
+   "end": 84.84
+  },
+  {
+   "scene": 4,
+   "text": "di bukit dekat Saverne",
+   "start": 84.84,
+   "end": 86.58
+  },
+  {
+   "scene": 4,
+   "text": "diberi sepatu merah dan didoakan",
+   "start": 86.58,
+   "end": 88.92
+  },
+  {
+   "scene": 4,
+   "text": "Beberapa minggu kemudian wabah itu berhenti begitu saja",
+   "start": 88.92,
+   "end": 92.5
+  },
+  {
+   "scene": 4,
+   "text": "Sampai hari ini tidak ada yang tahu pasti sebabnya",
+   "start": 92.5,
+   "end": 95.5
+  },
+  {
+   "scene": 4,
+   "text": "Dugaan terkuat adalah histeria massal",
+   "start": 95.5,
+   "end": 97.38
+  },
+  {
+   "scene": 4,
+   "text": "setelah bertahun-tahun kelaparan dan penyakit menekan pikiran warga",
+   "start": 97.38,
+   "end": 101.52
+  },
+  {
+   "scene": 5,
+   "text": "Fakta bonusnya Strasbourg bukan satu-satunya",
+   "start": 101.52,
+   "end": 104.66
+  },
+  {
+   "scene": 5,
+   "text": "Wabah menari tercatat lebih dari sepuluh kali di Eropa",
+   "start": 104.66,
+   "end": 107.34
+  },
+  {
+   "scene": 5,
+   "text": "sejak tahun seribu tiga ratus tujuh puluh empat",
+   "start": 107.34,
+   "end": 109.24
+  },
+  {
+   "scene": 5,
+   "text": "Jadi pertanyaannya bukan kenapa mereka menari",
+   "start": 109.24,
+   "end": 112.7
+  },
+  {
+   "scene": 5,
+   "text": "tapi kenapa tidak ada yang bisa berhenti",
+   "start": 112.7,
+   "end": 116.08
+  }
+ ],
+ "events": {
+  "s1_card400": 0.15,
+  "s1_stamp1518": 13.22,
+  "s2_join": 31.26,
+  "s2_count400": 34.4,
+  "s3_stamp": 51.66,
+  "s4_board": 60.48,
+  "s4_card": 65.32,
+  "s4_more": 76.46,
+  "s5_ban": 78.74,
+  "s5_wagon": 81.4,
+  "s5_shoes": 86.58,
+  "s5_theory": 95.5,
+  "s6_card10": 104.66,
+  "s6_question": 109.24
+ },
+ "matched": 254,
+ "script_tokens": 272
+}

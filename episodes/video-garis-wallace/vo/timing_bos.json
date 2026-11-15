@@ -1,0 +1,444 @@
+{
+ "scene_starts": [
+  0.0,
+  16.3,
+  34.26,
+  49.94,
+  71.74,
+  86.86
+ ],
+ "bounds": [
+  0.0,
+  16.3,
+  34.26,
+  49.94,
+  71.74,
+  86.86,
+  105.52
+ ],
+ "total": 105.52,
+ "phrases": [
+  {
+   "scene": 0,
+   "t": 0.0,
+   "text": "Di Indonesia ada satu garis"
+  },
+  {
+   "scene": 0,
+   "t": 2.12,
+   "text": "tak terlihat yang membelah"
+  },
+  {
+   "scene": 0,
+   "t": 3.32,
+   "text": "negeri kita menjadi"
+  },
+  {
+   "scene": 0,
+   "t": 4.16,
+   "text": "dua dunia berbeda"
+  },
+  {
+   "scene": 0,
+   "t": 5.7,
+   "text": "Di baratnya hidup"
+  },
+  {
+   "scene": 0,
+   "t": 6.85,
+   "text": "harimau dan orangutan"
+  },
+  {
+   "scene": 0,
+   "t": 8.09,
+   "text": "Di timurnya hidup"
+  },
+  {
+   "scene": 0,
+   "t": 9.45,
+   "text": "kanguru pohon dan"
+  },
+  {
+   "scene": 0,
+   "t": 10.44,
+   "text": "burung cenderawasih"
+  },
+  {
+   "scene": 0,
+   "t": 11.98,
+   "text": "Dua dunia itu cuma"
+  },
+  {
+   "scene": 0,
+   "t": 13.04,
+   "text": "dipisahkan laut selebar"
+  },
+  {
+   "scene": 0,
+   "t": 14.22,
+   "text": "sekitar 35 kilometer"
+  },
+  {
+   "scene": 1,
+   "t": 16.3,
+   "text": "Garis ini disadari"
+  },
+  {
+   "scene": 1,
+   "t": 17.54,
+   "text": "penjelajah Inggris bernama"
+  },
+  {
+   "scene": 1,
+   "t": 18.78,
+   "text": "Alfred Russel Wallace"
+  },
+  {
+   "scene": 1,
+   "t": 20.42,
+   "text": "Delapan tahun berkeliling Nusantara"
+  },
+  {
+   "scene": 1,
+   "t": 22.48,
+   "text": "ia mengumpulkan lebih dari"
+  },
+  {
+   "scene": 1,
+   "t": 23.5,
+   "text": "125 ribu spesimen hewan"
+  },
+  {
+   "scene": 1,
+   "t": 25.96,
+   "text": "Tahun 1856 ia menyeberang"
+  },
+  {
+   "scene": 1,
+   "t": 28.1,
+   "text": "dari Bali ke Lombok"
+  },
+  {
+   "scene": 1,
+   "t": 29.12,
+   "text": "Begitu tiba ia kebingungan"
+  },
+  {
+   "scene": 1,
+   "t": 31.22,
+   "text": "karena burung di Lombok"
+  },
+  {
+   "scene": 1,
+   "t": 32.12,
+   "text": "berbeda total dari"
+  },
+  {
+   "scene": 1,
+   "t": 33.1,
+   "text": "burung di Bali"
+  },
+  {
+   "scene": 2,
+   "t": 34.26,
+   "text": "Di Bali burungnya"
+  },
+  {
+   "scene": 2,
+   "t": 35.28,
+   "text": "burung Asia, ada pelatuk"
+  },
+  {
+   "scene": 2,
+   "t": 36.76,
+   "text": "dan takur seperti"
+  },
+  {
+   "scene": 2,
+   "t": 37.6,
+   "text": "di Jawa"
+  },
+  {
+   "scene": 2,
+   "t": 38.46,
+   "text": "Di Lombok yang muncul"
+  },
+  {
+   "scene": 2,
+   "t": 39.46,
+   "text": "justru kakatua dan"
+  },
+  {
+   "scene": 2,
+   "t": 40.44,
+   "text": "isap madu, kerabat"
+  },
+  {
+   "scene": 2,
+   "t": 41.66,
+   "text": "burung Australia"
+  },
+  {
+   "scene": 2,
+   "t": 42.81,
+   "text": "Harimau, badak, dan gajah"
+  },
+  {
+   "scene": 2,
+   "t": 44.4,
+   "text": "berhenti tepat di"
+  },
+  {
+   "scene": 2,
+   "t": 45.18,
+   "text": "garis ini"
+  },
+  {
+   "scene": 2,
+   "t": 46.18,
+   "text": "Sedikit ke timur"
+  },
+  {
+   "scene": 2,
+   "t": 46.92,
+   "text": "yang ditemukan malah"
+  },
+  {
+   "scene": 2,
+   "t": 47.92,
+   "text": "hewan berkantung seperti kuskus"
+  },
+  {
+   "scene": 3,
+   "t": 49.94,
+   "text": "Ternyata kuncinya bukan jarak"
+  },
+  {
+   "scene": 3,
+   "t": 51.74,
+   "text": "melainkan dalamnya laut"
+  },
+  {
+   "scene": 3,
+   "t": 53.26,
+   "text": "Selat Lombok dalamnya"
+  },
+  {
+   "scene": 3,
+   "t": 54.3,
+   "text": "lebih dari 250 meter"
+  },
+  {
+   "scene": 3,
+   "t": 55.74,
+   "text": "Zaman es menurunkan"
+  },
+  {
+   "scene": 3,
+   "t": 57.32,
+   "text": "laut sekitar 120 meter"
+  },
+  {
+   "scene": 3,
+   "t": 59.2,
+   "text": "Sumatra, Jawa, Kalimantan"
+  },
+  {
+   "scene": 3,
+   "t": 61.02,
+   "text": "dan Bali menyatu"
+  },
+  {
+   "scene": 3,
+   "t": 61.84,
+   "text": "dengan Asia, Papua"
+  },
+  {
+   "scene": 3,
+   "t": 63.06,
+   "text": "menyatu dengan Australia"
+  },
+  {
+   "scene": 3,
+   "t": 64.7,
+   "text": "Hewan Asia pun bisa"
+  },
+  {
+   "scene": 3,
+   "t": 65.64,
+   "text": "berjalan kaki sampai Bali"
+  },
+  {
+   "scene": 3,
+   "t": 67.32,
+   "text": "Tapi selat di tengahnya"
+  },
+  {
+   "scene": 3,
+   "t": 68.28,
+   "text": "tidak pernah kering"
+  },
+  {
+   "scene": 3,
+   "t": 69.34,
+   "text": "jadi dua dunia"
+  },
+  {
+   "scene": 3,
+   "t": 70.0,
+   "text": "terpisah jutaan tahun"
+  },
+  {
+   "scene": 4,
+   "t": 71.74,
+   "text": "Di antaranya ada"
+  },
+  {
+   "scene": 4,
+   "t": 72.8,
+   "text": "zona campuran bernama Wallacea"
+  },
+  {
+   "scene": 4,
+   "t": 74.9,
+   "text": "Sulawesi, Maluku, dan"
+  },
+  {
+   "scene": 4,
+   "t": 76.15,
+   "text": "Nusa Tenggara menyimpan hewan"
+  },
+  {
+   "scene": 4,
+   "t": 77.28,
+   "text": "yang tidak ada"
+  },
+  {
+   "scene": 4,
+   "t": 77.84,
+   "text": "di tempat lain"
+  },
+  {
+   "scene": 4,
+   "t": 78.38,
+   "text": "di Bumi"
+  },
+  {
+   "scene": 4,
+   "t": 79.26,
+   "text": "Ada anoa, kerbau"
+  },
+  {
+   "scene": 4,
+   "t": 80.36,
+   "text": "kerdil Sulawesi"
+  },
+  {
+   "scene": 4,
+   "t": 81.54,
+   "text": "Ada babirusa yang taringnya"
+  },
+  {
+   "scene": 4,
+   "t": 82.66,
+   "text": "menembus moncongnya sendiri"
+  },
+  {
+   "scene": 4,
+   "t": 83.74,
+   "text": "Dan ada komodo"
+  },
+  {
+   "scene": 4,
+   "t": 85.24,
+   "text": "kadal terbesar di dunia"
+  },
+  {
+   "scene": 5,
+   "t": 86.86,
+   "text": "Fakta bonus"
+  },
+  {
+   "scene": 5,
+   "t": 88.08,
+   "text": "Dari Ternate di Maluku"
+  },
+  {
+   "scene": 5,
+   "t": 89.56,
+   "text": "Wallace mengirim surat"
+  },
+  {
+   "scene": 5,
+   "t": 90.4,
+   "text": "yang mengguncang dunia sains"
+  },
+  {
+   "scene": 5,
+   "t": 92.12,
+   "text": "Isinya teori evolusi"
+  },
+  {
+   "scene": 5,
+   "t": 93.26,
+   "text": "lewat seleksi alam"
+  },
+  {
+   "scene": 5,
+   "t": 94.2,
+   "text": "yang juga sedang disusun"
+  },
+  {
+   "scene": 5,
+   "t": 95.38,
+   "text": "Charles Darwin selama"
+  },
+  {
+   "scene": 5,
+   "t": 96.19,
+   "text": "dua puluh tahun"
+  },
+  {
+   "scene": 5,
+   "t": 97.52,
+   "text": "Surat dari Indonesia itu"
+  },
+  {
+   "scene": 5,
+   "t": 98.52,
+   "text": "membuat Darwin akhirnya berani"
+  },
+  {
+   "scene": 5,
+   "t": 99.72,
+   "text": "menerbitkan bukunya"
+  },
+  {
+   "scene": 5,
+   "t": 101.08,
+   "text": "Menurut kamu, hewan Indonesia"
+  },
+  {
+   "scene": 5,
+   "t": 102.38,
+   "text": "lebih dekat ke Asia"
+  },
+  {
+   "scene": 5,
+   "t": 103.36,
+   "text": "atau Australia"
+  }
+ ],
+ "events": {
+  "s1_card": 15.46,
+  "s2_zoom": 27.66,
+  "s3_east": 39.18,
+  "s4_depth": 53.26,
+  "s4_ice": 55.74,
+  "s5_anoa": 79.44,
+  "s5_babi": 81.66,
+  "s5_komodo": 84.52,
+  "s6_letter": 90.04,
+  "s6_question": 101.08
+ }
+}

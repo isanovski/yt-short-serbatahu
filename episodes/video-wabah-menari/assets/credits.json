@@ -1,0 +1,34 @@
+{
+ "petite.jpg": {
+  "artist": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Stra%C3%9Fburg_(Frankreich),_Petite_France_--_2011_--_1759.jpg",
+  "label": "kawasan Petite France, Strasbourg"
+ },
+ "cathedral.jpg": {
+  "artist": "Diliff",
+  "license": "CC BY-SA 3.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral_Exterior_-_Diliff.jpg",
+  "label": "Katedral Strasbourg"
+ },
+ "brueghel.jpg": {
+  "artist": "Pieter Brueghel the Younger",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Saint_John%E2%80%99s_Dancers_in_Molenbeeck%E2%80%99_(1592)_by_Pieter_Brueghel_II.jpg",
+  "label": "lukisan Saint John's Dancers in Molenbeeck, 1592"
+ },
+ "mania.jpg": {
+  "artist": "Pieter Bruegel the Elder",
+  "license": "Public domain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel,_the_Elder._%C2%ABThe_Dancing_Mania._Pilgrimage_of_the_Epileptics_to_the_Church_at_Molenbeek%C2%BB._1564.jpg",
+  "label": "ukiran The Dancing Mania, 1564"
+ },
+ "saverne.jpg": {
+  "artist": "Gzen92",
+  "license": "CC BY-SA 4.0",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_des_Rohan_-_aile_nord_(Saverne)_(2).jpg",
+  "label": "Chateau des Rohan, Saverne"
+ },
+ "sfx_crowd_restaurant_ambience": "Restaurant ambience.ogg — Wikimedia Commons, Public domain, oleh stephan (bed kerumunan)",
+ "sfx_bells_fribourg": "Cathedral Fribourg bells ringing 01.ogg — Wikimedia Commons, CC BY-SA 4.0, oleh Matutinho (lonceng kapel)"
+}

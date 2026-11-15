@@ -1,0 +1,251 @@
+{
+ "scene_starts": [
+  0.0,
+  18.12,
+  37.92,
+  57.5,
+  74.18,
+  93.22
+ ],
+ "bounds": [
+  0.0,
+  18.12,
+  37.92,
+  57.5,
+  74.18,
+  93.22,
+  103.6
+ ],
+ "total": 103.6,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Jakarta pukul dua belas siang",
+   "start": 0.0,
+   "end": 2.08
+  },
+  {
+   "scene": 0,
+   "text": "Jayapura sudah pukul dua siang",
+   "start": 2.08,
+   "end": 4.88
+  },
+  {
+   "scene": 0,
+   "text": "Satu negara tapi jam di dindingnya berbeda dua jam",
+   "start": 4.88,
+   "end": 8.8
+  },
+  {
+   "scene": 0,
+   "text": "Indonesia adalah salah satu negara dengan tiga zona waktu resmi",
+   "start": 8.8,
+   "end": 12.98
+  },
+  {
+   "scene": 0,
+   "text": "Namanya Waktu Indonesia Barat",
+   "start": 12.98,
+   "end": 15.14
+  },
+  {
+   "scene": 0,
+   "text": "Waktu Indonesia Tengah dan Waktu Indonesia Timur",
+   "start": 15.14,
+   "end": 18.12
+  },
+  {
+   "scene": 1,
+   "text": "Penyebabnya adalah lebar negara ini",
+   "start": 18.12,
+   "end": 20.58
+  },
+  {
+   "scene": 1,
+   "text": "Dari Sabang sampai Merauke jaraknya lebih dari lima ribu kilometer",
+   "start": 20.58,
+   "end": 24.1
+  },
+  {
+   "scene": 1,
+   "text": "membentang empat puluh enam derajat garis bujur",
+   "start": 24.1,
+   "end": 27.48
+  },
+  {
+   "scene": 1,
+   "text": "Bumi berputar lima belas derajat setiap jam",
+   "start": 27.48,
+   "end": 30.4
+  },
+  {
+   "scene": 1,
+   "text": "jadi matahari terbit lebih dulu di timur",
+   "start": 30.4,
+   "end": 32.86
+  },
+  {
+   "scene": 1,
+   "text": "Di ujung Papua matahari muncul sekitar tiga jam lebih awal",
+   "start": 32.86,
+   "end": 36.3
+  },
+  {
+   "scene": 1,
+   "text": "daripada di ujung Aceh",
+   "start": 36.3,
+   "end": 37.92
+  },
+  {
+   "scene": 2,
+   "text": "Dulu keadaannya jauh lebih kacau",
+   "start": 37.92,
+   "end": 40.24
+  },
+  {
+   "scene": 2,
+   "text": "Setiap daerah memakai waktunya sendiri mengikuti matahari setempat",
+   "start": 40.24,
+   "end": 44.12
+  },
+  {
+   "scene": 2,
+   "text": "Tahun seribu sembilan ratus delapan Belanda menjadikan waktu Jawa Tengah sebagai acuan pertama",
+   "start": 44.12,
+   "end": 49.28
+  },
+  {
+   "scene": 2,
+   "text": "Lalu pada sebelas November seribu sembilan ratus tiga puluh dua",
+   "start": 49.28,
+   "end": 51.9
+  },
+  {
+   "scene": 2,
+   "text": "Hindia Belanda dibagi menjadi enam zona waktu",
+   "start": 51.9,
+   "end": 54.7
+  },
+  {
+   "scene": 2,
+   "text": "dan selisih antar zonanya cuma tiga puluh menit",
+   "start": 54.7,
+   "end": 57.5
+  },
+  {
+   "scene": 3,
+   "text": "Ternyata keadaan bisa lebih aneh lagi",
+   "start": 57.5,
+   "end": 59.82
+  },
+  {
+   "scene": 3,
+   "text": "Saat Jepang menduduki Indonesia pada seribu sembilan ratus empat puluh dua",
+   "start": 59.82,
+   "end": 63.42
+  },
+  {
+   "scene": 3,
+   "text": "semua zona waktu dihapus",
+   "start": 63.42,
+   "end": 65.04
+  },
+  {
+   "scene": 3,
+   "text": "Seluruh negeri dipaksa mengikuti jam Tokyo yang lebih cepat",
+   "start": 65.04,
+   "end": 68.24
+  },
+  {
+   "scene": 3,
+   "text": "Orang Jawa terpaksa hidup satu setengah jam lebih cepat daripada mataharinya sendiri",
+   "start": 68.24,
+   "end": 72.12
+  },
+  {
+   "scene": 3,
+   "text": "selama tiga setengah tahun",
+   "start": 72.12,
+   "end": 74.18
+  },
+  {
+   "scene": 4,
+   "text": "Sesudah merdeka pembagiannya berubah lagi beberapa kali",
+   "start": 74.18,
+   "end": 77.22
+  },
+  {
+   "scene": 4,
+   "text": "Tahun seribu sembilan ratus lima puluh Indonesia kembali ke enam zona",
+   "start": 77.22,
+   "end": 80.2
+  },
+  {
+   "scene": 4,
+   "text": "Baru pada satu Januari seribu sembilan ratus enam puluh empat",
+   "start": 80.2,
+   "end": 82.43
+  },
+  {
+   "scene": 4,
+   "text": "tiga zona ditetapkan lewat keputusan presiden",
+   "start": 82.43,
+   "end": 85.9
+  },
+  {
+   "scene": 4,
+   "text": "dan bentuknya bertahan sampai sekarang",
+   "start": 85.9,
+   "end": 87.96
+  },
+  {
+   "scene": 4,
+   "text": "Penyesuaian terakhir terjadi tahun seribu sembilan ratus delapan puluh delapan",
+   "start": 87.96,
+   "end": 90.5
+  },
+  {
+   "scene": 4,
+   "text": "saat Bali pindah ke zona tengah",
+   "start": 90.5,
+   "end": 93.22
+  },
+  {
+   "scene": 5,
+   "text": "Fakta bonusnya aturan zona waktu Indonesia sudah sembilan kali diubah sejak zaman Belanda",
+   "start": 93.22,
+   "end": 97.9
+  },
+  {
+   "scene": 5,
+   "text": "Jadi tiga zona ini bukan kebetulan",
+   "start": 97.9,
+   "end": 99.86
+  },
+  {
+   "scene": 5,
+   "text": "karena matahari memang tidak pernah terbit bersamaan di negeri ini",
+   "start": 99.86,
+   "end": 103.6
+  }
+ ],
+ "events": {
+  "s1_card3": 8.8,
+  "s2_bands": 20.58,
+  "s2_card46": 24.1,
+  "s2_sun": 32.86,
+  "s3_row1908": 44.12,
+  "s3_row1932": 49.28,
+  "s3_card6": 51.9,
+  "s4_stamp": 63.42,
+  "s4_card": 65.04,
+  "s5_row1950": 77.22,
+  "s5_row1964": 80.2,
+  "s5_card1964": 82.43,
+  "s5_row1988": 87.96,
+  "s6_card9": 93.22,
+  "s6_question": 97.9
+ },
+ "matched": 212,
+ "script_tokens": 271
+}
