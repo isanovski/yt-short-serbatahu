@@ -125,3 +125,33 @@ Menggantikan sistem teks dan gerak v3 untuk episode berikutnya:
 - Wajib ada lapisan hidup di atas foto sesuai topik: garis meteor berkala, bintang berkelip, partikel debu melayang.
 - Lukisan/ukiran wajib dipan (misal turun dari langit ke kerumunan) atau dipotong antar-crop detail. Satu strip statis belasan detik DILARANG.
 - Standar ini lolos lewat preview 36 detik yang di-acc Bos lalu render penuh Leonid v3 (build2.py di folder episode video-hujan-meteor adalah referensi implementasinya).
+
+## Amendemen 2026-11-15 (sore) — SAFE ZONE BARU dari overlay Bos
+
+Bos mengirim overlay safe zone Shorts (creamate.ai/tools, file 1080x1920) dan memerintahkan teks ditaruh di dalam zona itu. Terukur dari piksel gambarnya: kotak aman x 62-928, y 162-1598. Ini MENGGANTIKAN safe zone 2026-11-12 (x 60-1020, y 180-1530) untuk sisi KANAN dan BAWAH: tepi kanan menyusut ke 928 (kolom tombol like/komen/share lebih lebar dari dugaan lama), tepi bawah longgar ke 1598, atas 162. Konsekuensi praktis: teks rata tengah digeser ke cx 495 (pusat kotak aman, bukan 540), lebar teks maks 856, caption naik ke y 1430/1488, watermark pindah ke y 1570 di bawah caption. Diterapkan pertama ke episode Toba (38 titik geometri diubah) sebelum render penuh.
+
+## Amendemen 2026-11-15 (malam) — caption TETAP sederhana, kata dibesarkan DITOLAK
+
+Bos menilai caption kinetik dengan kata aktif yang DIBESARKAN (gaya dua tingkat @dhisspixel, dicoba 56 lalu 62 lawan kata biasa 38-44) sebagai "alay". Keputusan Bos: caption sesederhana saja. Yang berlaku tetap caption kinetik v5 versi awal: ukuran seragam 44, kata yang sedang diucapkan berwarna emas + garis bawah berjalan, kata lewat putih, kata belum abu-abu. Jangan tawarkan atau terapkan lagi pembesaran kata di caption. Punch zoom +-12% di momen kartu/twist/ganti babak (ala @demonslayereditz_1) TIDAK dikomplain Bos dan tetap dipakai. Label kategori WAJIB pill hitam teks emas (desain asli v3), bukan teks polos: teks polos tenggelam di latar terang dan tabrakan dengan headline (koreksi Bos 2026-11-15 17.42).
+
+## Amendemen 2026-11-15 (malam 2) — POSISI JUDUL: DI ATAS + CENTER FRAME (koreksi Bos 19.33 WIB)
+
+- Pill kategori + headline TETAP DI ATAS seperti standar v5 (pill y 166–222, headline cy 356), tapi poros center-nya adalah TENGAH FRAME x 540, BUKAN tengah safe zone x 495. Di HP Bos, x 495 terasa miring ke kiri dan dinilai tidak center.
+- Kesalahan yang tidak boleh terulang: Bos bilang "center" untuk teks judul maksudnya center HORIZONTAL. Muse sempat memindahkan blok judul ke tengah vertikal frame (cy 975) dan Bos menolaknya ("jwmbot lu bodoh"). Jangan pernah memindahkan judul ke tengah vertikal tanpa perintah eksplisit soal vertikal.
+- Perangkat lain (kartu angka, panel, pill pertanyaan, watermark, caption) tetap mengikuti safe zone seperti amendemen sore.
+- Konfirmasi eksternal: studi TikTok @kadafidevayana (2026-11-15) memakai judul atas center frame di pita 13–20% dari atas dengan satu kata kunci emas — pola yang sama dengan koreksi Bos.
+
+## Amendemen 2026-11-15 (malam 3) — CAPTION WAJIB CENTER FREE ZONE (koreksi Bos 19.55 WIB)
+
+- Caption kinetik porosnya TENGAH FREE ZONE x 495, BUKAN tengah frame 540. Di builder Toba, CAPLAY sempat center 540 sehingga ujung kanan baris caption menembus tepi free zone (x 928) ke kolom tombol like/komen. Bos menangkapnya dari pratinjau: "caption posisi nya sesuaikan di free zone".
+- Lebar baris caption maksimal 856 dan seluruh tinta caption harus di dalam x 62–928. Judul (pill + headline) tetap center frame 540 sesuai amendemen malam 2 — dua poros berbeda ini memang disengaja: judul ikut perintah center frame Bos, caption ikut free zone.
+- Hasil belajar TikTok TIDAK diterapkan di tengah episode yang sedang berjalan; Bos memutuskan penerapannya mulai video berikutnya.
+
+## Amendemen 2026-11-16 (pelajaran episode Mercator)
+
+- **Panggung papan/peta wajib bergerak sendiri.** Panel statis (peta, papan, grid) yang hanya diisi elemen pop-in tetap dinilai Bos "motion jelek" (pratinjau Mercator v1 ditolak 15 Nov 2026 22.53 WIB). Setiap panggung utama wajib punya gerak kamera sendiri: push in terasa (sekitar 1,06–1,13 per babak) menuju fokus yang sedang dibahas, di samping animasi elemen di dalamnya.
+- **Dilarang denting nada tinggi.** Denting/tik sinus 1,5–2 kHz di atas bed pelan terdengar seperti "suara semut" bagi Bos dan ditolak ("sfx bosok gk jernih"). Aksen SFX yang aman: ketuk rendah (sweep sinus 65–150 Hz), klik kertas (noise decay sangat pendek, pelan), desis pelan, boom rendah, petikan nada rendah. Bed jangan dilapisi gemuruh/noise keruh; pad bersih + angin sangat tipis lebih jernih.
+
+## Amendemen 2026-11-16 b — Desain kartu angka WAJIB divariasi
+- Bos menolak kartu angka raksasa hitam-emas yang sama di semua episode ("jangan itu terus"). Desain perangkat angka harus berganti antar episode, jangan mengulang desain yang sama terus.
+- Tiga desain siap pakai ada di builder Baikal (`video-baikal/build.py`, fungsi `_giant_paper`, `_giant_bare`, `_giant_seal`, dipilih env BK_CARD): A Kertas Stiker (kertas krem + angka hitam + selotip emas, pilihan Bos untuk Baikal), B Angka Polos (angka putih raksasa outline hitam langsung di foto + pill label), C Lencana (lingkaran ring emas). Desain lama = `big_card2`.

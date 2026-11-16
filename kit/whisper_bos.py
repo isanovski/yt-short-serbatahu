@@ -6,7 +6,7 @@ import subprocess
 import numpy as np
 from faster_whisper import WhisperModel
 
-WAV = "vo/VoiceOver_leonid.wav"
+WAV = "vo/VoiceOver_nemo.wav"
 raw = subprocess.run(
     ["ffmpeg", "-v", "error", "-i", WAV, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
     capture_output=True, check=True).stdout

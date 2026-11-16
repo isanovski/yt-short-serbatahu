@@ -1,0 +1,269 @@
+{
+ "bounds": [
+  0.0,
+  12.36,
+  40.32,
+  55.56,
+  79.86,
+  100.16,
+  124.14
+ ],
+ "total": 124.14,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "El Nino terbesar sedang terjadi sekarang",
+   "start": 0.0,
+   "end": 2.4
+  },
+  {
+   "scene": 0,
+   "text": "Suhu laut Pasifik sudah tembus plus 3,05 derajat di atas normal",
+   "start": 2.82,
+   "end": 7.28
+  },
+  {
+   "scene": 0,
+   "text": "dan NASA bilang skalanya menyamai El Nino 1997",
+   "start": 7.72,
+   "end": 11.56
+  },
+  {
+   "scene": 1,
+   "text": "Ini bukan ramalan",
+   "start": 12.36,
+   "end": 13.52
+  },
+  {
+   "scene": 1,
+   "text": "Satelit NASA membandingkan peta tinggi muka laut 13 Oktober 1997",
+   "start": 14.04,
+   "end": 19.1
+  },
+  {
+   "scene": 1,
+   "text": "dengan 12 Oktober 2026",
+   "start": 19.52,
+   "end": 21.7
+  },
+  {
+   "scene": 1,
+   "text": "dan pola air hangatnya nyaris sama persis",
+   "start": 22.16,
+   "end": 24.42
+  },
+  {
+   "scene": 1,
+   "text": "Kata ilmuwan NASA Josh Willis",
+   "start": 24.96,
+   "end": 26.66
+  },
+  {
+   "scene": 1,
+   "text": "El Nino kali ini datang jauh lebih tiba-tiba",
+   "start": 27.02,
+   "end": 29.4
+  },
+  {
+   "scene": 1,
+   "text": "dan sedang di jalur menjadi lebih besar dari 1997",
+   "start": 29.4,
+   "end": 33.38
+  },
+  {
+   "scene": 1,
+   "text": "NOAA memberi peluang 83 persen",
+   "start": 34.24,
+   "end": 36.58
+  },
+  {
+   "scene": 1,
+   "text": "kekuatan ini bertahan sampai awal 2027",
+   "start": 36.58,
+   "end": 39.62
+  },
+  {
+   "scene": 2,
+   "text": "Yang sedang terjadi adalah ini",
+   "start": 40.32,
+   "end": 42.12
+  },
+  {
+   "scene": 2,
+   "text": "Angin pasat melemah",
+   "start": 42.6,
+   "end": 43.68
+  },
+  {
+   "scene": 2,
+   "text": "air hangat Samudra Pasifik bergeser ke timur",
+   "start": 44.12,
+   "end": 46.42
+  },
+  {
+   "scene": 2,
+   "text": "ke arah Amerika Selatan",
+   "start": 46.42,
+   "end": 47.72
+  },
+  {
+   "scene": 2,
+   "text": "Jatah hujan Indonesia tersedot ke tengah samudra",
+   "start": 48.32,
+   "end": 50.58
+  },
+  {
+   "scene": 2,
+   "text": "Hasilnya Indonesia sekarang jauh lebih kering dari biasanya",
+   "start": 51.4,
+   "end": 54.86
+  },
+  {
+   "scene": 3,
+   "text": "Dampaknya sudah tercatat",
+   "start": 55.56,
+   "end": 57.08
+  },
+  {
+   "scene": 3,
+   "text": "Sepanjang tahun ini pantauan satelit menghitung",
+   "start": 57.08,
+   "end": 59.98
+  },
+  {
+   "scene": 3,
+   "text": "kebakaran sudah membakar 2,88 juta hektare lahan Indonesia",
+   "start": 59.98,
+   "end": 63.96
+  },
+  {
+   "scene": 3,
+   "text": "melampaui total 2019 yang sebelumnya adalah tahun terburuk",
+   "start": 64.28,
+   "end": 68.56
+  },
+  {
+   "scene": 3,
+   "text": "Asapnya sudah menyeberang ke Malaysia dan Singapura",
+   "start": 68.98,
+   "end": 71.42
+  },
+  {
+   "scene": 3,
+   "text": "ratusan ribu orang jatuh sakit",
+   "start": 71.92,
+   "end": 73.5
+  },
+  {
+   "scene": 3,
+   "text": "dan BMKG mencatat 1.707 titik",
+   "start": 73.84,
+   "end": 76.82
+  },
+  {
+   "scene": 3,
+   "text": "mengalami hari tanpa hujan yang ekstrem panjang",
+   "start": 76.82,
+   "end": 79.18
+  },
+  {
+   "scene": 4,
+   "text": "Musim hujan yang ditunggu-tunggu pun sedang mundur sekarang",
+   "start": 79.86,
+   "end": 82.44
+  },
+  {
+   "scene": 4,
+   "text": "Kata BMKG awal musim hujan terlambat 20 sampai 30 hari",
+   "start": 82.44,
+   "end": 86.94
+  },
+  {
+   "scene": 4,
+   "text": "di 61 persen wilayah Indonesia",
+   "start": 86.94,
+   "end": 89.0
+  },
+  {
+   "scene": 4,
+   "text": "Di separuh wilayah musim hujannya juga lebih pendek dari biasanya",
+   "start": 89.0,
+   "end": 93.06
+  },
+  {
+   "scene": 4,
+   "text": "Puncak hujan baru tiba Desember sampai Februari",
+   "start": 93.52,
+   "end": 95.88
+  },
+  {
+   "scene": 4,
+   "text": "sementara El Nino-nya bertahan sampai awal 2027",
+   "start": 96.34,
+   "end": 98.92
+  },
+  {
+   "scene": 5,
+   "text": "Fakta bonus",
+   "start": 100.16,
+   "end": 100.86
+  },
+  {
+   "scene": 5,
+   "text": "Berita yang bilang Indonesia tidak akan hujan sepanjang 2027 itu hoaks",
+   "start": 101.42,
+   "end": 105.62
+  },
+  {
+   "scene": 5,
+   "text": "dan sudah dibantah BMKG",
+   "start": 105.9,
+   "end": 107.28
+  },
+  {
+   "scene": 5,
+   "text": "Hujan tetap datang hanya terlambat",
+   "start": 107.68,
+   "end": 109.62
+  },
+  {
+   "scene": 5,
+   "text": "NASA juga mengingatkan peta yang mirip",
+   "start": 109.62,
+   "end": 111.84
+  },
+  {
+   "scene": 5,
+   "text": "bukan jaminan dampaknya sama persis seperti 1997",
+   "start": 111.84,
+   "end": 115.5
+  },
+  {
+   "scene": 5,
+   "text": "Tapi satu hal sudah pasti",
+   "start": 115.86,
+   "end": 117.16
+  },
+  {
+   "scene": 5,
+   "text": "El Nino terbesar itu bukan lagi ramalan",
+   "start": 117.64,
+   "end": 119.6
+  },
+  {
+   "scene": 5,
+   "text": "Dia sedang berlangsung dan kita sedang hidup di dalamnya",
+   "start": 120.02,
+   "end": 122.94
+  }
+ ],
+ "events": {
+  "s1_card": 2.82,
+  "s2_maps": 14.04,
+  "s3_shift": 44.12,
+  "s4_haze": 68.98,
+  "s5_field": 89.0,
+  "s6_rain": 107.68,
+  "s6_question": 119.14
+ }
+}

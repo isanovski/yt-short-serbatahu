@@ -377,3 +377,193 @@ Foto: meteor Leonid oleh Navicore (CC BY 3.0), komposit hujan meteor Leonid oleh
 #FaktaSains #HujanMeteor #Leonid #SerbaTahu #Shorts #FaktaUnik #TahukahKamu #Astronomi #FaktaMenarik #Edukasi
 
 **VERSI FINAL v3 (terkirim 2026-11-15 sore, menggantikan v2):** file `video-hujan-meteor/hujan-meteor-VO-final-v3.mp4` — 128,3 detik, 50,0 MB, -15,11 LUFS, TP -1,31. v2 dinilai Bos background-nya "diem doang" (zoom cuma 1,02 ke 1,07 per babak, ukiran statis). v3 hasil preview yang di-acc Bos: babak 1 push-in 1,07 ke 1,17 plus bintang berkelip dan 6 garis meteor, babak 2 pan menyapu langit, babak 4 ukiran 1833 dipan turun dari langit ke kampung, babak 5 Bromo pan di zoom 1,12, babak 6 komposit push-in. Gerbang visual MP4 final lolos 13 frame. File v2 dihapus agar tidak salah upload.
+
+
+## 19. Letusan Toba (FINAL: toba-VO-final.mp4, 109,1 dtk, -14,75 LUFS, TP -1,05)
+
+**Judul (rekomendasi):** Satu Letusan Menyisakan 10.000 Manusia di Bumi. Gunung Apa Itu?
+
+Alternatif:
+- Danau Paling Tenang di Sumatra Adalah Luka Letusan Terbesar di Bumi
+- 74.000 Tahun Lalu, Satu Gunung Hampir Menghapus Manusia
+
+**Deskripsi:**
+Sekitar 74.000 tahun lalu, Gunung Toba di Sumatra meletus dengan skala VEI 8, skala letusan tertinggi yang dikenal sains. Material yang dimuntahkan sekitar 2.800 kilometer kubik, hampir 3.000 kali letusan Gunung St. Helens tahun 1980. Abunya menutupi India dan jejak kacanya ditemukan sampai Afrika Selatan. Abu dan gas belerang menutupi matahari bertahun-tahun dan memicu musim dingin vulkanik yang diperkirakan berlangsung 6 sampai 10 tahun. Menurut teori leher botol, populasi manusia dunia saat itu menyusut sampai tersisa kurang dari 10.000 orang. Tapi bukti arkeologi terbaru dari Afrika Selatan dan Ethiopia menunjukkan manusia tetap beraktivitas sebelum, selama, dan sesudah letusan, jadi teori ini masih diperdebatkan sampai sekarang. Bekas letusannya kini menjadi Danau Toba, danau vulkanik terbesar di dunia dengan kedalaman 505 meter, dan Pulau Samosir di tengahnya masih terangkat perlahan sampai hari ini. Menurut kamu, manusia hampir punah karena Toba itu bisa dipercaya atau masih ragu? Tulis di komentar.
+
+Sumber: data Smithsonian Global Volcanism Program untuk kaldera Toba, estimasi volume Rose dan Chesner (sekitar 2.800 kilometer kubik material), teori leher botol populasi dari Stanley Ambrose, dan kajian tandingan arkeologi Afrika Selatan dan Ethiopia yang dirangkum dalam ulasan Arizona State University tahun 2025.
+
+Foto: panorama Danau Toba oleh RosmaSaragih, Danau Toba oleh Elvinamonica (dua foto), Geopark Caldera Toba oleh yudhapohan, Pulau Samosir oleh Stepgun, dan Danau Toba dari Simalem oleh Chapsorini, semuanya CC BY-SA 4.0 via Wikimedia Commons. Peta sebaran abu digambar dari data Natural Earth. Pengukur VEI, garis suhu, waffle populasi, pengukur kedalaman, dan kartu angka adalah ilustrasi penjelas. Musik latar dibuat khusus untuk video ini.
+
+#FaktaGeografi #Toba #DanauToba #SerbaTahu #Shorts #FaktaUnik #TahukahKamu #GunungBerapi #FaktaMenarik #Edukasi
+
+**FINAL (terkirim 2026-11-15 malam):** file `video-toba/toba-VO-final.mp4` — 109,1 detik, 37,5 MB, -14,75 LUFS, TP -1,05, poster `poster.png`. Episode pertama yang memakai SAFE ZONE BARU dari overlay Bos (teks x 62-928, y 162-1598, pusat teks cx 495, lebar maks 856, caption y 1430/1488, watermark y 1570) dan pill kategori hitam teks emas. Caption kinetik SEDERHANA seragam 44 (kata aktif emas + garis bawah): versi kata-dibesarkan ala dhisspixel dicoba dua kali dan DITOLAK Bos sebagai alay. Punch zoom +-12% di kartu angka, twist, dan ganti babak (ala demonslayereditz_1) dipertahankan. Empat ronde pratinjau sebelum render penuh (gaya awal, safe zone, pill + punch kuat, caption sederhana). VO Bos VoiceOver_toba.wav 107,93 dtk, alignment whisper 247/280 token, awal babak 0/12,9/34,9/53,0/75,7/92,0. Gerbang visual MP4 final lolos 15 frame, pill pertanyaan terukur x 82-923 y 1288-1371 PASS, pengukur kedalaman terukur x 830-878 PASS.
+
+**VERSI FINAL v2 (15 Nov 2026, 21.12 WIB)** — File: `toba-VO-final-v2.mp4` (109,08 dtk, 37.491.461 byte, −14,75 LUFS / TP −1,09). Koreksi layout atas perintah Bos: pill kategori + headline center FRAME x 540 (terukur 539–540), caption center FREE ZONE x 495 (tinta di dalam x 62–928). Isi, VO, SFX, dan paket upload sama persis dengan v1. File v1 `toba-VO-final.mp4` DIHAPUS agar tidak salah upload. Poster: `poster-v2.png`.
+
+## 20. Peta Dunia Berbohong (FINAL v2: peta-mercator-VO-final-v2.mp4, 103,1 dtk, -14,99 LUFS, TP -1,22)
+
+**Judul:** Greenland Sebesar Afrika di Peta, Padahal Afrika 14 Kali Lebih Besar. Kok Bisa?
+Judul cadangan 1: Peta yang Kita Lihat Sejak Sekolah Ternyata Berbohong Soal Ukuran
+Judul cadangan 2: Di Peta Rusia Lebih Besar dari Afrika, Aslinya Tidak Sampai 60 Persennya
+
+**Deskripsi:**
+Di peta dunia, Greenland kelihatan hampir sebesar Afrika. Padahal luas asli Afrika 30,37 juta kilometer persegi, empat belas kali lebih besar dari Greenland yang cuma 2,16 juta kilometer persegi.
+
+Biang masalahnya proyeksi Mercator dari tahun 1569. Peta ini dibuat untuk pelaut karena garis arah kompas di atasnya selalu lurus. Harganya, daerah yang jauh dari khatulistiwa ditarik melebar. Di lintang 60 derajat luas di peta membengkak empat kali, dan di lintang 80 derajat sampai 33 kali. Indonesia yang dilewati khatulistiwa hampir tidak berubah, makanya Greenland yang luas aslinya hampir sama dengan Indonesia bisa kelihatan berkali-kali lebih besar di peta.
+
+Peta ini tetap dipakai sampai sekarang, termasuk oleh Google Maps, karena bentuk dan sudut jalan di dalamnya tetap benar untuk navigasi. Yang dikorbankan hanya perbandingan ukuran antar daerah. Pada tahun 2017, sekolah negeri di Boston resmi mengganti peta kelasnya dengan peta penyeimbang luas Gall-Peters supaya murid melihat ukuran benua yang sebenarnya.
+
+Menurut kamu, ukuran negara di peta itu akurat atau menipu? Tulis di komentar.
+
+Sumber: UNdata (luas Greenland 2.166.086 km²), luas Afrika 30,37 juta km², Gerardus Mercator 1569, distorsi luas Mercator sec²(lintang), Boston Public Schools 2017.
+
+Kredit aset: Potret Gerardus Mercator oleh Frans Hogenberg, 1574, domain publik, via Wikimedia Commons. Peta dunia dari data Natural Earth, domain publik.
+
+#FaktaGeografi #SerbaTahu #PetaDunia #Mercator #Greenland #Afrika #FaktaUnik #Geografi #Shorts
+
+**FINAL (terkirim 2026-11-16 dini hari):** file `video-peta-mercator/peta-mercator-VO-final-v2.mp4` — 103,1 detik, 22,7 MB, −14,99 LUFS, TP −1,22, poster `poster.png`. Episode pertama menerapkan pelajaran TikTok @kadafidevayana (hierarki tetap, satu panggung berubah cepat potong keras, baris aktif emas di daftar dan panel). VO Bos VoiceOver_mercator.wav 102,49 dtk (md5 e1631219aa1340bd48d100a3182cf6c1), alignment whisper 221/240 token, awal babak 1,5/21,0/36,9/56,2/73,2/87,9. Visual: peta Mercator Natural Earth dengan kamera push in per babak, potret ukiran Hogenberg 1574, garis rhumb tergambar, panel distorsi lintang (baris aktif emas), daftar luas asli empat baris dengan bar proporsional, grid kota rute siku-siku dengan baris pengorbanan dicoret merah, kartu 2017, peta Gall-Peters, pill pertanyaan AKURAT/MENIPU. Pratinjau v1 DITOLAK Bos (motion panggung diam dan denting nada tinggi terdengar seperti suara semut, bed keruh); v2 dengan kamera panggung bergerak dan SFX bersih (ketuk rendah + klik kertas, tanpa denting, tanpa gemuruh) di-acc Bos. Gerbang visual MP4 final lolos 16 frame, pill pertanyaan terukur x 72–611 PASS.
+
+
+## 21. Danau Baikal (FINAL: baikal-VO-final.mp4, 103,3 dtk, -14,75 LUFS, TP -1,28)
+
+**Judul:** 1 Danau Menyimpan 20% Air Tawar Seluruh Bumi. Danau Apa Ini?
+**Alternatif 1:** Danau Ini Lebih Dalam dari Gedung Tertinggi, dan Ada Anjing Lautnya?!
+**Alternatif 2:** 330 Sungai Mengalir Masuk, Cuma 1 yang Keluar. Danau Apa Ini?
+
+**Deskripsi:**
+Satu danau di Siberia menyimpan sekitar 20 persen air tawar permukaan Bumi yang tidak membeku. Namanya Danau Baikal.
+
+Panjangnya lebih dari 600 kilometer dan luasnya setara negara Belgia. Titik terdalamnya 1.642 meter, danau terdalam di dunia, dengan volume air lebih dari 23.000 kilometer kubik, mengalahkan gabungan lima Danau Besar Amerika Utara.
+
+Baikal lahir dari retakan kerak bumi yang sampai sekarang masih melebar sekitar 2 sentimeter per tahun. Sebanyak 330 sungai mengalir masuk, tapi hanya satu yang keluar, Sungai Angara.
+
+Yang paling aneh, danau air tawar ini punya anjing laut. Nerpa adalah satu-satunya spesies anjing laut di dunia yang hidup sepenuhnya di air tawar, dan kerabat terdekatnya tinggal di Samudra Arktik, lebih dari 3.000 kilometer jauhnya. Dua pertiga spesies di Baikal tidak ditemukan di tempat lain, termasuk ikan golomyanka yang tembus pandang dan udang epischura berukuran 1,5 milimeter yang menyaring air danau.
+
+Dengan umur sekitar 25 juta tahun, Baikal adalah danau tertua di dunia, dan sudah ditetapkan sebagai Situs Warisan Dunia UNESCO sejak 1996.
+
+Menurut kamu, Baikal lebih mirip danau atau laut mini? Tulis di komentar.
+
+Sumber: UNESCO World Heritage Centre (whc.unesco.org), EBSCO Research Starters, Geography Worlds, dan literatur Danau Baikal (Kozhova & Izmest'eva).
+
+Kredit foto (Wikimedia Commons): Tanjung Burhan dan tebing Pulau Olkhon oleh Vyacheslav Argenberg (CC BY 4.0); citra satelit Danau Baikal oleh Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GSFC (domain publik); nerpa di Kepulauan Ushkany oleh Nina Zhavoronkova (CC BY-SA 4.0); koloni anjing laut Baikal oleh Sergio Tittarini (CC BY 2.0); gua es Pulau Olkhon dan Baikal membeku oleh Sergey Pesterev (CC BY-SA 4.0); es bening Baikal oleh Vladislav Bezrukov (CC BY 2.0); ikan golomyanka oleh Dr. Günter Pinzke (CC BY-SA 2.5).
+
+#SerbaTahu #FaktaUnik #DanauBaikal #FaktaGeografi #DanauTerdalam #Siberia #FaktaDunia #Shorts
+
+**FINAL (terkirim 2026-11-16 pagi):** file `video-baikal/baikal-VO-final.mp4` — 103,3 detik, 92,1 MB, −14,75 LUFS, TP −1,28, poster `poster.png`. Episode pertama menerapkan studi foto-led dan kolase (studi nomor 7): foto asli full frame sepanjang video dengan reframe mengikuti narasi (kamera masuk ke wajah nerpa pas dibahas), foto satelit NASA dipakai sebagai peta beneran dengan penanda danau, aksen kolase potongan foto gaya stiker cuma di pembuka, stiker golomyanka di babak 5. Kartu angka raksasa desain hitam-emas lama DITOLAK Bos (desain itu-itu terus); tiga desain baru ditawarkan dan Bos memilih A Kertas Stiker (kertas krem, angka hitam, selotip emas, miring tipis) untuk ketiga momen angka (20%, 1.642, 25). VO Bos VoiceOver_baikal.wav 102,45 dtk (md5 b9856d8dd9690a31698d5a75932c9ed9), alignment whisper 214/256 token, awal babak 0/14,4/32,5/47,8/69,2/86,2. Render kepotong restart VM dua kali dan dilanjutkan dari checkpoint (frame ekor rusak dibuang). Gerbang visual MP4 final lolos 15 frame, pill pertanyaan di zona aman.
+
+## 22. Sahara Pernah Hijau (FINAL: sahara-hijau-VO-final.mp4, 105,5 dtk, -14,65 LUFS, TP -1,60)
+
+**Judul:** 10.000 Tahun Lalu Gurun Terbesar Ini Hijau Penuh Danau. Kok Bisa?
+Judul cadangan 1: Danau Air Tawar Terbesar di Bumi Dulu Ada di Tengah Sahara
+Judul cadangan 2: Sahara Bisa Hijau Lagi, Kata Siklus Orbit Bumi
+
+**Deskripsi:**
+Sepuluh ribu tahun lalu Sahara bukan gurun. Sahara adalah padang hijau yang dipenuhi danau dan sungai, dan danau terbesarnya, Mega Chad, luasnya sekitar 360.000 kilometer persegi, lebih luas dari gabungan lima Danau Besar Amerika dan merupakan danau air tawar terbesar di Bumi pada masanya. Buktinya masih ada sampai sekarang, lukisan dan ukiran batu di Tassili n'Ajjer menggambarkan jerapah, kuda nil, gajah, dan manusia berenang. Semua itu dikendalikan goyangan orbit Bumi dalam siklus sekitar 21.000 tahun yang menarik hujan monsun masuk ke Sahara. Sekitar 5.500 tahun lalu goyangannya berbalik, hujan mundur, dan danau raksasa itu berubah menjadi bukit pasir hanya dalam beberapa ratus tahun. Debu dari dasar danau yang kering itu sekarang terbang menyeberangi Atlantik dan menyuburkan hutan Amazon. Menurut kamu, Sahara bakal hijau lagi atau tidak? Tulis di komentar.
+
+Sumber: penelitian Danau Mega Chad oleh Armitage, Bristow dan Drake (PNAS 2015), ulasan Periode Basah Afrika oleh deMenocal dan Tierney, UNESCO untuk lukisan batu Tassili n'Ajjer, dan NASA Earth Observatory.
+
+Kredit foto: bukit pasir Sahara oleh Vyacheslav Argenberg (CC BY 4.0) dan Ondrej Havelka (CC BY 4.0), bukit pasir senja oleh Mike Prince (CC BY 2.0), lukisan batu Tassili domain publik, ukiran jerapah oleh Akli salah (CC BY-SA 4.0), foto satelit Sahara dan Danau Chad oleh NASA MODIS (domain publik), savana dan jerapah oleh Dietmar Rabich (CC BY-SA 4.0), badai debu oleh Copernicus Sentinel-3 Uni Eropa, nelayan Danau Chad (CC BY-SA 4.0), dan hutan Amazon oleh lubasi (CC BY-SA 2.0), semuanya via Wikimedia Commons. Diagram orbit adalah ilustrasi penjelas.
+
+#FaktaGeografi #Sahara #SerbaTahu #Shorts #FaktaUnik #TahukahKamu #Geografi #FaktaMenarik #Edukasi #SejarahBumi
+
+**FINAL (terkirim 2026-11-16 siang):** file `video-sahara-hijau/sahara-hijau-VO-final.mp4` — 105,5 detik, 72,2 MB, −14,65 LUFS, TP −1,60, poster `poster.png`. VO Bos VoiceOver_sahara.wav 104,73 dtk (md5 b718f134f52135729151b37e5119a11c), alignment whisper 227/252 token, awal babak 0/15,1/30,0/46,4/67,4/84,7. Kartu angka memakai desain B Angka Polos (angka putih outline hitam langsung di foto satelit Afrika) sesuai aturan variasi desain, beda dari Kertas Stiker Baikal. Visual foto-led: bukit pasir emas, jerapah savana, lukisan Tassili, ukiran jerapah, satelit Afrika + kartu 360.000, nelayan Danau Chad, diagram orbit berjalan di atas foto satelit, bukit pasir senja, satelit Danau Chad, badai debu satelit, Amazon, pill pertanyaan YAKIN/RAGU. Render pratinjau sempat terpotong restart VM di 97 persen dan disambung dari frame 2492. Gerbang visual MP4 final lolos 14 frame, pill pertanyaan pita emas terukur x 106-809 pada pita y 1200-1450 PASS, pita caption terukur y 1442-1473 PASS.
+
+
+---
+
+## 23. Kanada Negeri Danau
+
+**Judul rekomendasi:** 62% Danau di Dunia Ada di Satu Negara Ini. Kok Bisa?
+
+**Alternatif judul:**
+1. Satu Negara Ini Punya Danau Lebih Banyak dari Gabungan Seluruh Dunia!
+2. 880 Ribu Danau di Satu Negara, Kok Bisa Sebanyak Itu?
+
+**Deskripsi:**
+Coba tebak dulu. Berapa persen danau di seluruh dunia yang ada di satu negara ini saja?
+
+Jawabannya 62 persen. Dari sekitar 1,42 juta danau berukuran besar yang terdata di dunia, Kanada sendiri punya 879.763 danau. Lebih banyak daripada gabungan semua negara lain. Rusia yang kedua saja cuma 201.240.
+
+Penyebabnya zaman es. Lapisan es raksasa mengeruk daratan Kanada belasan ribu tahun lalu, dan cekungan kerukannya terisi air saat es mencair. Ontario saja punya lebih dari 250.000 danau, Manitoba dijuluki negeri 100.000 danau, dan lima Danau Besar di sana menyimpan sekitar 21 persen air tawar permukaan dunia, hampir menyamai Danau Baikal.
+
+Sumber data: HydroLAKES (Universitas McGill, Nature Communications 2016) lewat WorldAtlas dan Visual Capitalist, National Geographic.
+
+Kredit foto (Wikimedia Commons):
+- moraine_0.jpg oleh Chensiyuan (CC BY-SA 4.0), Wikimedia Commons
+- moraine_1.jpg oleh Tobias Alt, Tobi 87 (CC BY-SA 4.0), Wikimedia Commons
+- danau_besar_0.jpg oleh NASA (Public domain), Wikimedia Commons
+- danau_besar_1.jpg oleh NASA (Public domain), Wikimedia Commons
+- superior_0.jpg oleh NPS photo (Public domain), Wikimedia Commons
+- danau_beku_0.jpg oleh Murray Douglas (Public domain), Wikimedia Commons
+- danau_beku_1.jpg oleh Kmw2700 (CC BY-SA 4.0), Wikimedia Commons
+- jalan_es_0.jpg oleh NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S (Public domain), Wikimedia Commons
+- peyto_0.jpg oleh Tobias Alt, Tobi 87 (CC BY-SA 4.0), Wikimedia Commons
+- peyto_1.jpg oleh Jakub Fryš (CC BY-SA 4.0), Wikimedia Commons
+- danau_hutan_1.jpg oleh NASA (OGL-ON), Wikimedia Commons
+
+#SerbaTahu #FaktaGeografi #Kanada #Danau #FaktaUnik #Shorts
+
+**Catatan produksi:** FINAL `kanada-danau-VO-final.mp4`, 95,25 detik, minus 14,43 LUFS, TP minus 1,58. Episode pertama memakai mekanik tebak dulu ala Geser Dikit. Kartu angka desain C Lencana. VO Bos 94,25 detik (md5 f45089360b2697d98265779f908ded7a), alignment 213/239.
+
+
+---
+
+## 24. El Nino 2026
+
+**Judul rekomendasi:** El Nino Terbesar Sedang Terjadi Sekarang. Indonesia Siap?
+
+**Alternatif judul:**
+1. Suhu Laut Pasifik Tembus +3,05 Derajat, Menyamai El Nino 1997!
+2. Bukan Ramalan Lagi, El Nino Terbesar Sudah Di Sini
+
+**Deskripsi:**
+Ini bukan ramalan. El Nino terbesar sedang terjadi sekarang, dan suhu laut Pasifik sudah tembus plus 3,05 derajat di atas normal.
+
+Satelit NASA membandingkan peta tinggi muka laut 13 Oktober 1997 dengan 12 Oktober 2026, dan pola air hangatnya nyaris sama persis. NOAA memberi peluang 83 persen El Nino kuat sampai sangat kuat ini bertahan sampai awal 2027.
+
+Dampaknya di Indonesia sudah tercatat. Kebakaran tahun ini membakar 2,88 juta hektare menurut pantauan satelit, melampaui total 2019 yang sebelumnya adalah tahun terburuk. Asapnya menyeberang ke Malaysia dan Singapura. BMKG mencatat musim hujan terlambat 20 sampai 30 hari di 61 persen wilayah Indonesia, dan 1.707 titik mengalami hari tanpa hujan yang ekstrem panjang.
+
+Sumber: NASA Earth Observatory (23 Oktober 2026), NOAA Climate Prediction Center (8 Oktober 2026), BMKG Prediksi Musim Hujan 2026/2027, Nusantara Atlas lewat AFP (11 November 2026).
+
+Kredit foto (Wikimedia Commons):
+- asap_1.jpg oleh NASA image by Adam Voiland (NASA Earth Observatory) and Jeff Schmaltz (LANCE MOD (Public domain), Wikimedia Commons
+- pasifik_0.jpg oleh Jacques Descloitres (Public domain), Wikimedia Commons
+- pasifik_1.jpg oleh ISS Expedition 34 Crew
+Image Science &amp; Analysis Laboratory, NASA Johnson Spa (Public domain), Wikimedia Commons
+- hujan_0.jpg oleh Parth1707 (CC BY-SA 4.0), Wikimedia Commons
+- hujan_1.jpg oleh lensnmatter (CC BY 2.0), Wikimedia Commons
+- nino_0.jpg oleh NASA image by Jesse Allen, using AMSR-E data processed and provided by Chelle Ge (Public domain), Wikimedia Commons
+- sawah_0.jpg oleh NASA image created by Jesse Allen, Earth Observatory, using data provided by the (Public domain), Wikimedia Commons
+- terbakar_1.jpg oleh USDAgov (Public domain), Wikimedia Commons
+- api_0.jpg oleh Ramos Keith, U.S. Fish and Wildlife Service (Public domain), Wikimedia Commons
+- retak_0.jpg oleh Famartin (CC BY-SA 4.0), Wikimedia Commons
+- retak_1.jpg oleh Tomas Castelazo (CC BY 3.0), Wikimedia Commons
+- kebakaran2_1.jpg oleh NPS staff (Public domain), Wikimedia Commons
+
+#SerbaTahu #ElNino #BeritaIklim #BMKG #FaktaUnik #Shorts
+
+**Catatan produksi:** FINAL `elnino-2026-VO-final.mp4`, 124,13 detik, minus 14,62 LUFS, TP minus 1,15. Episode berita pertama (pill BERITA IKLIM), sudut SUDAH TERJADI atas arahan Bos. Kartu angka desain D Termometer. VO Bos 123,09 detik (md5 2945790ab2f7e6a52745c7c178d4bc51), alignment 258/268.
+
+
+---
+
+## 25. Pesawat Terbang 10 Km (Animasi 2D)
+
+**Judul rekomendasi:** Kenapa Pesawat Harus Terbang di 10 Kilometer?
+
+**Alternatif judul:**
+1. Terbang 2x Tinggi Puncak Jaya, Kenapa Pesawat Setinggi Itu?
+2. Bukan Asal Tinggi, Ini Alasan Pesawat Terbang di 10 Km
+
+**Deskripsi:**
+Kenapa pesawat penumpang selalu terbang di ketinggian sekitar 10 kilometer? Kenapa tidak lebih rendah, atau sekalian lebih tinggi?
+
+Di 10 kilometer, kerapatan udara tinggal sekitar sepertiga dibanding permukaan, jadi hambatan kecil dan bahan bakar jauh lebih irit. Di ketinggian itu pesawat juga terbang di atas hampir semua cuaca buruk, dan mesin jet bekerja paling efisien di udara bersuhu minus 50 derajat.
+
+Tapi lebih tinggi bukan berarti lebih baik. Di atas 12 kilometer udara terlalu tipis, sayap kehilangan daya angkat dan mesin kekurangan oksigen. Makanya 10 kilometer adalah titik paling pasnya. Sebagai perbandingan, pesawat supersonik Concorde dulu terbang di 17 kilometer, dan penumpangnya bisa melihat lengkungan Bumi.
+
+Visual video ini animasi motion graphic 2D.
+
+#SerbaTahu #Pesawat #FaktaUnik #Penerbangan #Shorts
+
+**Catatan produksi:** FINAL `pesawat-10km-2d-final.mp4`, 105,75 detik, minus 14,64 LUFS, TP minus 1,13. Episode animasi 2D motion graphic PENUH pertama Serba Tahu (semua babak digambar flat, tanpa foto), hasil koreksi Bos atas versi foto yang ditolak. VO Bos 104,73 detik (md5 94dd90b2452857acbd6daabf140f9484), alignment 227/242.

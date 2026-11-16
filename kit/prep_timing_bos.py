@@ -4,23 +4,12 @@ import json
 from difflib import SequenceMatcher
 
 SCENES = [
-    ["Dua malam lagi, langit Indonesia akan dihujani", "meteor tercepat yang pernah melintasi langit Bumi.",
-     "Kecepatannya 71 kilometer per detik,", "dan puncaknya jatuh pada malam 17 sampai 18 November."],
-    ["Namanya hujan meteor Leonid.", "Dalam kondisi langit gelap sempurna,", "sekitar 15 meteor bisa melintas setiap jam.",
-     "Titik asalnya rasi Leo,", "yang baru terbit sekitar pukul setengah satu dini hari.",
-     "Karena itu waktu terbaiknya pukul dua sampai menjelang subuh,", "saat bulan sudah terbenam dan langit benar-benar gelap."],
-    ["Meteor-meteor ini sebenarnya debu komet.", "Komet Tempel-Tuttle mengelilingi matahari setiap 33 tahun",
-     "dan meninggalkan jejak serpihan di sepanjang lintasannya.", "Setiap November, Bumi menabrak jejak debu itu.",
-     "Butiran sebesar pasir masuk ke atmosfer", "dan terbakar habis di ketinggian sekitar 100 kilometer."],
-    ["Tapi ada yang janggal.", "Tahun ini cuma 15 per jam,", "padahal hujan meteor yang sama pernah menggila.",
-     "Tahun 1833, Bumi menabrak gumpalan debu yang jauh lebih padat,", "dan langit Amerika diguyur sampai 100 ribu meteor per jam.",
-     "Orang-orang sampai mengira kiamat sudah tiba."],
-    ["Bedanya cuma satu.", "Gumpalan debu terpadat selalu berada di dekat kometnya,", "dan sekarang komet itu sedang jauh dari Bumi.",
-     "Badai besar berikutnya diperkirakan baru datang pada era 2030-an,", "saat sang komet kembali mendekat.",
-     "Untuk menonton yang sekarang, tidak perlu teleskop.", "Cukup tempat gelap, berbaring,", "dan beri mata 20 menit untuk beradaptasi."],
-    ["Fakta bonusnya, badai tahun 1833 itu", "yang melahirkan ilmu hujan meteor modern,",
-     "karena untuk pertama kalinya para ilmuwan sadar", "meteor datang dari luar angkasa, bukan dari cuaca.",
-     "Jadi dua malam lagi, jangan cuma menonton bintang jatuh.", "Kamu sedang melihat debu komet", "melesat 71 kilometer per detik."],
+ ["Di Bumi ada satu titik", "yang paling jauh dari manusia mana pun", "Namanya Point Nemo", "di tengah Samudra Pasifik", "Coba tebak dulu", "Manusia terdekat dari titik ini lagi berdiri di darat", "atau lagi melayang di luar angkasa", "Tulis tebakanmu di komentar"],
+ ["Titik ini ditemukan tahun 1992", "oleh seorang ahli ukur bernama Hrvoje Lukatela", "yang menghitung titik laut terjauh dari daratan", "Hasilnya di tengah Pasifik Selatan", "Ke arah mana pun kamu pergi", "daratan terdekat baru ketemu setelah 2.688 kilometer", "Isinya cuma laut sejauh mata memandang"],
+ ["Dan jawaban tebakan tadi", "manusia terdekatnya justru astronaut", "Stasiun luar angkasa internasional mengorbit", "cuma sekitar 400 kilometer di atas titik ini", "Jadi pas stasiunnya lewat", "astronaut di atas sana hampir tujuh kali lebih dekat", "ke Point Nemo daripada manusia mana pun di darat"],
+ ["Karena sepi total", "titik ini jadi kuburan pesawat luar angkasa", "Lebih dari 260 pesawat dan stasiun yang pensiun", "sengaja dijatuhkan di sini", "termasuk stasiun Mir milik Rusia", "Nanti stasiun luar angkasa yang sekarang pun", "rencananya akan dijatuhkan di titik yang sama"],
+ ["Fakta bonus", "Tahun 1997", "alat perekam di dasar laut menangkap suara super keras", "dari sekitar titik ini", "dijuluki The Bloop", "Sempat dikira suara makhluk raksasa", "Belakangan ketahuan sumbernya gempa es di Antarktika", "Di titik tersepi ini", "yang terdengar cuma suara es pecah"],
+ ["Namanya diambil dari Kapten Nemo", "di novel Jules Verne", "Nemo artinya tidak ada siapa pun", "dan memang tidak ada siapa-siapa di sana", "Jadi di titik paling sepi di Bumi ini", "manusia terdekatmu bukan tetangga", "tapi astronaut 400 kilometer di atas kepalamu"],
 ]
 RAW = json.load(open("vo/timing_bos_raw.json"))
 
@@ -81,9 +70,16 @@ total = round(phrases[-1]["end"] + 1.2, 2)
 bounds.append(total)
 def ps(si, pi): return phrases[[i for i, p in enumerate(phrases) if p["scene"] == si][pi]]["start"]
 events = {
-    "s1_card71": ps(0, 2), "s2_card15": ps(1, 2), "s2_leo": ps(1, 3), "s2_clock": ps(1, 5),
-    "s3_orbit": ps(2, 1), "s3_gauge": ps(2, 4), "s4_dots": ps(3, 1), "s4_wall": ps(3, 3),
-    "s5_comet": ps(4, 1), "s5_tips": ps(4, 5), "s6_question": round(ps(5, 4) + 1.0, 2),
+    "s1_point": ps(0, 2),
+    "s1_quiz": ps(0, 4),
+    "s2_ring": ps(1, 5),
+    "s3_payoff": ps(2, 1),
+    "s3_section": ps(2, 3),
+    "s4_counter": ps(3, 2),
+    "s5_bloop": ps(4, 4),
+    "s5_ice": ps(4, 6),
+    "s6_orbit": ps(5, 5),
+    "s6_question": round(total - 5.0, 2),
 }
 json.dump({"bounds": bounds, "total": total, "phrases": phrases, "events": events},
           open("vo/timing_bos.json", "w"), ensure_ascii=False, indent=1)

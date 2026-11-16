@@ -1,6 +1,6 @@
 # yt-short-serbatahu
 
-Sistem produksi video fakta 60 detik **Serba Tahu** (@serbatahumedia, YouTube Shorts dan Facebook), dibekukan sebagai repo pada 15 November 2026. Berisi standar produksi lengkap, kit builder Python (PIL) yang dipakai untuk merender semua episode, naskah dan kode setiap episode, paket caption, dan log episode.
+Sistem produksi video fakta 60 detik **Serba Tahu** (@serbatahumedia, YouTube Shorts dan Facebook), dibekukan sebagai repo pada 15 November 2026, diperbarui 17 November 2026. Berisi standar produksi lengkap, kit builder Python (PIL) yang dipakai untuk merender semua episode, naskah dan kode setiap episode, paket caption, dan log episode.
 
 ## Standar yang dibekukan
 
@@ -14,6 +14,9 @@ Sistem **v5** (di-acc Bos lewat episode Wabah Menari v5, 15 November 2026), deng
 - Visual dari aset asli (foto Wikimedia Commons, lukisan domain publik) plus perangkat bukti yang digambar: counter, waffle titik, diagram, peta dari GeoJSON Natural Earth, timeline. **Figur gambar kode dilarang permanen.**
 - Gerak background harus **terasa** dalam 2-3 detik: push-in atau pan jelas dengan easing, framing berganti tiap frasa (maksimal 3-5 detik), ada lapisan hidup di atas foto (garis meteor, bintang berkelip, partikel). Lukisan dan ukiran wajib dipan atau dipotong antar-crop. Zoom 2-5 persen per babak dinilai sama dengan diam dan dilarang.
 - Watermark @serbatahumedia tampil sepanjang video.
+- Semua baris headline selalu center terhadap frame (x 540), baris berkunci emas maupun tidak.
+- Desain kartu angka raksasa bergilir, tidak boleh mengulang desain yang sama terus: Kertas Stiker, Angka Polos, Lencana, Termometer.
+- Jalur animasi 2D penuh (mulai episode Pesawat, 16 November 2026): semua lapisan digambar flat dan dianimasikan. Varian gaya Geser Dikit (studi docs/hasil-belajar-geserdikit-edit-2026-11-16.md) untuk topik peta: satu panggung peta dengan kamera zoom/pan tanpa cut, ganti babak sama dengan ganti warna latar, kuis tebak dua ujung (pill di hook dibayar di tengah), angka jadi alat peraga visual (cincin jarak, potongan melintang, penghitung), chip data menetap, label tempat muncul satu-satu.
 - Audio dua stem: bed diduck berat, aksen diduck ringan plus gain. Mix final sekitar -14,5 LUFS, true peak maksimal -1,0 (ingat overshoot AAC sekitar +0,6 dB, master WAV dibuat lebih rendah).
 - Gerbang wajib sebelum kirim: ekstrak frame dari MP4 final dan periksa visualnya sendiri. QA teknis saja tidak cukup.
 - Untuk perubahan gaya atau layout: kirim preview dulu, tunggu acc, baru render penuh.
@@ -23,10 +26,10 @@ Detail lengkapnya ada di `skill/SKILL.md` (skill Claude `serba-tahu-shorts`, v3 
 ## Isi repo
 
 - `skill/` — SKILL.md standar produksi beku.
-- `kit/` — builder acuan: `build_template_v5.py` (builder Leonid v3, implementasi v5 + gerak terbaru), `build_wabah_v5_reference.py` (builder Wabah Menari v5), `make_audio_template.py` (audio dua stem), `whisper_bos.py` dan `prep_timing_bos.py` (transkrip dan alignment timing VO), `fetch_assets_example.py` (unduh aset Commons).
+- `kit/` — builder acuan: `build_template_v5.py` (builder Leonid v3, implementasi v5 + gerak terbaru), `build_wabah_v5_reference.py` (builder Wabah Menari v5), `make_audio_template.py` (audio dua stem), `whisper_bos.py` dan `prep_timing_bos.py` (transkrip dan alignment timing VO), `fetch_assets_example.py` (unduh aset Commons), `build2d_geserdikit_reference.py` (builder Point Nemo, panggung peta 2D gaya Geser Dikit).
 - `episodes/` — satu folder per episode berisi kode builder, skrip audio, naskah, file timing, dan kredit aset.
 - `data/` — `caption-shorts-serba-tahu.md` (paket judul, deskripsi, hashtag per episode) dan `episodes-log.csv` (log produksi dan metrik).
-- `docs/` — standar desain referensi dan catatan hasil belajar gaya dari YouTube.
+- `docs/` — standar desain referensi dan catatan hasil belajar gaya (YouTube, TikTok, studi foto/collage/retro, studi Geser Dikit, studi motion 2D).
 
 ## Cara produksi satu episode
 
@@ -49,6 +52,6 @@ Repo ini hanya berisi file teks agar ringan dan bisa di-push sebagai snapshot. A
 
 ## Episode (per November 2026)
 
-Petir, Pelangi, Menara Pisa, Kartu Kuning dan Merah, Penantang Ronaldo, Seberapa Dalam Lautan, Piramida Giza, Tata Surya Kertas, Korea Pecah, Perang Dunia 1, Pulau Terluar, Pearl Harbor, Tsunami, Es Mengapung, Garis Wallace, Wapres Kosong, Zona Waktu, Wabah Menari 1518, Hujan Meteor Leonid.
+Petir, Pelangi, Menara Pisa, Kartu Kuning dan Merah, Penantang Ronaldo, Seberapa Dalam Lautan, Piramida Giza, Tata Surya Kertas, Korea Pecah, Perang Dunia 1, Pulau Terluar, Pearl Harbor, Tsunami, Es Mengapung, Garis Wallace, Wapres Kosong, Zona Waktu, Wabah Menari 1518, Hujan Meteor Leonid, Danau Toba, Peta Mercator, Danau Baikal, Sahara Pernah Hijau, Kanada Negeri Danau, El Niño 2026, Kenapa Pesawat Terbang 10 Kilometer, Point Nemo.
 
 Kanal: Serba Tahu, @serbatahumedia di YouTube.

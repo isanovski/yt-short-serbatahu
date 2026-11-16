@@ -1,0 +1,288 @@
+{
+ "bounds": [
+  0.0,
+  16.38,
+  31.88,
+  50.92,
+  68.06,
+  85.48,
+  105.78
+ ],
+ "total": 105.78,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Setiap pesawat penumpang yang kamu naiki",
+   "start": 0.0,
+   "end": 2.48
+  },
+  {
+   "scene": 0,
+   "text": "terbang di ketinggian sekitar 10 kilometer",
+   "start": 2.94,
+   "end": 5.7
+  },
+  {
+   "scene": 0,
+   "text": "Itu dua kali tinggi Puncak Jaya",
+   "start": 5.7,
+   "end": 7.74
+  },
+  {
+   "scene": 0,
+   "text": "gunung tertinggi di Indonesia",
+   "start": 8.12,
+   "end": 9.58
+  },
+  {
+   "scene": 0,
+   "text": "Tapi kenapa harus setinggi itu",
+   "start": 10.18,
+   "end": 12.26
+  },
+  {
+   "scene": 0,
+   "text": "Kenapa tidak lebih rendah saja",
+   "start": 12.74,
+   "end": 14.16
+  },
+  {
+   "scene": 0,
+   "text": "atau sekalian lebih tinggi",
+   "start": 14.56,
+   "end": 15.84
+  },
+  {
+   "scene": 1,
+   "text": "Alasan utamanya adalah udara",
+   "start": 16.38,
+   "end": 18.2
+  },
+  {
+   "scene": 1,
+   "text": "Di ketinggian 10 kilometer",
+   "start": 18.2,
+   "end": 20.92
+  },
+  {
+   "scene": 1,
+   "text": "kerapatan udara tinggal sekitar sepertiga dibanding di permukaan",
+   "start": 20.92,
+   "end": 24.38
+  },
+  {
+   "scene": 1,
+   "text": "Udara yang tipis berarti hambatan yang kecil",
+   "start": 24.94,
+   "end": 27.36
+  },
+  {
+   "scene": 1,
+   "text": "jadi pesawat meluncur lebih ringan",
+   "start": 27.36,
+   "end": 29.62
+  },
+  {
+   "scene": 1,
+   "text": "dan bahan bakarnya jauh lebih irit",
+   "start": 29.92,
+   "end": 31.88
+  },
+  {
+   "scene": 2,
+   "text": "Di ketinggian itu pesawat juga terbang",
+   "start": 31.88,
+   "end": 34.8
+  },
+  {
+   "scene": 2,
+   "text": "di atas hampir semua cuaca buruk",
+   "start": 34.8,
+   "end": 37.1
+  },
+  {
+   "scene": 2,
+   "text": "Awan hujan dan badai hampir semuanya terjadi",
+   "start": 37.1,
+   "end": 40.7
+  },
+  {
+   "scene": 2,
+   "text": "di lapisan udara bawah",
+   "start": 40.7,
+   "end": 41.96
+  },
+  {
+   "scene": 2,
+   "text": "Bonusnya suhu di luar pesawat minus 50 derajat lebih",
+   "start": 42.36,
+   "end": 46.16
+  },
+  {
+   "scene": 2,
+   "text": "dan mesin jet justru bekerja paling efisien",
+   "start": 46.6,
+   "end": 49.06
+  },
+  {
+   "scene": 2,
+   "text": "di udara sedingin itu",
+   "start": 49.06,
+   "end": 50.38
+  },
+  {
+   "scene": 3,
+   "text": "Tapi ternyata pesawat tidak bisa sekalian",
+   "start": 50.92,
+   "end": 53.66
+  },
+  {
+   "scene": 3,
+   "text": "terbang jauh lebih tinggi",
+   "start": 53.66,
+   "end": 54.92
+  },
+  {
+   "scene": 3,
+   "text": "Di atas 12 kilometer udara terlalu tipis",
+   "start": 54.92,
+   "end": 58.38
+  },
+  {
+   "scene": 3,
+   "text": "Sayap kehilangan daya angkat",
+   "start": 58.8,
+   "end": 60.1
+  },
+  {
+   "scene": 3,
+   "text": "dan mesin jet mulai kekurangan oksigen",
+   "start": 60.46,
+   "end": 62.22
+  },
+  {
+   "scene": 3,
+   "text": "untuk membakar bahan bakar",
+   "start": 62.22,
+   "end": 63.72
+  },
+  {
+   "scene": 3,
+   "text": "Ketinggian jelajah pesawat penumpang pun dibatasi",
+   "start": 64.0,
+   "end": 66.54
+  },
+  {
+   "scene": 3,
+   "text": "di kisaran itu",
+   "start": 66.54,
+   "end": 67.46
+  },
+  {
+   "scene": 4,
+   "text": "Terbang terlalu rendah juga rugi",
+   "start": 68.06,
+   "end": 69.86
+  },
+  {
+   "scene": 4,
+   "text": "Hambatan udara besar membuat bahan bakar boros",
+   "start": 70.3,
+   "end": 72.52
+  },
+  {
+   "scene": 4,
+   "text": "lalu ada turbulensi badai kawanan burung",
+   "start": 73.02,
+   "end": 76.16
+  },
+  {
+   "scene": 4,
+   "text": "sampai pegunungan",
+   "start": 76.48,
+   "end": 77.34
+  },
+  {
+   "scene": 4,
+   "text": "Jadi 10 kilometer adalah titik temunya",
+   "start": 77.88,
+   "end": 80.12
+  },
+  {
+   "scene": 4,
+   "text": "Cukup tinggi untuk irit dan tenang",
+   "start": 80.58,
+   "end": 82.28
+  },
+  {
+   "scene": 4,
+   "text": "tapi belum terlalu tinggi untuk sayap dan mesin",
+   "start": 82.28,
+   "end": 84.9
+  },
+  {
+   "scene": 5,
+   "text": "Fakta bonus",
+   "start": 85.48,
+   "end": 86.18
+  },
+  {
+   "scene": 5,
+   "text": "Pesawat supersonik Concorde dulu terbang jauh lebih tinggi",
+   "start": 86.56,
+   "end": 89.46
+  },
+  {
+   "scene": 5,
+   "text": "di 17 kilometer",
+   "start": 89.46,
+   "end": 91.2
+  },
+  {
+   "scene": 5,
+   "text": "Dari jendelanya penumpang bisa melihat lengkungan Bumi",
+   "start": 91.2,
+   "end": 93.98
+  },
+  {
+   "scene": 5,
+   "text": "dan langit yang mulai gelap",
+   "start": 93.98,
+   "end": 95.12
+  },
+  {
+   "scene": 5,
+   "text": "Jadi 10 kilometer itu bukan angka asal pilih",
+   "start": 95.66,
+   "end": 98.38
+  },
+  {
+   "scene": 5,
+   "text": "Itu ketinggian paling pas yang ditemukan dunia penerbangan",
+   "start": 98.62,
+   "end": 101.42
+  },
+  {
+   "scene": 5,
+   "text": "dan kita tetap tidak merasakannya",
+   "start": 101.76,
+   "end": 103.56
+  },
+  {
+   "scene": 5,
+   "text": "dari kursi penumpang",
+   "start": 103.56,
+   "end": 104.58
+  }
+ ],
+ "events": {
+  "s1_card": 2.94,
+  "s2_board": 20.92,
+  "s3_storm": 34.8,
+  "s3_cold": 42.36,
+  "s4_limit": 54.92,
+  "s5_ladder": 77.88,
+  "s6_earth": 91.2,
+  "s6_question": 100.78
+ }
+}

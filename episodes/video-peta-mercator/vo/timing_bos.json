@@ -1,0 +1,271 @@
+{
+ "bounds": [
+  1.46,
+  20.98,
+  36.94,
+  56.2,
+  73.18,
+  87.86,
+  103.16
+ ],
+ "total": 103.16,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Di peta dunia, Greenland kelihatan",
+   "start": 1.46,
+   "end": 9.7
+  },
+  {
+   "scene": 0,
+   "text": "hampir sebesar Afrika.",
+   "start": 9.7,
+   "end": 10.76
+  },
+  {
+   "scene": 0,
+   "text": "Padahal luas asli Afrika empat belas kali",
+   "start": 11.22,
+   "end": 13.74
+  },
+  {
+   "scene": 0,
+   "text": "lebih besar dari Greenland.",
+   "start": 13.74,
+   "end": 14.92
+  },
+  {
+   "scene": 0,
+   "text": "Jadi selama ini, peta yang kita lihat sejak sekolah",
+   "start": 15.5,
+   "end": 18.0
+  },
+  {
+   "scene": 0,
+   "text": "itu berbohong soal ukuran.",
+   "start": 18.0,
+   "end": 19.38
+  },
+  {
+   "scene": 1,
+   "text": "Peta itu namanya proyeksi Mercator,",
+   "start": 20.98,
+   "end": 22.92
+  },
+  {
+   "scene": 1,
+   "text": "digambar Gerardus Mercator pada tahun 1569.",
+   "start": 23.32,
+   "end": 25.68
+  },
+  {
+   "scene": 1,
+   "text": "Tujuannya bukan menipu.",
+   "start": 26.64,
+   "end": 27.78
+  },
+  {
+   "scene": 1,
+   "text": "Peta ini dibuat untuk pelaut,",
+   "start": 28.12,
+   "end": 29.4
+  },
+  {
+   "scene": 1,
+   "text": "karena di atasnya garis arah kompas selalu lurus,",
+   "start": 29.4,
+   "end": 32.18
+  },
+  {
+   "scene": 1,
+   "text": "jadi kapal bisa berlayar mengikuti satu arah tanpa belok.",
+   "start": 32.48,
+   "end": 35.2
+  },
+  {
+   "scene": 2,
+   "text": "Masalahnya, bumi itu bulat dan peta itu datar.",
+   "start": 36.94,
+   "end": 39.64
+  },
+  {
+   "scene": 2,
+   "text": "Supaya muat, Mercator menarik daerah",
+   "start": 39.94,
+   "end": 41.86
+  },
+  {
+   "scene": 2,
+   "text": "yang jauh dari khatulistiwa jadi melebar.",
+   "start": 41.86,
+   "end": 43.66
+  },
+  {
+   "scene": 2,
+   "text": "Di lintang enam puluh derajat,",
+   "start": 44.18,
+   "end": 45.46
+  },
+  {
+   "scene": 2,
+   "text": "luas di peta membengkak empat kali.",
+   "start": 45.68,
+   "end": 47.24
+  },
+  {
+   "scene": 2,
+   "text": "Makin dekat ke kutub, makin besar bohongnya.",
+   "start": 47.72,
+   "end": 49.78
+  },
+  {
+   "scene": 2,
+   "text": "Sebaliknya Indonesia yang dilewati khatulistiwa",
+   "start": 50.26,
+   "end": 52.62
+  },
+  {
+   "scene": 2,
+   "text": "hampir tidak berubah ukurannya di peta.",
+   "start": 52.62,
+   "end": 54.5
+  },
+  {
+   "scene": 3,
+   "text": "Angka aslinya begini.",
+   "start": 56.2,
+   "end": 57.4
+  },
+  {
+   "scene": 3,
+   "text": "Afrika luasnya tiga puluh koma tiga tujuh",
+   "start": 57.4,
+   "end": 60.35
+  },
+  {
+   "scene": 3,
+   "text": "juta kilometer persegi.",
+   "start": 60.35,
+   "end": 60.84
+  },
+  {
+   "scene": 3,
+   "text": "Greenland cuma dua koma satu enam juta.",
+   "start": 61.28,
+   "end": 62.94
+  },
+  {
+   "scene": 3,
+   "text": "Bahkan Rusia yang di peta kelihatan lebih besar dari Afrika,",
+   "start": 63.3,
+   "end": 65.96
+  },
+  {
+   "scene": 3,
+   "text": "luas aslinya tidak sampai enam puluh persennya Afrika.",
+   "start": 66.34,
+   "end": 68.56
+  },
+  {
+   "scene": 3,
+   "text": "Greenland sendiri luasnya hampir sama dengan Indonesia.",
+   "start": 69.26,
+   "end": 71.42
+  },
+  {
+   "scene": 4,
+   "text": "Lalu kenapa peta ini masih dipakai di mana mana,",
+   "start": 73.18,
+   "end": 75.58
+  },
+  {
+   "scene": 4,
+   "text": "termasuk Google Maps?",
+   "start": 75.88,
+   "end": 76.68
+  },
+  {
+   "scene": 4,
+   "text": "Karena untuk jalan dan kota,",
+   "start": 77.24,
+   "end": 78.48
+  },
+  {
+   "scene": 4,
+   "text": "bentuk dan sudutnya tetap benar,",
+   "start": 78.8,
+   "end": 80.18
+  },
+  {
+   "scene": 4,
+   "text": "jadi navigasi harian tetap akurat.",
+   "start": 80.52,
+   "end": 81.98
+  },
+  {
+   "scene": 4,
+   "text": "Yang dikorbankan cuma satu,",
+   "start": 82.46,
+   "end": 83.62
+  },
+  {
+   "scene": 4,
+   "text": "perbandingan ukuran antar daerah yang jauh letaknya.",
+   "start": 84.04,
+   "end": 86.22
+  },
+  {
+   "scene": 5,
+   "text": "Fakta bonusnya, pada tahun 2017",
+   "start": 87.86,
+   "end": 89.94
+  },
+  {
+   "scene": 5,
+   "text": "sekolah negeri di Boston resmi mengganti",
+   "start": 90.42,
+   "end": 91.86
+  },
+  {
+   "scene": 5,
+   "text": "semua peta kelasnya dengan peta penyeimbang luas,",
+   "start": 91.86,
+   "end": 93.96
+  },
+  {
+   "scene": 5,
+   "text": "supaya murid melihat ukuran benua yang sebenarnya.",
+   "start": 94.18,
+   "end": 96.38
+  },
+  {
+   "scene": 5,
+   "text": "Jadi lain kali melihat Greenland sebesar Afrika di peta,",
+   "start": 96.8,
+   "end": 99.24
+  },
+  {
+   "scene": 5,
+   "text": "ingat, yang membesar bukan Greenlandnya, tapi petanya.",
+   "start": 99.42,
+   "end": 101.96
+  }
+ ],
+ "events": {
+  "s1_card14": 11.22,
+  "s2_rhumb": 29.4,
+  "s3_bars": 44.18,
+  "s3_indo": 50.26,
+  "s4_stamp": 56.2,
+  "s4_row_afrika": 57.4,
+  "s4_row_greenland": 61.28,
+  "s4_row_rusia": 63.3,
+  "s4_row_indo": 69.26,
+  "s4_overlay": 61.28,
+  "s5_grid": 77.24,
+  "s5_cross": 82.46,
+  "s6_card2017": 87.86,
+  "s6_peters": 91.86,
+  "s6_question": 99.42
+ }
+}
