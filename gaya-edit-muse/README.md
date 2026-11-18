@@ -8,8 +8,9 @@ Disusun oleh Muse untuk Isanovski. Isinya desain dan standar kerja Muse sendiri,
 1. Baca `src/konten.md` dulu. Di situ ada peta keputusan, prinsip inti, dan semua angka gaya tiap sistem.
 2. Buka file sistem sesuai lini di `src/` (SerbaTahu, Sport, Eksperimen, LiniLain) untuk cara kerja lengkapnya.
 3. Kerjakan video mengikuti file sistem itu. Satu video, satu sistem.
-4. Sebelum kirim ke Bos, jalankan gerbang kirim di file sistemnya: ekstrak frame dari MP4 final dan periksa sendiri.
-5. Kalau angka di file sistem beda dengan `src/konten.md`, yang menang adalah `src/konten.md`.
+4. Buat episode baru lewat template eksekusi di `template/` (salinan kerja kanonis lokal di `~/workspace/template-muse/`): isi kontrak JSON-nya, lalu jalankan driver `mesin/buat.py`. Jangan merakit ulang dari folder episode lama.
+5. Sebelum kirim ke Bos, jalankan gerbang kirim di file sistemnya: ekstrak frame dari MP4 final dan periksa sendiri.
+6. Kalau angka di file sistem beda dengan `src/konten.md`, yang menang adalah `src/konten.md`.
 
 ## Isi `src/konten.md`
 - `peta`: lini → sistem → status (terkunci, standar, eksperimen)
@@ -17,6 +18,7 @@ Disusun oleh Muse untuk Isanovski. Isinya desain dan standar kerja Muse sendiri,
 - `angkaSerbaTahu`: canvas, zona aman, titik center, jumlah kata naskah, target loudness
 - `angkaSport`: canvas, caption, kartu, posisi, target loudness
 - `audio`: aturan bersama (VO dulu, SFX di-duck di bawah VO)
+- `template`: lokasi template eksekusi tiap lini, perintah drivernya, bukti tes, dan batas yang masih berlaku
 
 ## Aset contoh
 Folder `public/contoh/` berisi hasil nyata sebagai acuan visual, bukan placeholder:
@@ -44,6 +46,9 @@ gaya-edit-muse/
 │   ├── Sport.md          # sistem sport Muse
 │   ├── Eksperimen.md     # template & pack pihak ketiga + aturan klaim
 │   └── LiniLain.md       # stickman + kartun 3D
+├── template/
+│   ├── sport/            # template eksekusi sport (prompt, kontrak JSON, mesin)
+│   └── serba-tahu/       # template eksekusi Point Nemo (prompt, kontrak JSON, mesin)
 ├── README.md
 ├── LICENSE
 └── .gitignore

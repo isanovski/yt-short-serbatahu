@@ -1,0 +1,639 @@
+{
+ "judul": "Kurang 15 Gol Lagi, Ronaldo Cetak Sejarah 1.000 Gol?",
+ "slug": "ronaldo-1000",
+ "kategori": "FAKTA SPORT",
+ "fakta": {
+  "dataPer": "2026-11-12",
+  "ringkasan": "Ronaldo 985 gol resmi senior (klub 839 + Portugal 146), kurang 15 ke 1.000. Madrid 450, MU 145, Al Nassr 138, Juventus 101, Sporting 5. Pensiun timnas 5 Nov 2026. Rasio Al Nassr 0,86/laga, proyeksi gol ke-1.000 Maret 2027.",
+  "sumber": "moneyball-odds.com, sportsadda.asia, onethousandgoals.com, apexnews.com (sepakat, dicek 18 Nov 2026)"
+ },
+ "skrip": "Cristiano Ronaldo cuma butuh lima belas gol lagi buat nyentuh angka yang belum pernah dicapai pemain mana pun dalam sejarah sepak bola resmi. Seribu gol.\n\nTotal gol resminya sekarang sembilan ratus delapan puluh lima. Delapan ratus tiga puluh sembilan buat klub, seratus empat puluh enam buat timnas Portugal. Gol terakhirnya adalah hat-trick dalam lima belas menit lawan Al Kholood, akhir Oktober kemarin.\n\nRinciannya gila. Empat ratus lima puluh gol cuma buat Real Madrid, itu rekor klub. Seratus empat puluh lima buat Manchester United, seratus tiga puluh delapan buat Al Nassr, seratus satu buat Juventus, dan lima buat Sporting, tempat semuanya dimulai. Buat Portugal, seratus empat puluh enam golnya adalah rekor gol internasional terbanyak sepanjang masa.\n\nMasalahnya, jalur timnas sudah tertutup. Ronaldo pensiun dari Portugal tanggal lima November kemarin, jadi lima belas gol sisa itu harus datang semuanya dari Al Nassr.\n\nHitungannya begini. Di Al Nassr dia bikin gol dengan rasio nol koma delapan enam per pertandingan, jadi lima belas gol itu kira-kira butuh tujuh belas pertandingan lagi. Kalau lajunya stabil, gol ke seribu diproyeksikan jatuh sekitar Maret dua ribu dua puluh tujuh, pas dia berumur empat puluh dua tahun.\n\nSatu catatan kecil, hitungan ini bisa beda satu gol tergantung sumbernya, karena Real Madrid mengklaim satu gol tahun dua ribu sepuluh yang resmi dicatat atas nama Pepe.\n\nJadi menurut lu, gol ke seribu Ronaldo lahir musim ini juga, atau tubuhnya keburu berhenti duluan?",
+ "segmen": [
+  {
+   "id": "s01_hook",
+   "sumber": "Doiq12y4078.mp4",
+   "mulai": 408,
+   "durasi": 4.2,
+   "cx": 0.45,
+   "catatan": "closeup Ronaldo menunjuk, highlight resmi Al Nassr vs Al Kholood"
+  },
+  {
+   "id": "s02_drib",
+   "sumber": "mDOhbQyOp2I.mp4",
+   "mulai": 448,
+   "durasi": 4.2,
+   "cx": 0.5,
+   "catatan": "closeup kaki + bola dribel, kompilasi Roshn Saudi League"
+  },
+  {
+   "id": "s03_head",
+   "sumber": "Doiq12y4078.mp4",
+   "mulai": 86,
+   "durasi": 4.5,
+   "cx": 0.5,
+   "catatan": "serangan sundulan ke gawang"
+  },
+  {
+   "id": "s04_goal",
+   "sumber": "Doiq12y4078.mp4",
+   "mulai": 218,
+   "durasi": 4.5,
+   "cx": 0.5,
+   "catatan": "adegan serangan gol, Ronaldo di frame"
+  },
+  {
+   "id": "s05_jump",
+   "sumber": "Doiq12y4078.mp4",
+   "mulai": 466,
+   "durasi": 4.5,
+   "cx": 0.5,
+   "catatan": "replay gol dari belakang gawang, selebrasi punggung RONALDO 7"
+  },
+  {
+   "id": "s06_mad",
+   "sumber": "xYGK6lxqAqI.mp4",
+   "mulai": 220,
+   "durasi": 5.4,
+   "cx": 0.5,
+   "catatan": "sundulan gol vs Valencia, LaLiga Top 10"
+  },
+  {
+   "id": "s07_mu",
+   "sumber": "ilbnRQE3tpw.mp4",
+   "mulai": 32.8,
+   "durasi": 2.6,
+   "cx": 0.5,
+   "catatan": "dribel Ronaldo MU"
+  },
+  {
+   "id": "s08_nassr",
+   "sumber": "mDOhbQyOp2I.mp4",
+   "mulai": 296,
+   "durasi": 2.1,
+   "cx": 0.5,
+   "catatan": "selebrasi tim Al Nassr"
+  },
+  {
+   "id": "s09_juve",
+   "sumber": "62jKF_eCPqc.mp4",
+   "mulai": 338,
+   "durasi": 2.0,
+   "cx": 0.5,
+   "catatan": "tendangan Ronaldo kit hitam Juventus"
+  },
+  {
+   "id": "s10_close",
+   "sumber": "xYGK6lxqAqI.mp4",
+   "mulai": 192,
+   "durasi": 2.9,
+   "cx": 0.5,
+   "catatan": "pelukan selebrasi Ronaldo (jembatan ke Sporting)"
+  },
+  {
+   "id": "s11_port",
+   "sumber": "is8JWdOeinI.mp4",
+   "mulai": 134,
+   "durasi": 5.3,
+   "cx": 0.5,
+   "catatan": "selebrasi Siu Portugal, UEFA"
+  },
+  {
+   "id": "s12_fans",
+   "sumber": "is8JWdOeinI.mp4",
+   "mulai": 326,
+   "durasi": 4.2,
+   "cx": 0.5,
+   "catatan": "selebrasi menunjuk ke atas + kerumunan"
+  },
+  {
+   "id": "s13_smile",
+   "sumber": "Doiq12y4078.mp4",
+   "mulai": 356,
+   "durasi": 5.2,
+   "cx": 0.5,
+   "catatan": "senyum + tangan terangkat Al Nassr"
+  },
+  {
+   "id": "s14_heart",
+   "sumber": "mDOhbQyOp2I.mp4",
+   "mulai": 508,
+   "durasi": 5.0,
+   "cx": 0.5,
+   "catatan": "tendangan salto"
+  },
+  {
+   "id": "s15_run",
+   "sumber": "mDOhbQyOp2I.mp4",
+   "mulai": 258,
+   "durasi": 5.0,
+   "cx": 0.5,
+   "catatan": "dribel 1v1"
+  },
+  {
+   "id": "s16_act",
+   "sumber": "mDOhbQyOp2I.mp4",
+   "mulai": 528,
+   "durasi": 5.2,
+   "cx": 0.5,
+   "catatan": "voli udara"
+  },
+  {
+   "id": "s17_isco",
+   "sumber": "xYGK6lxqAqI.mp4",
+   "mulai": 112,
+   "durasi": 4.4,
+   "cx": 0.55,
+   "catatan": "Ronaldo + Isco berpelukan"
+  },
+  {
+   "id": "s18_drib2",
+   "sumber": "xYGK6lxqAqI.mp4",
+   "mulai": 124,
+   "durasi": 4.4,
+   "cx": 0.5,
+   "catatan": "tendangan vs Espanyol"
+  },
+  {
+   "id": "s19_siu",
+   "sumber": "Doiq12y4078.mp4",
+   "mulai": 426,
+   "durasi": 5.6,
+   "cx": 0.5,
+   "catatan": "tos selebrasi dengan rekan setim"
+  }
+ ],
+ "overlay": [
+  {
+   "id": "hook",
+   "jenis": "hook",
+   "mulai": 0,
+   "durasi": 5.4,
+   "baris": [
+    "RONALDO KURANG",
+    "15 GOL LAGI",
+    "MENUJU 1.000 GOL"
+   ],
+   "warnaBaris": [
+    "putih",
+    "putih",
+    "emas"
+   ]
+  },
+  {
+   "id": "penghitung",
+   "jenis": "penghitung",
+   "tambat": {
+    "frasa": "sembilan ratus delapan puluh lima",
+    "offset": -1.12
+   },
+   "durasi": 3.6,
+   "ke": 985,
+   "label": "TOTAL GOL RESMI"
+  },
+  {
+   "id": "kurang",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "delapan ratus tiga puluh sembilan",
+    "offset": -0.28
+   },
+   "durasi": 3.8,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "KURANG 15 GOL LAGI",
+     "font": "anton",
+     "ukuran": 76,
+     "warna": "emas"
+    }
+   ]
+  },
+  {
+   "id": "hattrick",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "hat-trick dalam lima belas menit",
+    "offset": -0.86
+   },
+   "durasi": 4.2,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "HAT-TRICK 15 MENIT",
+     "font": "anton",
+     "ukuran": 62,
+     "warna": "emas"
+    },
+    {
+     "teks": "VS AL KHOLOOD • 29 OKT 2026",
+     "font": "bold",
+     "ukuran": 38,
+     "warna": "putih"
+    }
+   ]
+  },
+  {
+   "id": "club_madrid",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "empat ratus lima puluh gol",
+    "offset": 0.3
+   },
+   "durasi": 2.8,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "REAL MADRID",
+     "font": "bold",
+     "ukuran": 42,
+     "warna": "putih"
+    },
+    {
+     "teks": "450 GOL",
+     "font": "anton",
+     "ukuran": 84,
+     "warna": "emas"
+    }
+   ]
+  },
+  {
+   "id": "club_mu",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "seratus empat puluh lima buat Manchester United",
+    "offset": -0.94
+   },
+   "durasi": 2.3,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "MANCHESTER UNITED",
+     "font": "bold",
+     "ukuran": 42,
+     "warna": "putih"
+    },
+    {
+     "teks": "145 GOL",
+     "font": "anton",
+     "ukuran": 84,
+     "warna": "emas"
+    }
+   ]
+  },
+  {
+   "id": "club_nassr",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "seratus tiga puluh delapan buat Al Nassr",
+    "offset": 0.34
+   },
+   "durasi": 1.9,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "AL NASSR",
+     "font": "bold",
+     "ukuran": 42,
+     "warna": "putih"
+    },
+    {
+     "teks": "138 GOL",
+     "font": "anton",
+     "ukuran": 84,
+     "warna": "emas"
+    }
+   ]
+  },
+  {
+   "id": "club_juve",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "seratus satu buat Juventus",
+    "offset": -0.84
+   },
+   "durasi": 1.8,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "JUVENTUS",
+     "font": "bold",
+     "ukuran": 42,
+     "warna": "putih"
+    },
+    {
+     "teks": "101 GOL",
+     "font": "anton",
+     "ukuran": 84,
+     "warna": "emas"
+    }
+   ]
+  },
+  {
+   "id": "club_sporting",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "dan lima buat Sporting",
+    "offset": 0.1
+   },
+   "durasi": 2.6,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "SPORTING CP",
+     "font": "bold",
+     "ukuran": 42,
+     "warna": "putih"
+    },
+    {
+     "teks": "5 GOL",
+     "font": "anton",
+     "ukuran": 84,
+     "warna": "emas"
+    }
+   ]
+  },
+  {
+   "id": "club_portugal",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "Buat Portugal, seratus empat puluh enam golnya",
+    "offset": 0.22
+   },
+   "durasi": 4.6,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "PORTUGAL",
+     "font": "bold",
+     "ukuran": 42,
+     "warna": "putih"
+    },
+    {
+     "teks": "146 GOL • REKOR INTERNASIONAL",
+     "font": "anton",
+     "ukuran": 54,
+     "warna": "emas"
+    }
+   ]
+  },
+  {
+   "id": "closed",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "jalur timnas sudah tertutup",
+    "offset": -0.2
+   },
+   "durasi": 5.6,
+   "aksen": "merah",
+   "baris": [
+    {
+     "teks": "JALUR TIMNAS TERTUTUP",
+     "font": "anton",
+     "ukuran": 58,
+     "warna": "merah"
+    },
+    {
+     "teks": "PENSIUN 5 NOV 2026 • 234 CAPS",
+     "font": "bold",
+     "ukuran": 38,
+     "warna": "putih"
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "rasio nol koma delapan enam",
+    "offset": -0.54
+   },
+   "durasi": 7.0,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "0,86 GOL PER LAGA",
+     "font": "anton",
+     "ukuran": 66,
+     "warna": "emas"
+    },
+    {
+     "teks": "DI AL NASSR • ±17 LAGA LAGI",
+     "font": "bold",
+     "ukuran": 38,
+     "warna": "putih"
+    }
+   ]
+  },
+  {
+   "id": "proj",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "kalau lajunya stabil",
+    "offset": 1.12
+   },
+   "durasi": 5.0,
+   "aksen": "emas",
+   "baris": [
+    {
+     "teks": "GOL KE-1.000 DIPROYEKSIKAN",
+     "font": "bold",
+     "ukuran": 40,
+     "warna": "putih"
+    },
+    {
+     "teks": "MARET 2027 • USIA 42 TAHUN",
+     "font": "anton",
+     "ukuran": 58,
+     "warna": "emas"
+    }
+   ]
+  },
+  {
+   "id": "caveat",
+   "jenis": "kartu",
+   "tambat": {
+    "frasa": "hitungan ini bisa beda satu gol",
+    "offset": 0.46
+   },
+   "durasi": 6.0,
+   "aksen": "biru",
+   "baris": [
+    {
+     "teks": "CATATAN HITUNGAN",
+     "font": "anton",
+     "ukuran": 56,
+     "warna": "biru"
+    },
+    {
+     "teks": "MADRID KLAIM 451 • 1 GOL ATAS NAMA PEPE",
+     "font": "bold",
+     "ukuran": 34,
+     "warna": "putih"
+    }
+   ]
+  },
+  {
+   "id": "penutup",
+   "jenis": "penutup",
+   "tambat": {
+    "frasa": "jadi menurut lu",
+    "offset": 0.2
+   },
+   "durasi": 5.0,
+   "pertanyaan": "MENURUT LU?",
+   "pilihan": [
+    "MUSIM INI JUGA",
+    "KEBUROU BERHENTI"
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "suara": "whoosh",
+   "frasa": "total gol resminya sekarang",
+   "offset": -0.94,
+   "gain": 0.5
+  },
+  {
+   "suara": "whoosh",
+   "frasa": "rinciannya gila",
+   "offset": -0.78,
+   "gain": 0.5
+  },
+  {
+   "suara": "whoosh",
+   "frasa": "masalahnya",
+   "offset": -0.58,
+   "gain": 0.5
+  },
+  {
+   "suara": "whoosh",
+   "frasa": "hitungannya begini",
+   "offset": 0.02,
+   "gain": 0.5
+  },
+  {
+   "suara": "whoosh",
+   "frasa": "satu catatan kecil",
+   "offset": -0.74,
+   "gain": 0.5
+  },
+  {
+   "suara": "whoosh",
+   "frasa": "jadi menurut lu",
+   "offset": -0.4,
+   "gain": 0.5
+  },
+  {
+   "suara": "tick",
+   "overlay": "penghitung",
+   "offset": 0.6,
+   "gain": 0.7
+  },
+  {
+   "suara": "tick",
+   "overlay": "penghitung",
+   "offset": 1.3,
+   "gain": 0.7
+  },
+  {
+   "suara": "tick",
+   "overlay": "penghitung",
+   "offset": 2.0,
+   "gain": 0.7
+  },
+  {
+   "suara": "tick",
+   "overlay": "penghitung",
+   "offset": 2.7,
+   "gain": 0.7
+  },
+  {
+   "suara": "thud",
+   "overlay": "penghitung",
+   "offset": 3.55,
+   "gain": 0.9
+  },
+  {
+   "suara": "ding",
+   "overlay": "penghitung",
+   "offset": 3.7,
+   "gain": 0.5
+  },
+  {
+   "suara": "crowd",
+   "frasa": "hat-trick dalam lima belas menit",
+   "offset": -1.06,
+   "gain": 0.65,
+   "sumber": "Doiq12y4078.mp4",
+   "sumberMulai": 88,
+   "durasi": 4
+  },
+  {
+   "suara": "pop",
+   "overlay": "club_madrid",
+   "offset": 0,
+   "gain": 0.8
+  },
+  {
+   "suara": "pop",
+   "overlay": "club_mu",
+   "offset": 0,
+   "gain": 0.8
+  },
+  {
+   "suara": "pop",
+   "overlay": "club_nassr",
+   "offset": 0,
+   "gain": 0.8
+  },
+  {
+   "suara": "pop",
+   "overlay": "club_juve",
+   "offset": 0,
+   "gain": 0.8
+  },
+  {
+   "suara": "pop",
+   "overlay": "club_sporting",
+   "offset": 0,
+   "gain": 0.8
+  },
+  {
+   "suara": "ding",
+   "overlay": "club_portugal",
+   "offset": 0,
+   "gain": 0.55
+  },
+  {
+   "suara": "pop",
+   "overlay": "closed",
+   "offset": 0,
+   "gain": 0.7
+  },
+  {
+   "suara": "pop",
+   "overlay": "ratio",
+   "offset": 0,
+   "gain": 0.7
+  },
+  {
+   "suara": "pop",
+   "overlay": "proj",
+   "offset": 0,
+   "gain": 0.7
+  },
+  {
+   "suara": "riser",
+   "frasa": "jadi menurut lu",
+   "offset": -0.3,
+   "gain": 0.8
+  },
+  {
+   "suara": "ding",
+   "overlay": "penutup",
+   "offset": 0.1,
+   "gain": 0.6
+  }
+ ]
+}
