@@ -94,3 +94,37 @@ SEG_CRF = 16                       # potongan segmen sumber
 VENV_PYTHON = "/home/hatch/workspace/tools/tts-venv/bin/python"
 WHISPER_MODEL = "small"
 WHISPER_LANG = "id"
+
+# --- preset subtitle (dari studio-clipper motion/src/tema.tsx + Video.tsx) ---
+# Preset HANYA mengatur rupa caption (font, ukuran 64-84, warna, latar).
+# Aturan terkunci di atas (CAP_MAX_WORDS, satu potong satu waktu, CAP_TOP)
+# TIDAK diubah preset. Data: preset_subtitle.json; font: folder fonts/.
+import json as _json, os as _os, random as _random
+_DIR_MESIN = _os.path.dirname(_os.path.abspath(__file__))
+PRESET_JSON = _os.path.join(_DIR_MESIN, "preset_subtitle.json")
+FONTS_DIR = _os.path.join(_DIR_MESIN, "fonts")
+CAP_UKURAN_MIN, CAP_UKURAN_MAKS = 64, 84   # rentang ukuran font preset (terkunci)
+
+def muat_preset():
+    with open(PRESET_JSON, encoding="utf-8") as f:
+        return _json.load(f)["preset"]
+
+def pilih_preset(pilihan="random", seed=None):
+    """Kembalikan (kunci, preset, seed). pilihan: nama preset atau 'random'.
+    Seed yang dipakai selalu dikembalikan supaya pilihan acak bisa direproduksi."""
+    semua = muat_preset()
+    if pilihan and pilihan != "random":
+        if pilihan not in semua:
+            raise KeyError(f"preset '{pilihan}' tidak ada; pilihan: {sorted(semua)}")
+        return pilihan, semua[pilihan], seed
+    if seed is None:
+        seed = _random.SystemRandom().randrange(0, 2 ** 31)
+    kunci = _random.Random(seed).choice(sorted(semua.keys()))
+    return kunci, semua[kunci], seed
+
+def font_preset(preset):
+    return _os.path.join(FONTS_DIR, preset["font"])
+
+def hex_rgb(h):
+    h = h.lstrip("#")
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))

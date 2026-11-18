@@ -1,7 +1,9 @@
 # buat.py — DRIVER template Sport. Satu perintah dari episode.json jadi MP4.
 #
 #   python3 buat.py <episode.json> --vo <vo-bos.wav> --klipdir <folder-klip-sumber> \
-#       --keluar <folder-hasil> [--durasi-maks 22] [--timing <timing.json>] [--kerja <folder>]
+#       --keluar <folder-hasil> [--durasi-maks 22] [--timing <timing.json>] [--kerja <folder>] \
+#       [--preset <nama>|random] [--seed <angka>]
+#   Preset subtitle: prioritas flag --preset > kolom preset_subtitle di JSON > acak.
 #
 # Alur (pola studio-clipper: prompt baku -> kontrak JSON -> mesin terkunci):
 #   1. timing kata: whisper (venv tts) atau pakai ulang --timing yang sudah ada
@@ -38,9 +40,29 @@ def main():
     ap.add_argument("--timing", default=None,
                     help="pakai ulang timing.json yang sudah ada (lewati whisper)")
     ap.add_argument("--kerja", default=None)
+    ap.add_argument("--preset", default=None,
+                    help="preset subtitle: nama preset atau 'random'. Prioritas: "
+                         "flag ini > kolom preset_subtitle di JSON episode > acak")
+    ap.add_argument("--seed", type=int, default=None,
+                    help="seed pilihan preset acak (dicatat di berkas info hasil)")
     a = ap.parse_args()
 
     ep = json.load(open(a.episode, encoding="utf-8"))
+
+    # Prioritas preset: flag --preset, lalu kolom preset_subtitle di kontrak
+    # JSON (pilihan bebas per video dari tahap skrip), terakhir acak.
+    if a.preset:
+        pilihan_preset = a.preset
+        mode_preset = "acak" if a.preset == "random" else "dipaksa"
+    elif ep.get("preset_subtitle"):
+        pilihan_preset = ep["preset_subtitle"]
+        mode_preset = "acak" if pilihan_preset == "random" else "json"
+    else:
+        pilihan_preset, mode_preset = "random", "acak"
+    kunci_preset, preset, seed = gaya.pilih_preset(pilihan_preset, a.seed)
+    print(f"preset subtitle: {preset['nama']} [{kunci_preset}] asal {preset['asal']} "
+          f"| sumber: {mode_preset} seed={seed}")
+
     slug = ep.get("slug", "sport")
     kerja = a.kerja or os.path.join(a.keluar, f"kerja-{slug}")
     os.makedirs(kerja, exist_ok=True)
@@ -70,7 +92,7 @@ def main():
     # 3. caption
     ass_path = os.path.join(kerja, "captions.ass")
     events, idx = cap_mod.bangun_events(ep["skrip"], toks)
-    cap_mod.tulis_ass(events, toks, ass_path)
+    cap_mod.tulis_ass(events, toks, ass_path, preset)
     print(f"captions: {len(events)} potong, {idx}/{len(toks)} token, "
           f"maks {max(len(e[2]) for e in events)} kata/potong")
 
@@ -92,10 +114,21 @@ def main():
     # 7. komposit + poster
     suffix = f"-tes{int(dur_eff)}s" if a.durasi_maks else ""
     keluar_mp4 = os.path.join(a.keluar, f"{slug}-final{suffix}.mp4")
-    k = Kompositor(ovdir, manifest, ass_path)
+    k = Kompositor(ovdir, manifest, ass_path, preset)
     rc = k.render(base, mix_path, keluar_mp4, dur_eff)
     if rc != 0:
         sys.exit(f"render gagal rc={rc}")
+    info_preset = {"mp4": os.path.basename(keluar_mp4), "preset": kunci_preset,
+                   "nama": preset["nama"], "asal": preset["asal"],
+                   "mode_pilih": mode_preset,
+                   "seed": seed, "font": preset["font"], "ukuran": preset["ukuran"],
+                   "kapital": preset["kapital"], "latar": preset["latar"],
+                   "warna_teks": preset["warna_teks"],
+                   "warna_aktif": preset["warna_aktif"]}
+    info_path = os.path.join(a.keluar, f"{slug}-preset.json")
+    json.dump(info_preset, open(info_path, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    print(f"info preset: {info_path} -> {kunci_preset} seed={seed}")
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", "2", "-i", keluar_mp4,
                     "-frames:v", "1", os.path.join(a.keluar, f"poster-{slug}.png")],
                    check=True)

@@ -21,22 +21,42 @@ Topik: [TOPIK]
 
 ## 2. Skrip VO (kolom `skrip`)
 - ±200–240 kata, 7 paragraf dipisah baris kosong, TANPA penanda babak/pembuka.
+- TANPA EMOJI di mana pun: skrip VO, judul, teks layar (hook, kartu, penutup), dan
+  seluruh keluaran JSON dilarang berisi emoji atau simbol hias. Tulis kata-katanya,
+  jangan ganti dengan gambar.
 - SEMUA angka dieja penuh ("sembilan ratus delapan puluh lima", "nol koma delapan
   enam", "dua ribu dua puluh tujuh") karena skrip ini dibacakan manusia.
+- Setiap klaim di skrip WAJIB bisa dibuktikan gambar (lihat aturan selaras di
+  bagian 3). Kalau tidak ada footage pembuktinya, ubah atau buang klaimnya di
+  tahap ini, jangan diteruskan ke JSON.
 - Struktur baku: (1) hook = klaim utama + angka terbesar, (2) angka total saat ini,
   (3) rincian per bagian, (4) masalah/putaran arah ("ternyata..."), (5) hitungan atau
   proyeksi, (6) satu catatan kecil/nuansa, (7) pertanyaan penutup dua pilihan A/B.
 - Paragraf terakhir selalu pertanyaan "menurut lu" dengan dua jawaban yang berlawanan.
 
-## 3. Rencana segmen footage (kolom `segmen`)
+## 3. Rencana segmen footage (kolom `segmen`) — penjelasan WAJIB selaras video
 - Footage WAJIB video bergerak beneran. DILARANG foto, still, render diam, slideshow.
 - Subjek (bola/orang yang dibahas) harus fokus di TENGAH frame dan tajam.
-- `mulai` HARUS timestamp dari sheet seek akurat per detik (frame hasil `-ss`
-  sebelum `-i`, berlabel detik), BUKAN tebakan dari contact sheet filter `fps=`
-  (bergeser pada sumber VFR). Verifikasi frame awal, tengah, akhir tiap segmen.
+- Rencana segmen ditulis PER FRASA VO, bukan perkiraan kasar: tiap frasa penting
+  di skrip dipasangkan dengan segmen yang menayangkan persis hal yang sedang
+  diucapkan pada momen itu.
+- `mulai` HARUS timestamp yang diverifikasi seek akurat dari sumber asli (frame
+  hasil `-ss` sebelum `-i`, berlabel detik), BUKAN tebakan dari contact sheet
+  filter `fps=` (bergeser pada sumber VFR) dan bukan karangan. Verifikasi frame
+  awal, tengah, akhir tiap segmen.
+- SETIAP klaim faktual di narasi WAJIB punya momen visual pembukti di layar saat
+  frasa itu diucapkan: angka disebut → kartu/penghitung angka itu tampil; gol
+  disebut → klip golnya yang tampil; cedera disebut → momen cedera atau reaksi
+  pemainnya; rekor disebut → momen rekornya atau kartunya. Klaim tanpa footage
+  pembukti TIDAK BOLEH dipaksakan: ubah narasinya supaya cocok dengan footage
+  yang benar-benar ada, atau turunkan klaimnya jadi yang bisa dibuktikan gambar.
+- Sesudah VO asli masuk, timing TIDAK PERNAH ditebak dari panjang teks: alignment
+  whisper atas audio VO asli adalah satu-satunya sumber timing, dan naskah bersih
+  adalah satu-satunya sumber teks (transkrip otomatis tidak dipercaya untuk angka).
 - `cx` = posisi horizontal subjek pada lebar sumber (0..1, bawaan 0.5) untuk crop 9:16.
 - Total durasi segmen harus menutup durasi VO (±82 detik untuk 230 kata).
-- Isi `catatan` tiap segmen: adegan apa yang terlihat, untuk cek cepat manusia.
+- Isi `catatan` tiap segmen: adegan apa yang terlihat DAN frasa VO mana yang
+  dibuktikannya, untuk cek cepat manusia.
 
 ## 4. Rencana overlay (kolom `overlay`) — hanya 4 jenis yang didukung mesin
 - `hook` (selalu id "hook", `mulai: 0`): pill kategori + headline 2–3 baris, baris
@@ -60,12 +80,37 @@ Topik: [TOPIK]
   (`sumber`, `sumberMulai`, `durasi`), bukan sintesis.
 - `riser` + `ding` menjelang pill penutup. Semua SFX otomatis di-duck di bawah VO.
 
-## 6. Keluaran
-Balas HANYA JSON ini, tanpa teks lain:
+## 6. Pilih preset subtitle (kolom `preset_subtitle`)
+- Pilih SATU preset untuk video ini secara bebas dan disengaja, sesuai nada
+  topiknya. Preset TIDAK dikunci satu untuk semua video dan TIDAK wajib acak;
+  yang dipilih ditulis namanya (kunci kecil) ke kolom `preset_subtitle`.
+- Boleh menulis "random" hanya bila memang tidak ada alasan khusus; mesin akan
+  memilihkan dan mencatat seed-nya.
+- Daftar preset (nama kunci — asal — karakter):
+  - `garis` — tema awal — mono Courier Prime, aktif biru langit, tanpa latar; nuansa data dan teknis.
+  - `neon` — tema awal — Archivo Black, aktif magenta menyala, tanpa latar; nuansa berani dan pop.
+  - `kertas` — tema awal — serif Gelasio, aktif oranye, tanpa latar; nuansa klasik dan nostalgia.
+  - `sinematik` — T01 — Inter kapital, kata aktif blok terang; nuansa elegan dan serius.
+  - `minimal` — T02 — Inter, aktif hijau, tanpa latar; nuansa bersih, fokus kata kunci.
+  - `kolase` — T03 — kotak gelap, aktif kuning stiker; nuansa kolase dan ceria.
+  - `hangat` — T04 — Inter kapital, aktif cokelat; nuansa editorial hangat dan bercerita.
+  - `kaca` — T05 — pil terang, aktif biru; nuansa modern seperti aplikasi.
+  - `bicara` — T06 — kotak gelap kapital, aktif ungu; nuansa tegas.
+  - `retro` — T07 — Inter kapital, aktif kuning retro; nuansa dokumenter lama.
+  - `tekno` — T08 — Inter, aktif oranye muda; nuansa data dan teknologi.
+  - `iklan` — T09 — Inter ekstra tebal, aktif merah; nuansa keras dan mendesak.
+  - `sorot` — T10 — Inter, aktif merah sorot; nuansa dramatis.
+  - `daftar` — T11 — pil terang Plus Jakarta Sans, aktif oranye; nuansa daftar dan sumber.
+- Detail tiap preset (font, ukuran, warna, latar) ada di `mesin/preset_subtitle.json`
+  dan TIDAK perlu disalin ke JSON episode; cukup tulis kunci namanya.
+
+## 7. Keluaran
+Balas HANYA JSON ini, tanpa teks lain, dan tanpa emoji di bidang apa pun:
 {
   "judul": "judul usulan (pola: angka + kontras + pertanyaan)",
   "slug": "slug-pendek",
   "kategori": "FAKTA SPORT",
+  "preset_subtitle": "kunci-preset atau random",
   "fakta": {"dataPer": "YYYY-MM-DD", "ringkasan": "...", "sumber": "..."},
   "skrip": "paragraf 1\n\nparagraf 2\n\n...",
   "segmen": [{"id": "s01_hook", "sumber": "file-sumber.mp4", "mulai": 0.0,

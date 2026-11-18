@@ -34,10 +34,22 @@ def bangun_events(skrip, tokens):
 def ts(t):
     return f"{int(t // 3600)}:{int(t // 60) % 60:02d}:{t % 60:05.2f}"
 
-def tulis_ass(events, tokens, path):
+def _ass_warna(hexs):
+    r, g, b = gaya.hex_rgb(hexs)
+    return f"&H00{b:02X}{g:02X}{r:02X}"
+
+def tulis_ass(events, tokens, path, preset=None):
+    if preset is not None:
+        style = (f"Style: Cap,{preset['keluarga']},{preset['ukuran']},"
+                 f"{_ass_warna(preset['warna_teks'])},{_ass_warna(preset['warna_aktif'])},"
+                 f"&H000000,&H00000000,{-1 if preset['bobot'] >= 700 else 0},0,0,0,100,100,0,0,1,"
+                 f"{5 if preset['latar'] == 'tanpa' else 0},0,2,40,40,290,1\n")
+    else:
+        style = ("Style: Cap,DejaVu Sans,74,&HFFFFFF,&H3CC9FF,&H000000,&H00000000,"
+                 "-1,0,0,0,100,100,0,0,1,5,0,2,40,40,290,1\n")
     out = ["[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n",
            "[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
-           "Style: Cap,DejaVu Sans,74,&HFFFFFF,&H3CC9FF,&H000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,40,40,290,1\n",
+           + style,
            "[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n"]
     for st, en, ch, ix in events:
         parts = []
