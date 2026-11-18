@@ -65,7 +65,10 @@ Topik: [TOPIK]
   ke frasa angka di skrip.
 - `kartu`: kartu penjelasan lebar tetap. Baris boleh berisi nama (bold 42 putih),
   angka (anton 84 emas), atau keterangan (bold 34–38 putih). Aksen "merah" untuk
-  kabar buruk/tertutup, "biru" untuk catatan, "emas" bawaan.
+  kabar buruk/tertutup, "biru" untuk catatan, "emas" bawaan. Rupa akhir kartu
+  (latar, bingkai, font, warna) ditentukan template penjelasan terpilih
+  (bagian 7); `font`/`ukuran`/`warna` di baris hanya petunjuk peran dan warna
+  semantik — mesin yang menjamin tata letak bertumpuk dan auto-fit-nya.
 - `penutup`: pertanyaan + tepat 2 `pilihan` yang berlawanan.
 - SETIAP overlay (kecuali hook) WAJIB ditambatkan ke frasa PERSIS dari skrip lewat
   `tambat.frasa` + `offset` detik (negatif = muncul sebelum frasa diucapkan).
@@ -79,6 +82,11 @@ Topik: [TOPIK]
 - `crowd` hanya di momen gol/selebrasi: ekstrak dari audio klip sumber
   (`sumber`, `sumberMulai`, `durasi`), bukan sintesis.
 - `riser` + `ding` menjelang pill penutup. Semua SFX otomatis di-duck di bawah VO.
+- Tiap suara sintesis punya beberapa varian karakter (whoosh 3 arah/karakter,
+  pop 2, tick 2, ding 2, riser 2) yang dipilih ACAK per event oleh mesin dari
+  seed render dan dicatat di berkas info hasil. Penulis skrip cukup menulis
+  nama suaranya; kolom `varian` boleh diisi hanya bila satu momen memang
+  butuh karakter tertentu.
 
 ## 6. Pilih preset subtitle (kolom `preset_subtitle`)
 - Pilih SATU preset untuk video ini secara bebas dan disengaja, sesuai nada
@@ -104,13 +112,38 @@ Topik: [TOPIK]
 - Detail tiap preset (font, ukuran, warna, latar) ada di `mesin/preset_subtitle.json`
   dan TIDAK perlu disalin ke JSON episode; cukup tulis kunci namanya.
 
-## 7. Keluaran
+## 7. Pilih template penjelasan (kolom `template_penjelasan`)
+- Pilih SATU template penjelasan untuk video ini secara bebas dan disengaja,
+  sesuai nada topiknya — aturan mainnya sama persis dengan preset subtitle:
+  tidak dikunci satu untuk semua video, tidak wajib acak, dan yang dipilih
+  ditulis namanya (kunci kecil) ke kolom `template_penjelasan`.
+- Boleh menulis "random" hanya bila memang tidak ada alasan khusus; mesin akan
+  memilihkan dan mencatat seed-nya.
+- Template ini mengatur rupa SEMUA kartu penjelasan (kartu skor, poin, gol,
+  kartu merah), penghitung, dan pill penutup: warna latar, bingkai/bilah
+  aksen, font judul/angka/label, dan warna teks. Tata letaknya dijamin mesin:
+  angka dan label bertumpuk dengan jarak tetap dan semua teks auto-fit, jadi
+  penulis skrip tidak perlu memikirkan posisi.
+- Daftar template (nama kunci — karakter):
+  - `klasik` — gelap pekat, bilah aksen kiri, angka Anton emas; rupa kartu produksi awal yang sudah terbukti.
+  - `neon` — gelap berbingkai magenta menyala, angka Archivo Black; pasangan preset subtitle neon, nuansa berani dan pop.
+  - `kertas` — panel krem terang, teks gelap, judul serif Gelasio; nuansa klasik dan nostalgia.
+  - `kaca` — panel putih transparan, bingkai tipis, teks putih ber-outline; paling ringan, footage tetap dominan.
+  - `blok` — seluruh kartu berwarna aksen (bawaan emas), teks hitam; paling keras dan paling pop.
+  - `minimal` — tanpa panel, teks putih ber-outline + garis aksen tipis di bawah; paling bersih.
+  - `sorot` — gelap, bilah atas merah, judul serif miring, angka emas; nuansa dramatis.
+  - `tekno` — gelap berbingkai oranye tipis, judul Space Grotesk, label mono; nuansa data dan teknologi.
+- Detail tiap template ada di `mesin/penjelasan.json` dan TIDAK perlu disalin
+  ke JSON episode; cukup tulis kunci namanya.
+
+## 8. Keluaran
 Balas HANYA JSON ini, tanpa teks lain, dan tanpa emoji di bidang apa pun:
 {
   "judul": "judul usulan (pola: angka + kontras + pertanyaan)",
   "slug": "slug-pendek",
   "kategori": "FAKTA SPORT",
   "preset_subtitle": "kunci-preset atau random",
+  "template_penjelasan": "kunci-template atau random",
   "fakta": {"dataPer": "YYYY-MM-DD", "ringkasan": "...", "sumber": "..."},
   "skrip": "paragraf 1\n\nparagraf 2\n\n...",
   "segmen": [{"id": "s01_hook", "sumber": "file-sumber.mp4", "mulai": 0.0,

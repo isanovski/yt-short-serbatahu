@@ -50,11 +50,12 @@ ffmpeg: terbukti deadlock deterministik di VM ini.
 |---|---|
 | `judul`, `slug`, `kategori` | judul usulan, nama file, pill hook (bawaan "FAKTA SPORT") |
 | `preset_subtitle` | kunci preset subtitle yang dipilih bebas per video (atau `"random"`); diabaikan bila driver diberi `--preset` |
+| `template_penjelasan` | kunci template penjelasan yang dipilih bebas per video (atau `"random"`); diabaikan bila driver diberi `--penjelasan` |
 | `fakta` | `dataPer`, `ringkasan`, `sumber` — jejak riset terverifikasi |
 | `skrip` | teks VO penuh, paragraf dipisah baris kosong, angka dieja penuh |
 | `segmen[]` | `id`, `sumber`, `mulai` (detik, seek akurat), `durasi`, `cx` (0..1), `catatan`; opsional `lambat` |
 | `overlay[]` | `jenis`: `hook` / `penghitung` / `kartu` / `penutup`; tambatan `tambat.frasa` + `offset` atau `mulai` absolut; `durasi` |
-| `sfx[]` | `suara`: whoosh/tick/thud/ding/pop/riser/crowd; tambatan `frasa`/`overlay`/`detik`; `gain`; crowd menambah `sumber`, `sumberMulai`, `durasi` |
+| `sfx[]` | `suara`: whoosh/tick/thud/ding/pop/riser/crowd; tambatan `frasa`/`overlay`/`detik`; `gain`; opsional `varian` (bawaan: acak per event dari seed render); crowd menambah `sumber`, `sumberMulai`, `durasi` |
 
 ## Struktur folder
 
@@ -70,13 +71,15 @@ sport/
 │   ├── whisper_align.py  faster-whisper -> timing kata (venv tts)
 │   ├── token_times.py  alignment difflib skrip <-> whisper
 │   ├── captions.py     caption <=3 kata, karaoke, non-tumpang-tindih
-│   ├── overlays.py     hook/penghitung/kartu/penutup terkunci
+│   ├── overlays.py     hook + perakitan overlay (delegasi kartu ke penjelasan.py)
+│   ├── penjelasan.py   renderer kartu/penghitung/penutup bertumpuk terukur
+│   ├── penjelasan.json 8 template penjelasan (dipilih per video / acak)
 │   ├── segmen.py       potong + rangkai footage (crop cx)
-│   ├── sfx.py          sintesis SFX + track dari event
+│   ├── sfx.py          sintesis SFX bervarian + track dari event
 │   ├── audio.py        ducking sidechain + loudnorm
-│   ├── composite.py    kompositor PIL per frame -> MP4
+│   ├── composite.py    kompositor PIL per frame -> MP4 (caption auto-fit)
 │   ├── preset_subtitle.json  14 preset subtitle (dari tema studio-clipper)
-│   └── fonts/          berkas font lokal yang dirujuk preset_subtitle.json
+│   └── fonts/          berkas font lokal yang dirujuk preset & template
 └── tes/                hasil + frame bukti render tes
 ```
 
@@ -103,7 +106,8 @@ ditulis di tahap skrip ke kolom `preset_subtitle` kontrak JSON (tahap 6 di
 
 ```
 python3 mesin/buat.py naskah/<episode>.json --vo <vo.wav> --klipdir <klip> \
-    --keluar <folder> [--preset <nama>|random] [--seed <angka>]
+    --keluar <folder> [--preset <nama>|random] [--penjelasan <nama>|random] \
+    [--seed <angka>]
 ```
 
 Preset terpilih + sumber pilihannya + seed selalu dicatat ke
@@ -118,6 +122,39 @@ tetap lokal di VM ini; daftar nama berkas font yang dibutuhkan tertulis di
 `mesin/preset_subtitle.json` (kolom `font` tiap preset), jadi mesin bisa
 dirakit ulang di tempat lain dengan mengunduh font bernama sama dari Google
 Fonts atau Fontsource.
+
+## Template penjelasan (dipilih bebas per video) + caption auto-fit + varian SFX
+
+Rombakan 2026-11-19 sesudah kritik Bos atas final Ep. 5 (angka penghitung
+menimpa labelnya; caption kata panjang melebar keluar frame). Tiga perubahan:
+
+1. **Template penjelasan.** Kartu penjelasan (skor, poin, gol, kartu merah),
+   penghitung, dan pill penutup dirender `mesin/penjelasan.py` memakai SATU
+   dari 8 template di `mesin/penjelasan.json`: `klasik` (gelap, bilah kiri,
+   angka emas), `neon` (bingkai magenta menyala), `kertas` (panel terang,
+   serif), `kaca` (transparan, outline), `blok` (panel warna aksen penuh,
+   teks hitam), `minimal` (tanpa panel, garis tipis), `sorot` (bilah atas
+   merah, angka emas serif), `tekno` (bingkai oranye, label mono). Semua
+   template memakai tata letak bertumpuk yang dihitung dari kotak glif nyata:
+   slot angka dicadangkan setinggi glif nilai akhir, label duduk di slot
+   sendiri dengan jarak tetap, dan setiap baris di-auto-fit menyusut sampai
+   muat lebar dalam kartu 880 — tumpang tindih angka/label tidak mungkin lagi
+   secara konstruksi. Dipilih per video dengan prioritas yang sama seperti
+   preset subtitle: flag `--penjelasan` > kolom `template_penjelasan` di JSON
+   episode > acak, dan dicatat ke `<slug>-preset.json`.
+2. **Caption auto-fit.** Kompositor mengukur lebar tiap potong caption dengan
+   font preset terpilih sebelum render. Bila lebarnya melewati 1000 piksel
+   (tepi aman 40 piksel), ukuran font diturunkan bertahap sampai lantai 46;
+   bila tetap tidak muat, potongnya dipecah dua pada batas kata dengan waktu
+   dibagi menurut durasi kata. Aturan terkunci tidak berubah: maks 3 kata,
+   satu potong dalam satu waktu, jangkar `CAP_TOP`, karaoke kata aktif. Hasil
+   jaminannya: tidak ada caption keluar frame pada preset mana pun.
+3. **Varian SFX.** Tiap suara sintesis punya varian karakter: whoosh 3
+   (klasik, sapuan naik, sapuan dalam), pop 2, tick 2 (varian kedua lebih
+   renyah), ding 2, riser 2 (noise / tonal), thud 1. Varian dipilih acak per
+   event dari seed render yang sama dengan pilihan preset dan template, lalu
+   dicatat di `<slug>-preset.json` (kolom `sfx.pilihan`); event boleh memaksa
+   varian lewat kolom `varian`. Rantai ducking dan loudnorm tidak berubah.
 
 ## Lisensi
 

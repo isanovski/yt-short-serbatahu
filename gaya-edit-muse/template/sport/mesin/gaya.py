@@ -36,6 +36,13 @@ CAP_TOP = H - 548                  # tepi atas caption di H-548
 CAP_MAX_WORDS = 3                  # maksimal 3 kata per potong
 CAP_STROKE = 4
 CAP_GOLD = GOLD                    # kata aktif emas
+# --- caption auto-fit (2026-11-19, perintah Bos sesudah Ep. 5) ---
+# Caption WAJIB diukur lebarnya sebelum digambar. Bila lebar potong melebihi
+# CAP_LEBAR_MAKS, ukuran font diturunkan bertahap sampai CAP_UKURAN_LANTAI;
+# bila tetap tidak muat, potong dipecah dua. Tidak boleh ada teks keluar frame.
+CAP_LEBAR_MAKS = 1000              # lebar aman maksimum satu potong caption
+CAP_TEPI_MIN = 40                  # tepi kosong minimum kiri/kanan frame
+CAP_UKURAN_LANTAI = 46             # ukuran font terkecil yang boleh dipakai
 
 # --- kartu penjelasan (TERKUNCI) ---
 CARD_W = 880                       # lebar tetap, rata tengah
@@ -128,3 +135,27 @@ def font_preset(preset):
 def hex_rgb(h):
     h = h.lstrip("#")
     return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+
+# --- template penjelasan (2026-11-19, perintah Bos sesudah Ep. 5) ---
+# Kartu penjelasan (kartu skor/poin/gol/merah), penghitung, dan pill penutup
+# dirender oleh mesin/penjelasan.py memakai SATU dari template di
+# penjelasan.json. Dipilih per video: flag --penjelasan > kolom
+# template_penjelasan di JSON episode > acak (pola sama seperti preset).
+PENJELASAN_JSON = _os.path.join(_DIR_MESIN, "penjelasan.json")
+
+def muat_penjelasan():
+    with open(PENJELASAN_JSON, encoding="utf-8") as f:
+        return _json.load(f)["template"]
+
+def pilih_penjelasan(pilihan="random", seed=None):
+    """Kembalikan (kunci, template, seed) — pola sama dengan pilih_preset."""
+    semua = muat_penjelasan()
+    if pilihan and pilihan != "random":
+        if pilihan not in semua:
+            raise KeyError(f"template penjelasan '{pilihan}' tidak ada; "
+                           f"pilihan: {sorted(semua)}")
+        return pilihan, semua[pilihan], seed
+    if seed is None:
+        seed = _random.SystemRandom().randrange(0, 2 ** 31)
+    kunci = _random.Random(seed).choice(sorted(semua.keys()))
+    return kunci, semua[kunci], seed

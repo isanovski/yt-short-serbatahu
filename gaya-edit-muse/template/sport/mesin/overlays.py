@@ -10,6 +10,7 @@
 import json, os, sys
 from PIL import Image, ImageDraw, ImageFont
 import gaya
+import penjelasan as pen_mod
 from token_times import cari_frasa
 
 ANTON = gaya.cari_font(gaya.FONT_ANTON_CANDIDATES)
@@ -50,6 +51,11 @@ def gambar_hook(spec, kategori):
         y += gaya.HOOK_LINE_STEP
     return img
 
+# CATATAN 2026-11-19: gambar_penghitung/gambar_kartu/gambar_penutup di bawah
+# adalah renderer LAMA dan TIDAK dipakai lagi oleh bangun() — ketiganya
+# digantikan penjelasan.py (penyebab bug Ep. 5: angka penghitung menimpa
+# label karena posisi dijangkar tanpa mengukur tinggi glif). Disimpan hanya
+# sebagai arsip; jangan panggil dari kode baru.
 def gambar_penghitung(spec, idx, total_frame):
     p = idx / max(1, total_frame - 1)
     v = int(spec.get("ke", 0) * (1 - (1 - p) ** 3))   # ease-out kubik seperti aslinya
@@ -113,7 +119,12 @@ def resolusi_mulai(spec, tokens):
         raise ValueError(f"tambat tidak ketemu di skrip: {tb.get('frasa')!r} (overlay {spec.get('id')})")
     return r[0] + float(tb.get("offset", 0.0))
 
-def bangun(ep, tokens, outdir):
+def bangun(ep, tokens, outdir, tpl=None):
+    # tpl: template penjelasan terpilih (dict dari penjelasan.json). Kartu,
+    # penghitung, dan penutup dirender penjelasan.py dengan tata letak
+    # bertumpuk terukur; hook tetap digambar di sini. tpl None -> klasik.
+    if tpl is None:
+        tpl = gaya.pilih_penjelasan("klasik")[1]
     os.makedirs(outdir, exist_ok=True)
     manifest = []
     for spec in ep.get("overlay", []):
@@ -126,12 +137,18 @@ def bangun(ep, tokens, outdir):
             sub = os.path.join(outdir, spec["id"])
             os.makedirs(sub, exist_ok=True)
             for i in range(n):
-                gambar_penghitung(spec, i, n).save(os.path.join(sub, f"{i:03d}.png"))
+                pen_mod.gambar_penghitung(spec, tpl, i, n).save(
+                    os.path.join(sub, f"{i:03d}.png"))
             ent.update({"pola": os.path.join(spec["id"], "%03d.png"), "nseq": n})
         else:
-            fn = {"hook": gambar_hook, "kartu": gambar_kartu,
-                  "penutup": gambar_penutup}[spec["jenis"]]
-            img = fn(spec, ep.get("kategori", "")) if spec["jenis"] == "hook" else fn(spec)
+            if spec["jenis"] == "hook":
+                img = gambar_hook(spec, ep.get("kategori", ""))
+            elif spec["jenis"] == "kartu":
+                img = pen_mod.gambar_kartu(spec, tpl)
+            elif spec["jenis"] == "penutup":
+                img = pen_mod.gambar_penutup(spec, tpl)
+            else:
+                raise ValueError(f"jenis overlay tidak dikenal: {spec['jenis']}")
             nama = spec["id"] + ".png"
             img.save(os.path.join(outdir, nama))
             ent.update({"file": nama, "nseq": None})
