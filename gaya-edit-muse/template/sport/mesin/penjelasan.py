@@ -117,14 +117,21 @@ def gambar_kartu(spec, tpl):
         return _pb.gambar_kartu(spec, tpl)
     aksen = _aksen_rgb(spec, tpl)
     maxw = _lebar_dalam(tpl)
+    panel_rgb = None
+    if tpl["latar_alpha"] > 0:
+        panel_rgb = aksen if tpl.get("latar_ikut_aksen") else _rgb(tpl["latar"])
     baris = []
     for b in spec["baris"]:
         peran = _peran(b)
         ukuran = b.get("ukuran", tpl[f"ukuran_{peran}"])
         f = _fit(b["teks"], tpl[f"font_{peran}"], ukuran, maxw)
         atas, bawah = _slot(b["teks"], f)
-        baris.append((b, f, atas, bawah,
-                     _warna(b.get("warna"), tpl, peran, aksen)))
+        col = _warna(b.get("warna"), tpl, peran, aksen)
+        if panel_rgb is not None and col == panel_rgb:
+            # Baris sewarna panel (mis. judul "emas" di Blok yang panelnya
+            # mengikuti aksen) tidak akan terlihat; pakai warna teks template.
+            col = _rgb(tpl["warna_teks"])
+        baris.append((b, f, atas, bawah, col))
     jarak = tpl["jarak_baris"]
     ekstra = 2 * tpl.get("teks_outline", 0)   # outline mengembang melewati bbox
     isi = (sum(bw - at + ekstra for _, _, at, bw, _ in baris)
