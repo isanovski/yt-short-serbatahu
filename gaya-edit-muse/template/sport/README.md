@@ -50,7 +50,7 @@ ffmpeg: terbukti deadlock deterministik di VM ini.
 |---|---|
 | `judul`, `slug`, `kategori` | judul usulan, nama file, pill hook (bawaan "FAKTA SPORT") |
 | `preset_subtitle` | kunci preset subtitle yang dipilih bebas per video (atau `"random"`); diabaikan bila driver diberi `--preset` |
-| `template_penjelasan` | kunci template penjelasan yang dipilih bebas per video (atau `"random"`); diabaikan bila driver diberi `--penjelasan` |
+| `template_penjelasan` | kunci template penjelasan (atau `"random"` = bawaan, acak dari seluruh pool 20); pilihan manual hanya untuk alasan nada yang disengaja; diabaikan bila driver diberi `--penjelasan` |
 | `fakta` | `dataPer`, `ringkasan`, `sumber` — jejak riset terverifikasi |
 | `skrip` | teks VO penuh, paragraf dipisah baris kosong, angka dieja penuh |
 | `segmen[]` | `id`, `sumber`, `mulai` (detik, seek akurat), `durasi`, `cx` (0..1), `catatan`; opsional `lambat` |
@@ -72,8 +72,9 @@ sport/
 │   ├── token_times.py  alignment difflib skrip <-> whisper
 │   ├── captions.py     caption <=3 kata, karaoke, non-tumpang-tindih
 │   ├── overlays.py     hook + perakitan overlay (delegasi kartu ke penjelasan.py)
-│   ├── penjelasan.py   renderer kartu/penghitung/penutup bertumpuk terukur
-│   ├── penjelasan.json 8 template penjelasan (dipilih per video / acak)
+│   ├── penjelasan.py   renderer kartu/penghitung/penutup bertumpuk terukur (8 bentuk panel)
+│   ├── penjelasan_bentuk.py renderer 12 bentuk struktural (pita, lingkaran, split, dst.)
+│   ├── penjelasan.json 20 template penjelasan (dipilih per video / acak dari seluruh pool)
 │   ├── segmen.py       potong + rangkai footage (crop cx)
 │   ├── sfx.py          sintesis SFX bervarian + track dari event
 │   ├── audio.py        ducking sidechain + loudnorm
@@ -123,24 +124,40 @@ tetap lokal di VM ini; daftar nama berkas font yang dibutuhkan tertulis di
 dirakit ulang di tempat lain dengan mengunduh font bernama sama dari Google
 Fonts atau Fontsource.
 
-## Template penjelasan (dipilih bebas per video) + caption auto-fit + varian SFX
+## Template penjelasan (bawaan acak dari seluruh pool) + caption auto-fit + varian SFX
 
 Rombakan 2026-11-19 sesudah kritik Bos atas final Ep. 5 (angka penghitung
 menimpa labelnya; caption kata panjang melebar keluar frame). Tiga perubahan:
 
 1. **Template penjelasan.** Kartu penjelasan (skor, poin, gol, kartu merah),
-   penghitung, dan pill penutup dirender `mesin/penjelasan.py` memakai SATU
-   dari 8 template di `mesin/penjelasan.json`: `klasik` (gelap, bilah kiri,
-   angka emas), `neon` (bingkai magenta menyala), `kertas` (panel terang,
-   serif), `kaca` (transparan, outline), `blok` (panel warna aksen penuh,
-   teks hitam), `minimal` (tanpa panel, garis tipis), `sorot` (bilah atas
-   merah, angka emas serif), `tekno` (bingkai oranye, label mono). Semua
-   template memakai tata letak bertumpuk yang dihitung dari kotak glif nyata:
-   slot angka dicadangkan setinggi glif nilai akhir, label duduk di slot
-   sendiri dengan jarak tetap, dan setiap baris di-auto-fit menyusut sampai
-   muat lebar dalam kartu 880 — tumpang tindih angka/label tidak mungkin lagi
-   secara konstruksi. Dipilih per video dengan prioritas yang sama seperti
-   preset subtitle: flag `--penjelasan` > kolom `template_penjelasan` di JSON
+   penghitung, dan pill penutup dirender memakai SATU dari 20 template di
+   `mesin/penjelasan.json`. Delapan pertama adalah bentuk panel (persegi
+   membulat di tengah, beda warna/bingkai/font) yang dirender
+   `mesin/penjelasan.py`: `klasik` (gelap, bilah kiri, angka emas), `neon`
+   (bingkai magenta menyala), `kertas` (panel terang, serif), `kaca`
+   (transparan, outline), `blok` (panel warna aksen penuh, teks hitam),
+   `minimal` (tanpa panel, garis tipis), `sorot` (bilah atas merah, angka
+   emas serif), `tekno` (bingkai oranye, label mono). Dua belas sisanya
+   adalah BENTUK STRUKTURAL yang tata letaknya benar-benar lain, dirender
+   `mesin/penjelasan_bentuk.py` (perintah Bos 2026-11-19: desainnya jangan
+   itu-itu saja): `pita` (pita diagonal selebar layar, angka kiri label
+   kanan), `lingkaran` (lencana lingkaran + tab menyamping), `split` (dua
+   kolom asimetris gelap/aksen), `sudut` (kartu menempel tepi kiri, rata
+   kiri), `garis` (tanpa panel, label mono di atas angka + batang aksen),
+   `stempel` (kotak miring -3 derajat, bingkai ganda tinta), `tiket`
+   (perforasi putus-putus + lekuk sobek, rintisan angka di kiri), `outline`
+   (angka garis tepi bercahaya, label di pil terisi), `bar` (angka + batang
+   proporsi mengikuti nilai), `koran` (garis aturan koran, angka dan label
+   sebaris segaris dasar), `chip` (dua chip stiker bertumpuk berbayangan
+   keras), `bingkai` (bingkai putih foto instan + strip keterangan). Semua
+   template menghitung tata letak dari kotak glif nyata: slot angka
+   dicadangkan setinggi glif nilai akhir, label duduk di slot sendiri
+   dengan jarak tetap, dan setiap baris di-auto-fit menyusut sampai muat
+   batas lebar bentuknya (maks 1000 piksel; bentuk selebar layar menjaga
+   margin aman x 62..1018) — tumpang tindih angka/label tidak mungkin lagi
+   secara konstruksi. Perilaku bawaan sekarang ACAK dari seluruh pool 20;
+   pilihan manual hanya bila ada alasan nada yang disengaja. Prioritas
+   tetap: flag `--penjelasan` > kolom `template_penjelasan` di JSON
    episode > acak, dan dicatat ke `<slug>-preset.json`.
 2. **Caption auto-fit.** Kompositor mengukur lebar tiap potong caption dengan
    font preset terpilih sebelum render. Bila lebarnya melewati 1000 piksel

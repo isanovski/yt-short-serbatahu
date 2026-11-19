@@ -112,29 +112,42 @@ Topik: [TOPIK]
 - Detail tiap preset (font, ukuran, warna, latar) ada di `mesin/preset_subtitle.json`
   dan TIDAK perlu disalin ke JSON episode; cukup tulis kunci namanya.
 
-## 7. Pilih template penjelasan (kolom `template_penjelasan`)
-- Pilih SATU template penjelasan untuk video ini secara bebas dan disengaja,
-  sesuai nada topiknya — aturan mainnya sama persis dengan preset subtitle:
-  tidak dikunci satu untuk semua video, tidak wajib acak, dan yang dipilih
-  ditulis namanya (kunci kecil) ke kolom `template_penjelasan`.
-- Boleh menulis "random" hanya bila memang tidak ada alasan khusus; mesin akan
-  memilihkan dan mencatat seed-nya.
+## 7. Template penjelasan (kolom `template_penjelasan`)
+- Perilaku BAKU sekarang: tulis "random" — mesin memilih SATU template dari
+  SELURUH pool (20 template) dan mencatat seed-nya ke berkas info hasil,
+  jadi pilihan acaknya bisa direproduksi persis dengan `--seed` yang sama.
+- Pilihan manual (tulis kunci namanya) hanya bila ada alasan nada yang
+  disengaja untuk video ini, misalnya `koran` untuk topik sejarah atau
+  `outline` untuk topik malam yang sinematik. Di luar alasan seperti itu,
+  biarkan acak supaya rupa kartu tidak itu-itu saja antar video.
 - Template ini mengatur rupa SEMUA kartu penjelasan (kartu skor, poin, gol,
-  kartu merah), penghitung, dan pill penutup: warna latar, bingkai/bilah
-  aksen, font judul/angka/label, dan warna teks. Tata letaknya dijamin mesin:
-  angka dan label bertumpuk dengan jarak tetap dan semua teks auto-fit, jadi
+  kartu merah), penghitung, dan pill penutup. Tata letaknya dijamin mesin:
+  setiap bentuk menghitung posisi dari kotak glif nyata, angka dan label
+  selalu di slot terpisah dengan jarak tetap, dan semua teks auto-fit, jadi
   penulis skrip tidak perlu memikirkan posisi.
-- Daftar template (nama kunci — karakter):
-  - `klasik` — gelap pekat, bilah aksen kiri, angka Anton emas; rupa kartu produksi awal yang sudah terbukti.
-  - `neon` — gelap berbingkai magenta menyala, angka Archivo Black; pasangan preset subtitle neon, nuansa berani dan pop.
-  - `kertas` — panel krem terang, teks gelap, judul serif Gelasio; nuansa klasik dan nostalgia.
-  - `kaca` — panel putih transparan, bingkai tipis, teks putih ber-outline; paling ringan, footage tetap dominan.
-  - `blok` — seluruh kartu berwarna aksen (bawaan emas), teks hitam; paling keras dan paling pop.
-  - `minimal` — tanpa panel, teks putih ber-outline + garis aksen tipis di bawah; paling bersih.
-  - `sorot` — gelap, bilah atas merah, judul serif miring, angka emas; nuansa dramatis.
-  - `tekno` — gelap berbingkai oranye tipis, judul Space Grotesk, label mono; nuansa data dan teknologi.
+- Pool template (nama kunci — bentuk):
+  - Bentuk panel (persegi membulat di tengah, beda warna/bingkai/font):
+    `klasik` (gelap, bilah kiri, angka emas), `neon` (bingkai magenta),
+    `kertas` (krem terang, serif), `kaca` (transparan, outline), `blok`
+    (panel warna aksen penuh, teks hitam), `minimal` (tanpa panel, garis
+    tipis), `sorot` (bilah atas merah, angka emas serif), `tekno` (bingkai
+    oranye, label mono).
+  - Bentuk struktural (tata letaknya benar-benar lain): `pita` (pita
+    diagonal selebar layar, angka kiri label kanan, tanpa kotak),
+    `lingkaran` (lencana lingkaran, angka di dalam cincin, label pada tab
+    menyamping), `split` (dua kolom asimetris, panel gelap angka + panel
+    aksen label), `sudut` (kartu menempel tepi kiri layar, rata kiri),
+    `garis` (tanpa panel, label mono kapital di atas angka raksasa +
+    batang aksen tebal di bawahnya), `stempel` (kotak miring -3 derajat,
+    bingkai ganda gaya stempel tinta), `tiket` (panel kertas bertepi
+    perforasi putus-putus, rintisan angka di kiri), `outline` (angka hanya
+    garis tepi bercahaya, label di pil terisi), `bar` (angka + batang
+    proporsi horizontal mengikuti nilai), `koran` (garis aturan atas-bawah
+    gaya headline koran, angka serif sebaris dengan label), `chip` (dua
+    chip stiker bertumpuk bergeser dengan bayangan keras), `bingkai`
+    (bingkai putih tebal gaya foto instan, label di strip keterangan).
 - Detail tiap template ada di `mesin/penjelasan.json` dan TIDAK perlu disalin
-  ke JSON episode; cukup tulis kunci namanya.
+  ke JSON episode; cukup tulis kunci namanya atau "random".
 
 ## 8. Keluaran
 Balas HANYA JSON ini, tanpa teks lain, dan tanpa emoji di bidang apa pun:

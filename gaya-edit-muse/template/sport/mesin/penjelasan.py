@@ -108,7 +108,13 @@ def _peran(baris):
     return "teks" if baris.get("ukuran", 42) >= 40 else "label"
 
 def gambar_kartu(spec, tpl):
-    """Kartu penjelasan: baris bertumpuk, tiap baris auto-fit ke lebar dalam."""
+    """Kartu penjelasan: baris bertumpuk, tiap baris auto-fit ke lebar dalam.
+    Template dengan kolom "bentuk" dirender penjelasan_bentuk.py (struktur
+    tata letak lain: pita, lingkaran, split, sudut, garis, stempel, tiket,
+    outline, bar, koran, chip, bingkai)."""
+    if tpl.get("bentuk"):
+        import penjelasan_bentuk as _pb
+        return _pb.gambar_kartu(spec, tpl)
     aksen = _aksen_rgb(spec, tpl)
     maxw = _lebar_dalam(tpl)
     baris = []
@@ -139,7 +145,11 @@ def gambar_kartu(spec, tpl):
 
 def gambar_penghitung(spec, tpl, idx, total_frame):
     """Penghitung: slot angka dicadangkan setinggi glif nilai akhir; label di
-    slot terpisah di bawahnya dengan jarak tetap. Tidak akan tumpang tindih."""
+    slot terpisah di bawahnya dengan jarak tetap. Tidak akan tumpang tindih.
+    Template "bentuk" didelegasikan ke penjelasan_bentuk.py."""
+    if tpl.get("bentuk"):
+        import penjelasan_bentuk as _pb
+        return _pb.gambar_penghitung(spec, tpl, idx, total_frame)
     p = idx / max(1, total_frame - 1)
     v = int(spec.get("ke", 0) * (1 - (1 - p) ** 3))   # ease-out kubik (tetap)
     aksen = _aksen_rgb(spec, tpl)
@@ -175,7 +185,11 @@ def gambar_penghitung(spec, tpl, idx, total_frame):
 
 def gambar_penutup(spec, tpl):
     """Pertanyaan + pill pilihan mengikuti template; warna pill tetap semantik
-    hijau/merah bergantian seperti produksi yang di-acc Bos."""
+    hijau/merah bergantian seperti produksi yang di-acc Bos. Template
+    "bentuk" didelegasikan ke penjelasan_bentuk.py."""
+    if tpl.get("bentuk"):
+        import penjelasan_bentuk as _pb
+        return _pb.gambar_penutup(spec, tpl)
     img = Image.new("RGBA", (gaya.W, gaya.H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     t = spec.get("pertanyaan", "MENURUT LU?")
