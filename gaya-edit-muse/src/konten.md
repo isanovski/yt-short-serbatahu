@@ -4,7 +4,7 @@ File pusat repo ini. Peta keputusan, prinsip inti, dan semua angka gaya tiap sis
 
 ## peta
 - `serbaTahu`: Sistem Point Nemo — TERKUNCI, satu-satunya untuk Serba Tahu — template eksekusi `template/serba-tahu/`
-- `sport`: Sistem Sport Muse — standar lini sport — template eksekusi `template/sport/`
+- `sport`: Sistem Sport Muse — standar lini sport — template eksekusi `template/sport/` — studi kanal pembanding: `StudiKanalSport.md`
 - `eksperimen`: template dan pack pihak ketiga (Maliki, motion-skills) — bukan standar, wajib dilabeli eksperimen
 - `stickman`: skill `directing-stickman-videos`, Mode Autopilot — lini sendiri
 - `kartun3d`: skill `cartoon-3d-short` — lini sendiri, chat khusus
@@ -38,7 +38,11 @@ Template eksekusi tinggal di folder `template/` repo ini sebagai salinan snapsho
 - `kartu`: lebar tetap 880 px rata tengah, teks auto-fit, jangkar y 830
 - `kartuPenghitung`: y 810 — `pillPenutup`: mulai y 940
 - `footage`: wajib video bergerak, subjek fokus di tengah, timestamp dari sheet seek akurat
-- `audio`: master sekitar -14,5 LUFS, true peak sekitar -1,5, SFX di-duck di bawah VO
+- `komposisi`: grafis-dulu — footage aksen 2-4 detik per momen, tanpa momen utuh (gol, overtake, insiden tidak ditayangkan penuh)
+- `audio`: master sekitar -14,5 LUFS, true peak sekitar -1,5, SFX di-duck di bawah VO — audio siaran mati total, crowd dari pustaka generik bebas lisensi
+- `watermark`: @aspalrumput wajib di semua final, overlay pass sesudah render, persisten tengah bawah (pusat x 540, y 1570, putih sekitar 60 persen)
+- `ujiChecks`: tab Checks YouTube Studio diperiksa dari unggahan tidak publik sebelum tayang; keputusan tayang dari hasilnya, dicatat di berkas info episode
+- `campuranEpisode`: data dan rekor dominan grafis = mesin iklan; reaksi event footage aksen = mesin penonton
 
 ## audio
 - `pola`: VO Bos adalah tulang punggung semua lini, tidak diganti suara sintetis kecuali Bos yang meminta

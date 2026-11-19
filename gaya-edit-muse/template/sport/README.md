@@ -43,6 +43,29 @@ ffmpeg: terbukti deadlock deterministik di VM ini.
   visual pembukti di layar saat frasa itu diucapkan (angka disebut, kartunya
   tampil; gol disebut, klip golnya tampil). Klaim tanpa footage pembukti diubah
   narasinya, tidak dipaksakan.
+- **Komposisi grafis-dulu** (aman monetisasi, dikunci 19 Nov 2026 dari studi
+  kanal `gaya-edit-muse/src/StudiKanalSport.md`). Mayoritas durasi layar adalah
+  kartu, penghitung, dan grafis sendiri; footage hanya aksen 2–4 detik per
+  momen dan momen utuh (gol, overtake, insiden) tidak pernah ditayangkan penuh
+  sebagai satu potongan kontinu.
+- **Audio siaran mati total.** Komentar, musik, dan ambience dari klip sumber
+  tidak boleh masuk mix. Crowd diambil dari pustaka crowd generik bebas
+  lisensi milik sendiri, bukan dari audio klip sumber.
+- **Campuran jenis episode.** Episode data/rekor dominan grafis adalah mesin
+  iklan; episode reaksi event ber-footage aksen adalah mesin penonton.
+  Kalender merotasi keduanya.
+
+## Sesudah render — watermark dan uji Checks
+
+1. **Watermark @aspalrumput wajib di semua final.** Mesin tidak punya layer
+   watermark, jadi ditambahkan lewat overlay pass di atas file final (satu PNG
+   transparan berisi teks, ffmpeg overlay, audio stream copy) dan hasilnya
+   nama file versi baru. Spesifikasi persisnya ada di `PROMPT-SKRIP.md`
+   bagian 9.
+2. **Uji tab Checks YouTube Studio sebelum tayang.** Final ber-watermark
+   diunggah tidak publik, hasil Checks menentukan keputusan tayang (bersih:
+   jadwalkan; klaim monetisasi: keputusan Bos; blokir seluruh dunia: jangan
+   tayang). Hasilnya dicatat di berkas info episode.
 
 ## Kontrak episode JSON
 

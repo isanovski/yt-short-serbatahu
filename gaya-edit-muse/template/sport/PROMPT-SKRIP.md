@@ -35,6 +35,16 @@ Topik: [TOPIK]
 - Paragraf terakhir selalu pertanyaan "menurut lu" dengan dua jawaban yang berlawanan.
 
 ## 3. Rencana segmen footage (kolom `segmen`) — penjelasan WAJIB selaras video
+- KOMPOSISI GRAFIS-DULU (aturan aman monetisasi, dikunci 19 Nov 2026 dari studi
+  kanal di `gaya-edit-muse/src/StudiKanalSport.md`): mayoritas durasi layar WAJIB
+  kartu, penghitung, dan grafis sendiri. Footage hanya AKSEN 2–4 detik per momen.
+- MOMEN UTUH DILARANG: gol, overtake, dan insiden tidak pernah ditayangkan penuh
+  sebagai satu potongan kontinu. Ambil sepersekian momennya saja, diselingi
+  kartu dan overlay. Segmen footage lebih panjang dari 4 detik hanya bila tidak
+  ada cara lain membuktikan frasanya, dan alasannya WAJIB ditulis di `catatan`.
+- JENIS EPISODE menentukan campuran: episode data/rekor dirancang dominan
+  grafis (mesin iklan, risiko klaim paling kecil); episode reaksi event tetap
+  dibatasi footage aksen (mesin penonton). Kalender episode merotasi keduanya.
 - Footage WAJIB video bergerak beneran. DILARANG foto, still, render diam, slideshow.
 - Subjek (bola/orang yang dibahas) harus fokus di TENGAH frame dan tajam.
 - Rencana segmen ditulis PER FRASA VO, bukan perkiraan kasar: tiap frasa penting
@@ -79,8 +89,12 @@ Topik: [TOPIK]
 - `whoosh` di tiap transisi paragraf (gain ±0,5).
 - Di penghitung: `tick` berkala selama angka naik, `thud` + `ding` saat angka mendarat.
 - `pop` saat tiap kartu muncul (tambatkan `"overlay": "<id kartu>"`, offset 0).
-- `crowd` hanya di momen gol/selebrasi: ekstrak dari audio klip sumber
-  (`sumber`, `sumberMulai`, `durasi`), bukan sintesis.
+- AUDIO SIARAN MATI TOTAL (dikunci 19 Nov 2026): komentar, musik, dan ambience
+  dari klip sumber TIDAK BOLEH masuk mix sama sekali di segmen mana pun,
+  karena deteksi audio adalah jalur klaim Content ID paling agresif.
+- `crowd` hanya di momen gol/selebrasi: ambil dari pustaka crowd generik bebas
+  lisensi milik sendiri (isi `sumber` dengan file crowd generik itu, plus
+  `sumberMulai` dan `durasi`), BUKAN dari audio klip sumber dan bukan sintesis.
 - `riser` + `ding` menjelang pill penutup. Semua SFX otomatis di-duck di bawah VO.
 - Tiap suara sintesis punya beberapa varian karakter (whoosh 3 arah/karakter,
   pop 2, tick 2, ding 2, riser 2) yang dipilih ACAK per event oleh mesin dari
@@ -176,3 +190,25 @@ Balas HANYA JSON ini, tanpa teks lain, dan tanpa emoji di bidang apa pun:
   "sfx": [{"suara": "whoosh", "frasa": "frasa persis dari skrip", "offset": -0.8, "gain": 0.5},
           {"suara": "pop", "overlay": "kartu1", "offset": 0, "gain": 0.8}]
 }
+
+## 9. Sesudah render — watermark dan uji Checks (di luar JSON)
+
+Dua langkah ini dikerjakan agen produksi sesudah driver selesai, bukan bagian
+dari kontrak JSON:
+
+1. **Watermark @aspalrumput (wajib di semua final).** Mesin template tidak
+   punya layer watermark. Tambahkan lewat overlay pass di atas file final:
+   satu PNG transparan 1080x1920 berisi teks `@aspalrumput` (font Inter-800
+   36 piksel, putih alpha sekitar 60 persen, bayangan halus, kotak teks pusat
+   x 540 dan pusat y 1570), ffmpeg overlay dengan satu input loop itu saja,
+   video encode ulang crf 17, **audio stream copy** (loudness tidak boleh
+   berubah). Hasilnya nama file versi baru (`<slug>-final-v2.mp4`). Verifikasi
+   dari file hasil: watermark terbaca halus, tidak menabrak caption (caption
+   berakhir maksimal sekitar y 1457) dan tidak menabrak pill penutup.
+2. **Uji tab Checks sebelum tayang.** Video final ber-watermark diunggah
+   sebagai tidak publik atau draf, lalu tab Checks di YouTube Studio diperiksa
+   sebelum dijadwalkan tayang. Keputusan dari hasilnya: bersih berarti
+   jadwalkan; kena klaim monetisasi berarti keputusan Bos (tetap tayang
+   sebagai mesin penonton atau ditahan); diblokir di seluruh dunia berarti
+   jangan tayang, edit ulang atau ganti episode. Hasil Checks dicatat di
+   berkas info episode (`<slug>-preset.json` atau catatan episode).

@@ -44,6 +44,7 @@ gaya-edit-muse/
 │   ├── konten.md         # ✏️ semua isi yang bisa diganti (peta + angka gaya)
 │   ├── SerbaTahu.md      # sistem Point Nemo (terkunci)
 │   ├── Sport.md          # sistem sport Muse
+│   ├── StudiKanalSport.md # studi kanal sport yang terbukti monet + pelajaran terapan
 │   ├── Eksperimen.md     # template & pack pihak ketiga + aturan klaim
 │   └── LiniLain.md       # stickman + kartun 3D
 ├── template/
