@@ -196,7 +196,7 @@ def gambar_penutup(spec, tpl):
     fq = _fit(t, tpl["font_judul"], gaya.PILLS_FONT_Q, gaya.CAP_LEBAR_MAKS)
     tw = d.textlength(t, font=fq)
     d.text(((gaya.W - tw) / 2, gaya.PILLS_Q_Y), t, font=fq,
-           fill=_rgb(tpl["warna_judul"]) + (255,),
+           fill=_rgb(tpl.get("warna_penutup", tpl["warna_judul"])) + (255,),
            stroke_width=3, stroke_fill=(0, 0, 0, 170))
     cols = [gaya.PILL_GREEN, gaya.PILL_RED]
     for j, txt in enumerate(spec["pilihan"]):

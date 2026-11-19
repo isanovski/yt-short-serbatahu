@@ -115,7 +115,8 @@
    "warna_angka": "#0A0A0E",
    "warna_judul": "#0A0A0E",
    "warna_label": "#0A0A0E",
-   "warna_teks": "#0A0A0E"
+   "warna_teks": "#0A0A0E",
+   "warna_penutup": "#FFFFFF"
   },
   "chip": {
    "bentuk": "chip",
@@ -269,7 +270,8 @@
    "warna_angka": "#E4572E",
    "warna_judul": "#1D1A16",
    "warna_label": "#6F6656",
-   "warna_teks": "#1D1A16"
+   "warna_teks": "#1D1A16",
+   "warna_penutup": "#FFFFFF"
   },
   "klasik": {
    "bilah": {
