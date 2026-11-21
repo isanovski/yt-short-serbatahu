@@ -11,6 +11,7 @@ Standar tiap style: `skill/2d/SKILL.md` dan `skill/video/SKILL.md`.
 - `video-prancis-zona` — pratinjau terkirim, menunggu acc render penuh
 - `video-rute-pesawat-lengkung`
 - `video-indonesia-lebar` — sedang produksi
+- `video-australia-bergerak` — sedang produksi, episode pertama pemakai pool template penjelasan
 
 ## Style Video — Foto dan Footage Asli (v3/v5)
 
