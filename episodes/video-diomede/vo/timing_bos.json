@@ -1,0 +1,260 @@
+{
+ "bounds": [
+  0.0,
+  17.32,
+  34.14,
+  49.18,
+  62.52,
+  78.26,
+  97.0
+ ],
+ "total": 97.0,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Di antara Rusia dan Amerika",
+   "start": 0.0,
+   "end": 2.02
+  },
+  {
+   "scene": 0,
+   "text": "ada dua pulau yang jaraknya cuma 3,8 kilometer",
+   "start": 2.02,
+   "end": 5.86
+  },
+  {
+   "scene": 0,
+   "text": "Tapi anehnya, dua pulau ini tidak pernah berada di hari yang sama",
+   "start": 5.86,
+   "end": 9.58
+  },
+  {
+   "scene": 0,
+   "text": "Coba tebak dulu",
+   "start": 10.04,
+   "end": 10.82
+  },
+  {
+   "scene": 0,
+   "text": "Pulau yang satu hari Senin",
+   "start": 11.16,
+   "end": 12.54
+  },
+  {
+   "scene": 0,
+   "text": "pulau sebelahnya masih Minggu, atau sudah Selasa?",
+   "start": 12.8,
+   "end": 15.12
+  },
+  {
+   "scene": 0,
+   "text": "Tulis tebakanmu di komentar",
+   "start": 15.42,
+   "end": 16.58
+  },
+  {
+   "scene": 1,
+   "text": "Namanya Kepulauan Diomede",
+   "start": 17.32,
+   "end": 18.9
+  },
+  {
+   "scene": 1,
+   "text": "di tengah Selat Bering yang dingin",
+   "start": 18.9,
+   "end": 20.7
+  },
+  {
+   "scene": 1,
+   "text": "Yang besar milik Rusia, namanya Diomede Besar",
+   "start": 21.08,
+   "end": 23.82
+  },
+  {
+   "scene": 1,
+   "text": "Yang kecil milik Amerika, namanya Diomede Kecil",
+   "start": 24.26,
+   "end": 27.18
+  },
+  {
+   "scene": 1,
+   "text": "dan di sana ada desa kecil berisi sekitar 77 orang",
+   "start": 27.18,
+   "end": 30.6
+  },
+  {
+   "scene": 1,
+   "text": "Dua pulau ini bisa saling melihat dengan mata telanjang",
+   "start": 30.6,
+   "end": 33.56
+  },
+  {
+   "scene": 2,
+   "text": "Di antara dua pulau itu lewat Garis Tanggal Internasional",
+   "start": 34.14,
+   "end": 37.06
+  },
+  {
+   "scene": 2,
+   "text": "garis tak terlihat yang membelah hari di Bumi",
+   "start": 37.52,
+   "end": 39.56
+  },
+  {
+   "scene": 2,
+   "text": "Pulau Rusia ada di sisi besok",
+   "start": 40.08,
+   "end": 41.72
+  },
+  {
+   "scene": 2,
+   "text": "pulau Amerika di sisi kemarin",
+   "start": 42.06,
+   "end": 43.48
+  },
+  {
+   "scene": 2,
+   "text": "Makanya Diomede Besar dijuluki Pulau Besok",
+   "start": 43.98,
+   "end": 46.3
+  },
+  {
+   "scene": 2,
+   "text": "dan Diomede Kecil dijuluki Pulau Kemarin",
+   "start": 46.62,
+   "end": 48.66
+  },
+  {
+   "scene": 3,
+   "text": "Bedanya bukan cuma tanggalnya",
+   "start": 49.18,
+   "end": 50.64
+  },
+  {
+   "scene": 3,
+   "text": "Jam di dua pulau ini selisihnya 21 jam",
+   "start": 51.1,
+   "end": 53.46
+  },
+  {
+   "scene": 3,
+   "text": "Kalau di Diomede Kecil masih Senin pagi jam sembilan",
+   "start": 53.86,
+   "end": 56.38
+  },
+  {
+   "scene": 3,
+   "text": "di Diomede Besar sudah Selasa jam enam pagi",
+   "start": 56.38,
+   "end": 59.18
+  },
+  {
+   "scene": 3,
+   "text": "Padahal tetangganya itu kelihatan jelas dari jendela rumah",
+   "start": 59.32,
+   "end": 62.16
+  },
+  {
+   "scene": 4,
+   "text": "Fakta bonus",
+   "start": 62.52,
+   "end": 63.38
+  },
+  {
+   "scene": 4,
+   "text": "Di musim dingin, laut di antara dua pulau ini membeku jadi es",
+   "start": 63.38,
+   "end": 67.2
+  },
+  {
+   "scene": 4,
+   "text": "Secara teori kamu bisa jalan kaki menyeberang",
+   "start": 67.68,
+   "end": 69.66
+  },
+  {
+   "scene": 4,
+   "text": "dari Amerika ke Rusia, dari kemarin ke besok",
+   "start": 69.66,
+   "end": 72.18
+  },
+  {
+   "scene": 4,
+   "text": "dalam waktu kurang dari satu jam",
+   "start": 72.48,
+   "end": 73.88
+  },
+  {
+   "scene": 4,
+   "text": "Tapi menyeberang begitu sekarang dilarang",
+   "start": 74.36,
+   "end": 76.28
+  },
+  {
+   "scene": 4,
+   "text": "jadi cuma bisa dibayangkan",
+   "start": 76.54,
+   "end": 77.66
+  },
+  {
+   "scene": 5,
+   "text": "Garis ini ada gara-gara tahun 1867",
+   "start": 78.26,
+   "end": 81.32
+  },
+  {
+   "scene": 5,
+   "text": "waktu Amerika membeli Alaska dari Rusia",
+   "start": 81.8,
+   "end": 83.68
+  },
+  {
+   "scene": 5,
+   "text": "dan garis tanggalnya digeser ke barat",
+   "start": 84.1,
+   "end": 85.74
+  },
+  {
+   "scene": 5,
+   "text": "Dan jawaban tebakan tadi",
+   "start": 85.74,
+   "end": 87.26
+  },
+  {
+   "scene": 5,
+   "text": "pulau sebelahnya sudah Selasa",
+   "start": 87.26,
+   "end": 88.74
+  },
+  {
+   "scene": 5,
+   "text": "Jadi dari Diomede Kecil",
+   "start": 89.18,
+   "end": 90.54
+  },
+  {
+   "scene": 5,
+   "text": "kamu benar-benar bisa menatap hari esok dari jendela",
+   "start": 90.84,
+   "end": 92.96
+  },
+  {
+   "scene": 5,
+   "text": "Kamu mau tinggal di Pulau Kemarin atau Pulau Besok?",
+   "start": 93.44,
+   "end": 95.8
+  }
+ ],
+ "events": {
+  "s1_quiz": 10.04,
+  "s2_village": 27.18,
+  "s3_line": 34.14,
+  "s3_labels": 40.08,
+  "s4_clocks": 51.1,
+  "s5_ice": 63.38,
+  "s5_walk": 67.68,
+  "s6_year": 78.26,
+  "s6_payoff": 85.74,
+  "s6_question": 92.0
+ }
+}

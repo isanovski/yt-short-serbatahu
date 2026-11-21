@@ -567,3 +567,68 @@ Visual video ini animasi motion graphic 2D.
 #SerbaTahu #Pesawat #FaktaUnik #Penerbangan #Shorts
 
 **Catatan produksi:** FINAL `pesawat-10km-2d-final.mp4`, 105,75 detik, minus 14,64 LUFS, TP minus 1,13. Episode animasi 2D motion graphic PENUH pertama Serba Tahu (semua babak digambar flat, tanpa foto), hasil koreksi Bos atas versi foto yang ditolak. VO Bos 104,73 detik (md5 94dd90b2452857acbd6daabf140f9484), alignment 227/242.
+
+
+---
+
+## 26. Point Nemo, Titik Tersepi di Bumi (Animasi 2D)
+
+**Judul rekomendasi:** Titik Tersepi di Bumi, Tetangganya Malah Astronaut
+
+**Alternatif judul:**
+1. 2.688 Km dari Manusia Terdekat, Ini Titik Paling Sepi di Bumi
+2. Kuburan Pesawat Luar Angkasa Ada di Tengah Laut, Kok Bisa?
+
+**Deskripsi:**
+Di Bumi ada satu titik yang paling jauh dari manusia mana pun. Namanya Point Nemo, di tengah Samudra Pasifik. Daratan terdekat jaraknya 2.688 kilometer ke segala arah, jadi manusia terdekatnya justru astronaut di stasiun luar angkasa yang mengorbit cuma sekitar 400 kilometer di atasnya.
+
+Karena sepi total, titik ini jadi kuburan pesawat luar angkasa. Lebih dari 260 pesawat dan stasiun pensiun sengaja dijatuhkan di sini, termasuk stasiun Mir. Di titik yang sama, tahun 1997 alat perekam dasar laut menangkap suara misterius The Bloop yang sempat dikira makhluk raksasa.
+
+Visual video ini animasi 2D gaya peta, satu panggung yang terus memperbesar ke titiknya.
+
+#SerbaTahu #PointNemo #FaktaUnik #Geografi #Shorts
+
+**Catatan produksi:** FINAL `point-nemo-final.mp4`, 110,5 detik, minus 14,59 LUFS, TP minus 1,15. Episode pertama memakai gaya edit Geser Dikit secara penuh (panggung peta satu babak, kuis dua ujung, angka jadi alat peraga) atas perintah Bos meniru gayanya, bukan kontennya. VO Bos direkam ulang bersih tanpa kata babak, 109,81 detik (md5 ded7983c90f520303c5d29971e9acc63), alignment 239/251.
+
+## 27. Pulau Diomede, Kemarin vs Besok (Animasi 2D Full Peta)
+
+**Judul rekomendasi:** Jaraknya Cuma 3,8 Km, Kok Bisa Beda Hari?
+
+**Alternatif judul:**
+1. Dua Pulau Tetangga Ini Hidup di Hari yang Berbeda
+2. Dari Pulau Ini Kamu Bisa Melihat Hari Esok
+
+**Deskripsi:**
+Di antara Rusia dan Amerika ada dua pulau yang jaraknya cuma 3,8 kilometer, tapi dua pulau ini tidak pernah berada di hari yang sama. Namanya Kepulauan Diomede di tengah Selat Bering. Yang besar milik Rusia, yang kecil milik Amerika, dan keduanya bisa saling melihat dengan mata telanjang.
+
+Di antara dua pulau itu lewat Garis Tanggal Internasional. Makanya Diomede Besar dijuluki Pulau Besok dan Diomede Kecil dijuluki Pulau Kemarin. Selisih waktunya 21 jam. Kalau di Diomede Kecil masih Senin pagi jam sembilan, di Diomede Besar sudah Selasa jam enam pagi.
+
+Visual video ini animasi 2D di atas peta asli Selat Bering, dari peta dunia terus memperbesar sampai ke celah asli antara dua pulaunya.
+
+#SerbaTahu #Diomede #FaktaUnik #Geografi #Shorts
+
+**Catatan produksi:** FINAL `diomede-final.mp4`, 97,0 detik, minus 14,89 LUFS, TP minus 1,25. Episode full peta asli pertama: tiga layer peta (dunia Natural Earth berwarna negara, Pasifik utara 100px/deg, Selat Bering GSHHG full-res 400px/deg), garis tanggal digambar di celah asli dua pulau (jarak terdekat poligon data 3,59 km), jam dinding callout bergaris penunjuk, es membeku di selat asli. Riwayat koreksi Bos: v1 panggung diagram pulau gambar DITOLAK (tidak ada peta), v2 DITOLAK karena peta kejepit di atas dan label ketutup headline, v3 framing target-centered (subjek selalu di tengah frame, label di bawah titik) di-acc. VO Bos VoiceOver_diomede.wav 95,93 detik (md5 a9e3616cf2536036bded364bc24cefab), alignment 240/254, tanpa kata babak.
+
+
+---
+
+## 28. Rute Pesawat Lengkung (Animasi 2D Full Peta)
+
+**Judul rekomendasi:** Di Peta Kok Bengkok, Kok Malah Lebih Dekat?
+
+**Alternatif judul:**
+1. Pesawat Tokyo ke New York Kok Malah Naik ke Kutub?
+2. Garis Lurus di Peta Ternyata Bukan Jalan Terpendek
+
+**Deskripsi:**
+Pernah lihat peta rute pesawat yang melengkung jauh ke utara dan mikir pilotnya nyasar? Justru rute melengkung itulah jalan paling dekat.
+
+Contohnya Tokyo ke New York. Kalau ditarik lurus di peta datar jaraknya 12.745 kilometer. Tapi pesawat malah memutar naik mendekati Kutub Utara, dan jaraknya cuma 10.830 kilometer. Selisihnya hampir 1.900 kilometer.
+
+Namanya lingkaran besar, jarak terpendek antara dua titik di permukaan bola. Bumi itu bulat, peta itu datar, dan di bola garis yang terlihat bengkok di peta bisa jadi yang paling lurus.
+
+Visual video ini animasi 2D di atas peta dunia asli, lengkap dengan globe yang menunjukkan benang lurusnya.
+
+#SerbaTahu #Pesawat #FaktaUnik #Geografi #Shorts
+
+**Catatan produksi:** FINAL `rute-pesawat-final.mp4`, 82,6 detik, minus 15,72 LUFS, TP minus 1,10. Episode full peta pola Prancis/Diomede: peta dunia equirectangular berpusat Pasifik, globe gnomonic di tengah sebagai bukti benang lurus, balapan penghitung 12.745 vs 10.830 km dan stempel SELISIH 1.900 KM. Contoh utama Tokyo ke New York hasil hitung sendiri (great-circle 10.830 km, rhumb 12.745 km, lintang maksimum 69,6 derajat); contoh pitch awal Jakarta ke Los Angeles dikoreksi karena selisihnya cuma sekitar 450 km. VO Bos VoiceOver_rute.wav 81,61 detik (md5 e550b48b65ec7b3088d07a261ad75c06), alignment 223/232. Loudnorm ditargetkan TP minus 2,6 di WAV karena VO panas, hasil AAC akhir TP minus 1,10.

@@ -1,0 +1,368 @@
+{
+ "bounds": [
+  0.0,
+  15.12,
+  32.64,
+  55.3,
+  81.66,
+  104.84,
+  124.74
+ ],
+ "total": 124.74,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Negara dengan zona waktu terbanyak di dunia",
+   "start": 0.0,
+   "end": 2.7
+  },
+  {
+   "scene": 0,
+   "text": "itu bukan Rusia dan bukan Amerika",
+   "start": 3.06,
+   "end": 5.08
+  },
+  {
+   "scene": 0,
+   "text": "Coba tebak dulu",
+   "start": 5.74,
+   "end": 6.36
+  },
+  {
+   "scene": 0,
+   "text": "Negara kecil di Eropa ini punya 12 zona waktu",
+   "start": 6.88,
+   "end": 9.8
+  },
+  {
+   "scene": 0,
+   "text": "Tulis tebakanmu di komentar, Rusia atau Prancis?",
+   "start": 10.38,
+   "end": 13.66
+  },
+  {
+   "scene": 1,
+   "text": "Rusia memang raksasa",
+   "start": 15.12,
+   "end": 16.7
+  },
+  {
+   "scene": 1,
+   "text": "Dari Kaliningrad di barat sampai Kamchatka di timur,",
+   "start": 17.04,
+   "end": 19.86
+  },
+  {
+   "scene": 1,
+   "text": "jamnya terbagi 11 zona waktu",
+   "start": 20.26,
+   "end": 21.9
+  },
+  {
+   "scene": 1,
+   "text": "Amerika juga 11 zona",
+   "start": 22.62,
+   "end": 24.04
+  },
+  {
+   "scene": 1,
+   "text": "kalau wilayah seberang lautnya ikut dihitung",
+   "start": 24.4,
+   "end": 26.64
+  },
+  {
+   "scene": 1,
+   "text": "Sebelas,",
+   "start": 26.64,
+   "end": 27.82
+  },
+  {
+   "scene": 1,
+   "text": "angka yang kelihatan mustahil",
+   "start": 28.0,
+   "end": 29.44
+  },
+  {
+   "scene": 1,
+   "text": "dikalahkan negara kecil mana pun",
+   "start": 29.6,
+   "end": 31.18
+  },
+  {
+   "scene": 2,
+   "text": "Prancis daratan malah cuma punya satu zona waktu",
+   "start": 32.64,
+   "end": 35.1
+  },
+  {
+   "scene": 2,
+   "text": "Kecil, cuma seukuran negara Eropa biasa",
+   "start": 35.58,
+   "end": 37.98
+  },
+  {
+   "scene": 2,
+   "text": "Tapi Prancis tidak berhenti di Eropa",
+   "start": 38.48,
+   "end": 40.56
+  },
+  {
+   "scene": 2,
+   "text": "Wilayah resminya tersebar di semua samudra",
+   "start": 40.88,
+   "end": 43.16
+  },
+  {
+   "scene": 2,
+   "text": "Guyana Prancis di Amerika Selatan",
+   "start": 43.72,
+   "end": 45.48
+  },
+  {
+   "scene": 2,
+   "text": "Guadeloupe dan Martinik di Karibia",
+   "start": 45.48,
+   "end": 47.72
+  },
+  {
+   "scene": 2,
+   "text": "Mayotte dan Reunion di Samudra Hindia",
+   "start": 48.22,
+   "end": 50.22
+  },
+  {
+   "scene": 2,
+   "text": "Polinesia Prancis, Kaledonia Baru,",
+   "start": 50.7,
+   "end": 52.74
+  },
+  {
+   "scene": 2,
+   "text": "dan Wallis Futuna di Pasifik",
+   "start": 52.74,
+   "end": 54.44
+  },
+  {
+   "scene": 3,
+   "text": "Satu per satu,",
+   "start": 55.3,
+   "end": 56.46
+  },
+  {
+   "scene": 3,
+   "text": "wilayah itu menyalakan zona waktunya sendiri",
+   "start": 56.46,
+   "end": 58.9
+  },
+  {
+   "scene": 3,
+   "text": "Tahiti di UTC minus 10",
+   "start": 59.42,
+   "end": 60.9
+  },
+  {
+   "scene": 3,
+   "text": "Karibia minus 4",
+   "start": 61.4,
+   "end": 62.42
+  },
+  {
+   "scene": 3,
+   "text": "Guyana minus 3",
+   "start": 62.9,
+   "end": 63.74
+  },
+  {
+   "scene": 3,
+   "text": "Paris plus 1",
+   "start": 64.24,
+   "end": 65.04
+  },
+  {
+   "scene": 3,
+   "text": "Reunion plus 4",
+   "start": 65.38,
+   "end": 66.38
+  },
+  {
+   "scene": 3,
+   "text": "Kaledonia Baru plus 11",
+   "start": 66.72,
+   "end": 68.12
+  },
+  {
+   "scene": 3,
+   "text": "Dan Wallis Futuna plus 12",
+   "start": 68.5,
+   "end": 69.92
+  },
+  {
+   "scene": 3,
+   "text": "Totalnya 12 zona waktu,",
+   "start": 70.5,
+   "end": 71.96
+  },
+  {
+   "scene": 3,
+   "text": "rekor dunia menurut Guinness",
+   "start": 72.4,
+   "end": 73.84
+  },
+  {
+   "scene": 3,
+   "text": "Ujung ke ujung selisihnya 22 jam",
+   "start": 74.34,
+   "end": 76.7
+  },
+  {
+   "scene": 3,
+   "text": "Saat Tahiti masih Senin pagi,",
+   "start": 76.7,
+   "end": 78.84
+  },
+  {
+   "scene": 3,
+   "text": "Wallis Futuna sudah Selasa pagi",
+   "start": 79.18,
+   "end": 80.8
+  },
+  {
+   "scene": 4,
+   "text": "Fakta bonus",
+   "start": 81.66,
+   "end": 82.66
+  },
+  {
+   "scene": 4,
+   "text": "Karena Guyana Prancis itu wilayah resmi,",
+   "start": 83.12,
+   "end": 85.0
+  },
+  {
+   "scene": 4,
+   "text": "perbatasan darat terpanjang Prancis",
+   "start": 85.38,
+   "end": 87.02
+  },
+  {
+   "scene": 4,
+   "text": "justru bukan dengan Spanyol atau Jerman",
+   "start": 87.02,
+   "end": 89.0
+  },
+  {
+   "scene": 4,
+   "text": "Perbatasan terpanjangnya dengan Brasil,",
+   "start": 89.52,
+   "end": 91.38
+  },
+  {
+   "scene": 4,
+   "text": "730 kilometer menyusuri Sungai Oyapock",
+   "start": 91.68,
+   "end": 94.5
+  },
+  {
+   "scene": 4,
+   "text": "di hutan Amazon",
+   "start": 94.5,
+   "end": 95.28
+  },
+  {
+   "scene": 4,
+   "text": "Lebih panjang dari perbatasannya dengan Spanyol",
+   "start": 95.84,
+   "end": 98.14
+  },
+  {
+   "scene": 4,
+   "text": "yang cuma 623 kilometer",
+   "start": 98.4,
+   "end": 101.02
+  },
+  {
+   "scene": 4,
+   "text": "Jadi tetangga darat terbesar Prancis ada di benua Amerika",
+   "start": 101.02,
+   "end": 104.1
+  },
+  {
+   "scene": 5,
+   "text": "Dan jawaban tebakan tadi, Prancis",
+   "start": 104.84,
+   "end": 106.94
+  },
+  {
+   "scene": 5,
+   "text": "Negara kecil di Eropa",
+   "start": 107.36,
+   "end": 108.54
+  },
+  {
+   "scene": 5,
+   "text": "yang jamnya mengelilingi seluruh Bumi",
+   "start": 108.54,
+   "end": 110.34
+  },
+  {
+   "scene": 5,
+   "text": "Dari Tahiti sampai Wallis Futuna,",
+   "start": 110.34,
+   "end": 112.48
+  },
+  {
+   "scene": 5,
+   "text": "selalu ada wilayah Prancis yang sedang siang",
+   "start": 112.92,
+   "end": 114.96
+  },
+  {
+   "scene": 5,
+   "text": "Rekor ini bukan milik negara terbesar,",
+   "start": 115.4,
+   "end": 117.34
+  },
+  {
+   "scene": 5,
+   "text": "tapi milik negara yang wilayahnya paling menyebar",
+   "start": 117.66,
+   "end": 120.04
+  },
+  {
+   "scene": 5,
+   "text": "Kamu mau liburan ke Prancis yang di Karibia atau yang di Pasifik?",
+   "start": 120.6,
+   "end": 123.54
+  }
+ ],
+ "events": {
+  "s1_quiz": 5.74,
+  "s2_russia": 17.04,
+  "s2_counter": 20.26,
+  "s2_usa": 22.62,
+  "s3_metro": 32.64,
+  "s3_spread": 40.88,
+  "s3_guyana": 43.72,
+  "s3_karibia": 45.48,
+  "s3_hindia": 48.22,
+  "s3_pasifik": 50.7,
+  "s4_ruler": 56.46,
+  "s4_tahiti": 59.42,
+  "s4_karibia": 61.4,
+  "s4_guyana": 62.9,
+  "s4_paris": 64.24,
+  "s4_reunion": 65.38,
+  "s4_kaledonia": 66.72,
+  "s4_wallis": 68.5,
+  "s4_total": 70.5,
+  "s4_span": 74.34,
+  "s4_clocks": 76.7,
+  "s5_zoom": 83.12,
+  "s5_border": 89.52,
+  "s5_river": 91.68,
+  "s5_spain": 95.84,
+  "s6_payoff": 104.84,
+  "s6_sun": 110.34,
+  "s6_question": 119.74
+ }
+}

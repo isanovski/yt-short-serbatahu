@@ -1,0 +1,324 @@
+{
+ "bounds": [
+  0.0,
+  16.22,
+  27.24,
+  38.78,
+  53.84,
+  67.3,
+  82.6
+ ],
+ "total": 82.6,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Pesawat dari Tokyo ke New York",
+   "start": 0.0,
+   "end": 2.16
+  },
+  {
+   "scene": 0,
+   "text": "terbangnya malah naik jauh ke utara,",
+   "start": 2.32,
+   "end": 4.02
+  },
+  {
+   "scene": 0,
+   "text": "mendekati Kutub Utara",
+   "start": 4.34,
+   "end": 5.34
+  },
+  {
+   "scene": 0,
+   "text": "Di peta kelihatannya memutar dan buang waktu",
+   "start": 5.82,
+   "end": 7.92
+  },
+  {
+   "scene": 0,
+   "text": "Coba tebak dulu",
+   "start": 8.42,
+   "end": 9.0
+  },
+  {
+   "scene": 0,
+   "text": "Itu pesawatnya nyasar,",
+   "start": 9.28,
+   "end": 10.46
+  },
+  {
+   "scene": 0,
+   "text": "atau justru itu jalan paling dekat?",
+   "start": 10.46,
+   "end": 12.16
+  },
+  {
+   "scene": 0,
+   "text": "Tulis tebakanmu di komentar,",
+   "start": 12.5,
+   "end": 13.74
+  },
+  {
+   "scene": 0,
+   "text": "Nyasar, atau jalan paling dekat?",
+   "start": 14.18,
+   "end": 15.68
+  },
+  {
+   "scene": 1,
+   "text": "Kalau dua kota itu ditarik garis lurus",
+   "start": 16.22,
+   "end": 17.94
+  },
+  {
+   "scene": 1,
+   "text": "di peta datar,",
+   "start": 17.94,
+   "end": 18.64
+  },
+  {
+   "scene": 1,
+   "text": "garisnya kelihatan pendek dan masuk akal",
+   "start": 18.86,
+   "end": 20.58
+  },
+  {
+   "scene": 1,
+   "text": "Melewati Samudra Pasifik lurus ke timur, selesai",
+   "start": 20.86,
+   "end": 23.38
+  },
+  {
+   "scene": 1,
+   "text": "Hampir semua orang akan memilih garis itu",
+   "start": 23.64,
+   "end": 25.34
+  },
+  {
+   "scene": 1,
+   "text": "kalau disuruh menebak rutenya",
+   "start": 25.34,
+   "end": 27.24
+  },
+  {
+   "scene": 2,
+   "text": "Masalahnya, Bumi itu bulat,",
+   "start": 27.24,
+   "end": 28.86
+  },
+  {
+   "scene": 2,
+   "text": "sedangkan peta itu datar",
+   "start": 28.86,
+   "end": 30.34
+  },
+  {
+   "scene": 2,
+   "text": "Coba tempelkan seutas benang di globe,",
+   "start": 30.64,
+   "end": 32.42
+  },
+  {
+   "scene": 2,
+   "text": "dari Tokyo ke New York,",
+   "start": 32.42,
+   "end": 33.56
+  },
+  {
+   "scene": 2,
+   "text": "lalu tarik benangnya sampai kencang",
+   "start": 33.88,
+   "end": 35.2
+  },
+  {
+   "scene": 2,
+   "text": "Benang itu tidak lurus ke timur",
+   "start": 35.5,
+   "end": 36.84
+  },
+  {
+   "scene": 2,
+   "text": "Benangnya malah naik ke utara",
+   "start": 37.12,
+   "end": 38.28
+  },
+  {
+   "scene": 3,
+   "text": "Ternyata,",
+   "start": 38.78,
+   "end": 39.32
+  },
+  {
+   "scene": 3,
+   "text": "garis lurus di peta datar itu",
+   "start": 39.62,
+   "end": 40.94
+  },
+  {
+   "scene": 3,
+   "text": "jaraknya sekitar 12.745 kilometer",
+   "start": 40.94,
+   "end": 44.3
+  },
+  {
+   "scene": 3,
+   "text": "Sedangkan rute melengkung ke utara",
+   "start": 44.3,
+   "end": 45.8
+  },
+  {
+   "scene": 3,
+   "text": "cuma sekitar 10.830 kilometer",
+   "start": 45.96,
+   "end": 48.74
+  },
+  {
+   "scene": 3,
+   "text": "Selisihnya hampir 1.900 kilometer",
+   "start": 48.74,
+   "end": 51.24
+  },
+  {
+   "scene": 3,
+   "text": "Rute yang kelihatan memutar",
+   "start": 51.24,
+   "end": 52.34
+  },
+  {
+   "scene": 3,
+   "text": "justru jauh lebih pendek",
+   "start": 52.34,
+   "end": 53.44
+  },
+  {
+   "scene": 4,
+   "text": "Rute melengkung itu namanya lingkaran besar",
+   "start": 53.84,
+   "end": 55.7
+  },
+  {
+   "scene": 4,
+   "text": "Itu jarak terpendek antara dua titik",
+   "start": 55.7,
+   "end": 57.76
+  },
+  {
+   "scene": 4,
+   "text": "di permukaan bola",
+   "start": 57.76,
+   "end": 58.5
+  },
+  {
+   "scene": 4,
+   "text": "Di globe, rute itu sebenarnya lurus",
+   "start": 58.88,
+   "end": 60.42
+  },
+  {
+   "scene": 4,
+   "text": "Petanya saja yang membuat",
+   "start": 60.66,
+   "end": 61.7
+  },
+  {
+   "scene": 4,
+   "text": "garis lurus terlihat melengkung",
+   "start": 61.7,
+   "end": 62.88
+  },
+  {
+   "scene": 4,
+   "text": "Rute Jakarta ke Los Angeles pun sama,",
+   "start": 63.3,
+   "end": 64.88
+  },
+  {
+   "scene": 4,
+   "text": "jalurnya naik jauh ke Pasifik utara",
+   "start": 65.28,
+   "end": 66.78
+  },
+  {
+   "scene": 5,
+   "text": "Fakta bonusnya,",
+   "start": 67.3,
+   "end": 68.12
+  },
+  {
+   "scene": 5,
+   "text": "arah kompas pesawat di rute ini berubah terus",
+   "start": 68.3,
+   "end": 70.14
+  },
+  {
+   "scene": 5,
+   "text": "selama penerbangan",
+   "start": 70.14,
+   "end": 70.86
+  },
+  {
+   "scene": 5,
+   "text": "Tidak ada satu arah tetap",
+   "start": 71.18,
+   "end": 72.24
+  },
+  {
+   "scene": 5,
+   "text": "dari awal sampai akhir",
+   "start": 72.24,
+   "end": 73.32
+  },
+  {
+   "scene": 5,
+   "text": "Jadi lain kali melihat rute pesawat",
+   "start": 73.72,
+   "end": 75.12
+  },
+  {
+   "scene": 5,
+   "text": "melengkung ke utara,",
+   "start": 75.12,
+   "end": 75.9
+  },
+  {
+   "scene": 5,
+   "text": "itu bukan nyasar",
+   "start": 76.2,
+   "end": 76.88
+  },
+  {
+   "scene": 5,
+   "text": "Itu jalan paling dekat",
+   "start": 77.16,
+   "end": 78.04
+  },
+  {
+   "scene": 5,
+   "text": "Menurutmu peta datar masih bisa dipercaya?",
+   "start": 78.36,
+   "end": 80.12
+  },
+  {
+   "scene": 5,
+   "text": "Lurus, atau lengkung?",
+   "start": 80.5,
+   "end": 81.4
+  }
+ ],
+ "events": {
+  "s1_route": 2.32,
+  "s1_quiz": 8.42,
+  "s2_rhumb": 16.22,
+  "s3_globe": 30.64,
+  "s3_north": 37.12,
+  "s4_race": 39.62,
+  "s4_rhumb_num": 40.94,
+  "s4_gc_num": 45.96,
+  "s4_diff": 48.74,
+  "s5_term": 53.84,
+  "s5_jakarta": 63.3,
+  "s6_compass": 68.3,
+  "s6_payoff": 76.2,
+  "s6_question": 77.6
+ }
+}

@@ -1,0 +1,326 @@
+{
+ "bounds": [
+  0.0,
+  11.04,
+  29.78,
+  54.18,
+  70.48,
+  86.28,
+  102.72
+ ],
+ "total": 102.72,
+ "phrases": [
+  {
+   "scene": 0,
+   "text": "Indonesia itu lebih lebar dari Amerika Serikat",
+   "start": 0.0,
+   "end": 3.02
+  },
+  {
+   "scene": 0,
+   "text": "Coba tebak dulu,",
+   "start": 3.48,
+   "end": 4.26
+  },
+  {
+   "scene": 0,
+   "text": "dari ujung barat ke ujung timur,",
+   "start": 4.66,
+   "end": 6.16
+  },
+  {
+   "scene": 0,
+   "text": "yang menang Indonesia atau Amerika?",
+   "start": 6.16,
+   "end": 8.06
+  },
+  {
+   "scene": 0,
+   "text": "Tulis tebakanmu di komentar",
+   "start": 8.64,
+   "end": 9.86
+  },
+  {
+   "scene": 1,
+   "text": "Ujung barat Indonesia itu Sabang,",
+   "start": 11.04,
+   "end": 12.9
+  },
+  {
+   "scene": 1,
+   "text": "di Pulau Weh, Aceh",
+   "start": 12.9,
+   "end": 14.34
+  },
+  {
+   "scene": 1,
+   "text": "Ujung timurnya Merauke,",
+   "start": 14.72,
+   "end": 15.9
+  },
+  {
+   "scene": 1,
+   "text": "di pesisir selatan Papua",
+   "start": 15.9,
+   "end": 17.4
+  },
+  {
+   "scene": 1,
+   "text": "Tarik garis lurus di antara keduanya",
+   "start": 17.98,
+   "end": 19.56
+  },
+  {
+   "scene": 1,
+   "text": "dan angkanya berhenti di 5.245 kilometer",
+   "start": 19.78,
+   "end": 24.06
+  },
+  {
+   "scene": 1,
+   "text": "Di antara dua titik itu",
+   "start": 24.06,
+   "end": 25.46
+  },
+  {
+   "scene": 1,
+   "text": "ada lebih dari 17.000 pulau dan tiga zona waktu",
+   "start": 25.46,
+   "end": 28.42
+  },
+  {
+   "scene": 2,
+   "text": "Sekarang ukur Amerika Serikat",
+   "start": 29.78,
+   "end": 31.58
+  },
+  {
+   "scene": 2,
+   "text": "Amerika itu negara benua",
+   "start": 32.02,
+   "end": 33.4
+  },
+  {
+   "scene": 2,
+   "text": "dengan 48 negara bagian yang menyatu",
+   "start": 33.4,
+   "end": 35.88
+  },
+  {
+   "scene": 2,
+   "text": "Titik terjauh di daratan utamanya",
+   "start": 36.38,
+   "end": 38.02
+  },
+  {
+   "scene": 2,
+   "text": "ada di Point Arena, California,",
+   "start": 38.02,
+   "end": 39.64
+  },
+  {
+   "scene": 2,
+   "text": "dan West Quoddy Head, Maine",
+   "start": 39.64,
+   "end": 41.36
+  },
+  {
+   "scene": 2,
+   "text": "Garis terjauh yang bisa ditarik di sana",
+   "start": 42.2,
+   "end": 43.82
+  },
+  {
+   "scene": 2,
+   "text": "cuma 4.654 kilometer menurut USGS,",
+   "start": 43.82,
+   "end": 47.7
+  },
+  {
+   "scene": 2,
+   "text": "lembaga survei Amerika sendiri",
+   "start": 48.02,
+   "end": 49.36
+  },
+  {
+   "scene": 2,
+   "text": "Itu hampir 600 kilometer lebih pendek",
+   "start": 49.9,
+   "end": 52.02
+  },
+  {
+   "scene": 2,
+   "text": "dari garis Sabang Merauke",
+   "start": 52.02,
+   "end": 53.16
+  },
+  {
+   "scene": 3,
+   "text": "Kalau peta Indonesia diangkat",
+   "start": 54.18,
+   "end": 55.92
+  },
+  {
+   "scene": 3,
+   "text": "lalu ditaruh di atas Amerika,",
+   "start": 55.92,
+   "end": 57.22
+  },
+  {
+   "scene": 3,
+   "text": "hasilnya begini",
+   "start": 57.72,
+   "end": 58.54
+  },
+  {
+   "scene": 3,
+   "text": "Sabang menempel di pantai California",
+   "start": 59.04,
+   "end": 60.54
+  },
+  {
+   "scene": 3,
+   "text": "Garisnya menyeberangi seluruh Amerika,",
+   "start": 61.18,
+   "end": 62.64
+  },
+  {
+   "scene": 3,
+   "text": "dan Merauke masih bablas ratusan kilometer",
+   "start": 62.64,
+   "end": 64.67
+  },
+  {
+   "scene": 3,
+   "text": "ke tengah Samudra Atlantik",
+   "start": 64.67,
+   "end": 66.4
+  },
+  {
+   "scene": 3,
+   "text": "Satu negara kepulauan",
+   "start": 66.76,
+   "end": 68.02
+  },
+  {
+   "scene": 3,
+   "text": "mengalahkan lebar negara benua",
+   "start": 68.02,
+   "end": 69.62
+  },
+  {
+   "scene": 4,
+   "text": "Fakta bonus",
+   "start": 70.48,
+   "end": 71.18
+  },
+  {
+   "scene": 4,
+   "text": "Jarak Sabang ke Merauke itu setara",
+   "start": 71.88,
+   "end": 73.38
+  },
+  {
+   "scene": 4,
+   "text": "terbang dari Jakarta ke Korea Selatan,",
+   "start": 73.38,
+   "end": 75.16
+  },
+  {
+   "scene": 4,
+   "text": "sekitar 5.300 kilometer",
+   "start": 75.58,
+   "end": 77.64
+  },
+  {
+   "scene": 4,
+   "text": "Dan karena lebarnya itu,",
+   "start": 77.64,
+   "end": 78.9
+  },
+  {
+   "scene": 4,
+   "text": "saat jam tujuh pagi di Sabang,",
+   "start": 79.28,
+   "end": 80.58
+  },
+  {
+   "scene": 4,
+   "text": "di Merauke sudah jam sembilan pagi",
+   "start": 80.58,
+   "end": 82.36
+  },
+  {
+   "scene": 4,
+   "text": "Matahari terbit duluan dua jam",
+   "start": 82.36,
+   "end": 84.16
+  },
+  {
+   "scene": 4,
+   "text": "di ujung timur negeri sendiri",
+   "start": 84.16,
+   "end": 85.56
+  },
+  {
+   "scene": 5,
+   "text": "Dan jawaban tebakan tadi, Indonesia",
+   "start": 86.28,
+   "end": 88.28
+  },
+  {
+   "scene": 5,
+   "text": "Negara yang di peta dunia kelihatan kecil ini",
+   "start": 88.94,
+   "end": 90.86
+  },
+  {
+   "scene": 5,
+   "text": "ternyata membentang 5.245 kilometer,",
+   "start": 90.86,
+   "end": 93.82
+  },
+  {
+   "scene": 5,
+   "text": "lebih lebar dari Amerika Serikat daratan",
+   "start": 93.82,
+   "end": 96.0
+  },
+  {
+   "scene": 5,
+   "text": "Jadi kecil di peta belum tentu kecil beneran",
+   "start": 96.54,
+   "end": 98.62
+  },
+  {
+   "scene": 5,
+   "text": "Kamu mau mulai jelajah dari Sabang atau dari Merauke?",
+   "start": 99.18,
+   "end": 101.52
+  }
+ ],
+ "events": {
+  "s1_quiz": 3.48,
+  "s2_sabang": 11.04,
+  "s2_merauke": 14.72,
+  "s2_line": 17.98,
+  "s2_count": 19.78,
+  "s2_zona": 25.46,
+  "s3_points": 36.38,
+  "s3_line": 42.2,
+  "s3_count": 43.82,
+  "s3_diff": 49.9,
+  "s4_lift": 54.18,
+  "s4_place": 57.72,
+  "s4_sabang": 59.04,
+  "s4_cross": 61.18,
+  "s4_over": 62.64,
+  "s5_line": 71.88,
+  "s5_km": 75.58,
+  "s5_clocks": 79.28,
+  "s5_sun": 82.36,
+  "s6_payoff": 86.28,
+  "s6_span": 90.86,
+  "s6_question": 97.72
+ }
+}
