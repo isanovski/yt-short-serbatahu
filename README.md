@@ -1,41 +1,51 @@
 # yt-short-serbatahu
 
 Sistem produksi video fakta **Serba Tahu** (@serbatahumedia, YouTube Shorts dan Facebook).
-Diperbarui 21 November 2026.
+Diperbarui 21 November 2026: style Serba Tahu dipecah dua supaya tidak menumpuk campur.
 
-## Sistem yang berlaku (terkunci 17 November 2026)
+## Dua style Serba Tahu
 
-**Animasi 2D penuh gaya Geser Dikit** (sistem Point Nemo), dengan episode Point Nemo sebagai acuan
-tunggal. Sistem lama foto-led v3/v5 sudah DIBATALKAN dan tidak dipakai lagi untuk produksi baru;
-folder episode lamanya tetap tersimpan di repo ini sebagai arsip riwayat.
+Satu video memakai satu style. Indeks lengkap: `skill/SKILL.md`.
 
-- Animasi 2D flat penuh digambar dengan kode (PIL), 1080x1920, 24 fps. Tanpa foto sebagai tulang punggung.
-- Satu panggung per topik (peta asli/diagram), kamera zoom/pan kontinu, hampir tanpa cut. Ganti babak = ganti warna latar, transisi crossfade 0,5 detik.
-- Topik geografi wajib peta asli (data Natural Earth/GSHHG), bukan ilustrasi gambar.
-- Angka jadi alat peraga visual (garis ukur, cincin jarak, penghitung, jam). Kuis tebak dua ujung: pill di hook, jawaban disorot di akhir.
-- Headline Anton maksimal 2 baris, semua baris center frame x 540, satu kata kunci emas per baris. Pill kategori di atas, center x 540.
-- Caption kinetik per kata, center zona bebas x 495, seragam 44 px, kata aktif emas + garis bawah berjalan. Watermark @serbatahumedia sepanjang video.
-- Alur VO dulu: naskah 230-280 kata 6 babak dikirim ke Bos, Bos merekam (tanpa membaca penanda babak), visual dibangun mengikuti timing suaranya (whisper + alignment DP).
-- Audio dua stem (bed diduck berat, aksen diduck ringan), SFX wajib variatif per babak, master sekitar -14,5 LUFS, true peak maksimal -1,0.
-- Figur orang/hewan gambar kode dilarang permanen. Denting nada tinggi dilarang.
-- Gerbang wajib: frame dari MP4 final diperiksa sendiri (termasuk cek tumpang tindih) sebelum video dikirim ke Bos. Perubahan gaya wajib lewat pratinjau dan acc dulu.
-- Amendemen 20 November 2026: kit caption v6 (`kit-v6/`) tersedia sebagai pilihan opsional per episode atas pilihan Bos; satu video satu gaya caption. Bawaan tetap caption kinetik Point Nemo.
+### 1. Style 2D — Point Nemo (style utama saat ini)
 
-Detail lengkap: `skill/SKILL.md`.
+Animasi 2D flat penuh digambar dengan kode (PIL), 1080x1920, 24 fps, di atas peta asli/diagram.
+Satu panggung per topik, kamera zoom/pan kontinu, angka sebagai alat peraga visual, kuis tebak
+dua ujung, caption kinetik per kata (center x 495), headline Anton center x 540, watermark
+@serbatahumedia. Alur VO dulu: naskah 230-280 kata 6 babak, Bos merekam tanpa membaca penanda
+babak, visual mengikuti timing suaranya. Audio dua stem, SFX variatif per babak, master sekitar
+-14,5 LUFS, true peak maksimal -1,0. Figur orang/hewan gambar kode dilarang permanen.
+
+- Standar: `skill/2d/SKILL.md` (terkunci 17 November 2026, termasuk amendemen kit caption v6)
+- Kit: `kit/2d/` dan kit caption opsional `kit/2d/kit-v6/`
+- Episode: Pesawat 10 Km, Point Nemo, Diomede, Prancis 12 Zona Waktu, Rute Pesawat Lengkung,
+  Indonesia Lebih Lebar dari Amerika
+
+### 2. Style Video — Foto dan Footage Asli
+
+Foto dan footage asli full-frame sebagai tulang punggung (60-70 persen), lapisan ilustrasi dan
+kartu penjelas, kartu angka raksasa sebagai efek utama, caption per frasa. Standar v3 dibekukan
+12 November 2026, lineage builder v5 (acuan episode Wabah Menari).
+
+- Standar: `skill/video/SKILL.md`, dokumen desain: `docs/Standar-Desain-Referensi.md`
+- Kit: `kit/video/`
+- Episode: era Petir sampai El Niño 2026
 
 ## Isi repo
 
-- `skill/` — SKILL.md, standar produksi terkunci (termasuk amendemen kit caption v6).
-- `kit/` — kit builder dari episode acuan: `build.py` (headline, caption, chip, stamp, pill pertanyaan), `build2d.py` (panggung peta dunia + kamera), `build2d_map_reference.py` (pola peta asli penuh dari episode Diomede), `make_audio.py` (audio dua stem, SFX variatif), `whisper_bos.py` dan `prep_timing_bos.py` (timing VO).
-- `kit-v6/` — perpustakaan caption v6 (6 gaya caption, opsional per episode).
-- `episodes/` — folder produksi per episode (naskah, kode builder, file timing). Episode acuan dan sesudahnya: `video-point-nemo`, `video-diomede`, `video-prancis-zona`, `video-rute-pesawat-lengkung`, `video-indonesia-lebar`, plus bahan dari paket Bos `video-maraton-42195` dan `video-langit-biru`. Episode era v3/v5 tetap ada sebagai arsip.
-- `data/` — paket caption semua episode (`caption-shorts-serba-tahu.md`) dan log produksi (`episodes-log.csv`).
-- `docs/` — catatan studi gaya (terbaru: bedah WonderWhy, 17 November 2026).
-- `gaya-edit-muse/` — panduan gaya edit lintas lini (Serba Tahu, sport, dan lainnya).
+- `skill/` — indeks style (`SKILL.md`) + standar lengkap per style (`2d/`, `video/`)
+- `kit/` — kit per style (`2d/`, `video/`). File kit lepas di akar `kit/` adalah salinan pra-pemecahan.
+- `kit-v6/` — salinan kit caption v6 (rumah kanonisnya sekarang di `kit/2d/kit-v6/`)
+- `episodes/` — folder produksi per episode; pengelompokan per style di `episodes/DAFTAR.md`
+- `data/` — paket caption (`caption-shorts-serba-tahu.md`) dan log produksi (`episodes-log.csv`)
+- `docs/` — catatan studi gaya (terbaru: bedah WonderWhy, 17 November 2026)
+- `gaya-edit-muse/` — panduan gaya edit lintas lini; folder ini juga memuat lini lain di luar
+  Serba Tahu (termasuk sport untuk channel @aspalrumput)
 
 ## Aset biner (tidak disimpan di repo)
 
-Repo hanya berisi file teks. Font Anton, Bebas Neue, Space Grotesk, Archivo Black dari Google Fonts (OFL).
-Peta dari GeoJSON Natural Earth 10m admin-0 dan garis pantai GSHHG. Rekaman VO, frame render, dan MP4 final adalah arsip lokal.
+Repo hanya berisi file teks. Font Anton, Bebas Neue, Space Grotesk, Archivo Black dari Google
+Fonts (OFL). Peta dari GeoJSON Natural Earth 10m admin-0 dan garis pantai GSHHG. Rekaman VO,
+frame render, dan MP4 final adalah arsip lokal.
 
 Kanal: Serba Tahu, @serbatahumedia di YouTube.
