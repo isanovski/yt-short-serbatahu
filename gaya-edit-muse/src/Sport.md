@@ -43,9 +43,33 @@ Klaim Content ID memakan iklan video yang kena, jadi formatnya dirancang supaya 
 
 1. **Komposisi grafis-dulu.** Mayoritas durasi adalah kartu, penghitung, dan grafis sendiri. Footage aksen 2 sampai 4 detik per momen, tidak ada momen utuh (gol, overtake, insiden tidak ditayangkan penuh sebagai satu potongan).
 2. **Audio siaran mati total.** Komentar, musik, dan ambience siaran tidak masuk mix. Penggantinya crowd generik bebas lisensi dan SFX sendiri, semua di bawah VO.
-3. **Watermark @aspalrumput wajib di semua final.** Mesin template tidak punya layer watermark, jadi watermark ditambahkan lewat overlay pass sesudah render (satu PNG transparan berisi teks, ffmpeg overlay, audio stream copy), persisten sepanjang video di tengah bawah (pusat x 540, pusat y 1570, putih sekitar 60 persen). Hasilnya nama file versi baru.
+3. **Watermark logo Aspal Rumput wajib di semua final (DIBEKUKAN Bos 23 Nov 2026, menggantikan watermark teks lama).** Pakai file aset kanonis sesuai format: vertikal `~/workspace/template-muse/sport/aset/watermark-aspalrumput.png` (1080x1920 RGBA dari desain resmi Bos: logo "aspal rumput." kiri atas + "@aspalrumput" samar di tengah frame); lanskap `~/workspace/template-muse/sport/aset/watermark-aspalrumput-lanskap.png` (1920x1080 RGBA dari desain resmi Bos: titik hijau + "aspal rumput." putih kiri atas) DITAMBAH pill kategori per video di kiri bawah: pill hijau gaya desain Bos (tinggi 58, hijau 66/176/31, teks hitam Inter-800) yang isinya MENYESUAIKAN isi video, SATU kategori saja ("Football" untuk video bola, "MotoGP" untuk MotoGP, "Formula 1" untuk F1; perintah Bos 23 Nov 2026). File pill siap pakai: `aset/pill-lanskap-football.png`, `aset/pill-lanskap-motogp.png`, `aset/pill-lanskap-formula1.png`; keduanya (aset dasar + pill) ditempel pada pass watermark yang sama. Mesin template tidak punya layer watermark, jadi watermark ditambahkan lewat overlay pass sesudah render (aset itu sebagai input `-loop 1` terpisah, overlay `shortest=1`, tanpa `-shortest` di output, audio stream copy), persisten sepanjang video. Jangan membuat watermark teks sendiri.
 4. **Uji tab Checks sebelum tayang.** Sesudah render dan watermark, video diunggah sebagai tidak publik atau draf, lalu tab Checks di YouTube Studio diperiksa sebelum dijadwalkan. Hasilnya menentukan keputusan: bersih berarti jadwalkan; kena klaim monetisasi berarti keputusan Bos (tetap tayang sebagai mesin penonton atau ditahan); diblokir di seluruh dunia berarti jangan tayang, edit ulang atau ganti episode. Hasil Checks dicatat di berkas info episode.
 5. **Campuran jenis episode.** Episode data dan rekor dirancang dominan grafis dan menjadi mesin iklan. Episode reaksi event tetap dibatasi footage aksen dan menjadi mesin penonton. Keduanya dirotasi dalam kalender, tidak ditumpuk satu jenis saja.
+
+## Teks tambahan info penting (dikunci 22 November 2026, dari `StudiTeksTambahan.md` di ~/workspace/studi-teks-tambahan/)
+
+Berlaku untuk lini lanskap (tanpa subtitle): info penting yang tidak diucapkan narator WAJIB dipertimbangkan sebagai teks tambahan di layar, berbentuk kartu desain yang tertambat pada frasa VO-nya. Enam kartu standar:
+
+1. **Kartu Definisi** — istilah asing/teknis, maksimal 10 kata, tampil 4-6 detik.
+2. **Panel Referensi Penuh** — tabel/data lengkap yang narator petik sebagian, maksimal 8 baris, baris yang diucapkan disorot, minimal 1,2 detik per baris.
+3. **Derivasi Mikro** — langkah hitung di bawah angka raksasa, maksimal 8 kata.
+4. **Baris Sumber + Catatan** — sumber data, tanggal, caveat; menempel pada papannya, huruf minimal 28px.
+5. **Kartu Bukti** — screenshot/foto sumber primer, tampil 6-10 detik.
+6. **Label Nama Pertama** — pill nama + maksimal 4 kata keterangan saat orang/klub/benda pertama disebut, 3-5 detik.
+
+Aturan pakai: yang layak jadi teks = isi lengkap tabel, langkah derivasi, sumber + tanggal + caveat, definisi satu baris, label nama pertama, bukti primer, label konteks persisten, disclaimer visual. Yang wajib tetap diucapkan = klaim utama, angka hook, sebab-akibat, twist, kesimpulan. Dilarang: teks yang isinya sama persis dengan ucapan (subtitle terselubung), dua perangkat besar tampil bersamaan, teks kecil di atas footage ramai. Semua kartu rata tengah frame dan tidak boleh menumpuk elemen lain (aturan Bos 22 November 2026). Model referensi: Tifo Football (tabel penuh + derivasi mikro), HITC Sevens (kartu bukti), Vox (baris sumber persisten). CERITA BOLA adalah contoh negatif (teks tambahan nol).
+
+## Hak cipta dan Content ID (pelajaran klaim UEFA, 23 November 2026)
+
+Kejadian nyata: Lanskap Ep. 2 "Kenapa Negara Membeli Klub Bola?" v3 diupload Bos dan kena DUA klaim visual UEFA dengan dampak **Diblokir secara global**: `UCL_Man_City_vs_Inter` dan `UCL_Paris_vs_Inter_World_Feed`. Penyebabnya 13 dari 24 segmen memakai rekaman siaran final Liga Champions (City vs Inter 2023 dan PSG vs Inter 2025, feed CBS/Paramount+) sebagai latar ambien. Footage liga domestik di video yang sama (Premier League, final Piala Liga, Ligue 1) TIDAK kena klaim.
+
+Aturan yang berlaku mulai sekarang untuk SEMUA video sport, Shorts maupun lanskap:
+
+- **Footage kompetisi UEFA DILARANG TOTAL**: Liga Champions, Liga Europa, Conference League, Euro, dan semua world feed-nya, walau cuma jadi latar ambien buram beberapa detik. Content ID UEFA memblokir global, bukan sekadar klaim monetisasi, dan blokirnya tidak bisa dimenangkan lewat sengketa untuk footage siaran.
+- Sebelum mengunduh klip, identifikasi kompetisinya dari score bug, logo, dan papan iklan. Kalau UEFA, langsung buang dan cari alternatif: footage liga domestik klub yang sama, foto, atau segmen grafis murni.
+- Footage kompetisi lain tetap berisiko klaim monetisasi; perlakukan sebagai risiko yang diterima sadar, bukan jaminan aman. Uji Checks sebelum tayang tetap wajib.
+- Kalau video telanjur kena blokir global: jangan disengketakan. Ganti visual segmen yang kena (editor YouTube cuma bisa memotong segmen dan itu merusak alur VO), render versi baru, hapus video lama, upload ulang.
 
 ## Gerbang kirim
 
