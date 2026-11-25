@@ -6,6 +6,10 @@ Gaya edit lini sport (sepakbola dulu, lalu MotoGP dan F1). Dibangun dari koreksi
 
 Riset dan verifikasi fakta, lalu skrip VO dikirim ke Bos. Bos merekam. Footage dicari per kalimat skrip. Edit memakai VO Bos. Cek frame final. Kirim.
 
+## Tiga style Shorts (dibekukan 26 November 2026)
+
+Shorts Aspal Rumput resmi tiga style: **A Cutout Pop-up** (style utama: intro cutout 5 detik, VO 200-280 kata, penutup A/B, mesin sport penuh), **B Selingan** (model Jay Idzes: slideshow foto pers + sisipan footage, ±40 detik, subtitle dan kartu wajib dari mesin sport, angka statis, penghitung berjalan dilarang), **C Revisi Terakhir** (tanpa intro, 120-180 kata, berhenti di vonis, pagar sumber dan akurasi tetap penuh). Spesifikasi lengkap tiap style, pagar Style C, dan aturan pemilihannya ada di `SportTigaStyle.md`. Satu video satu style, dipilih sebelum skrip ditulis, tidak dicampur.
+
 ## Footage
 
 - Wajib VIDEO bergerak beneran. Foto, still, dan render diam dilarang.

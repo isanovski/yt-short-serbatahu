@@ -4,7 +4,7 @@ File pusat repo ini. Peta keputusan, prinsip inti, dan semua angka gaya tiap sis
 
 ## peta
 - `serbaTahu`: Sistem Point Nemo — TERKUNCI, satu-satunya untuk Serba Tahu — template eksekusi `template/serba-tahu/`
-- `sport`: Sistem Sport Muse — standar lini sport — template eksekusi `template/sport/` — studi kanal pembanding: `StudiKanalSport.md`
+- `sport`: Sistem Sport Muse — standar lini sport — template eksekusi `template/sport/` — studi kanal pembanding: `StudiKanalSport.md` — Shorts punya TIGA style resmi terkunci (dibekukan 26 Nov 2026): A Cutout Pop-up, B Selingan, C Revisi Terakhir — spesifikasi lengkap `SportTigaStyle.md`, angka ringkas di `tigaStyleSport` bawah
 - `eksperimen`: template dan pack pihak ketiga (Maliki, motion-skills) — bukan standar, wajib dilabeli eksperimen
 - `stickman`: skill `directing-stickman-videos`, Mode Autopilot — lini sendiri
 - `kartun3d`: skill `cartoon-3d-short` — lini sendiri, chat khusus
@@ -43,6 +43,12 @@ Template eksekusi tinggal di folder `template/` repo ini sebagai salinan snapsho
 - `watermark`: @aspalrumput wajib di semua final, overlay pass sesudah render, persisten tengah bawah (pusat x 540, y 1570, putih sekitar 60 persen)
 - `ujiChecks`: tab Checks YouTube Studio diperiksa dari unggahan tidak publik sebelum tayang; keputusan tayang dari hasilnya, dicatat di berkas info episode
 - `campuranEpisode`: data dan rekor dominan grafis = mesin iklan; reaksi event footage aksen = mesin penonton
+
+## tigaStyleSport
+Shorts Aspal Rumput resmi tiga style (dibekukan Bos 26 Nov 2026, spesifikasi lengkap `SportTigaStyle.md`). Satu video satu style, dipilih sebelum skrip ditulis, tidak dicampur.
+- `styleA-cutout-popup`: style utama — intro cutout 5 detik (subjek raksasa dari bawah, teks Anton tumpuk kata inti kuning terbesar, badge pill merah, latar spesifik episode bukan latar bawaan berulang, tanpa watermark/caption selama intro) — VO 200-280 kata — durasi 85-115 detik — penutup pertanyaan A/B — mesin sport penuh (14 preset subtitle maks 3 kata, 20 template penjelasan, palet acak, SFX pustaka, angka statis) — watermark ikon bola sesudah intro
+- `styleB-selingan`: model episode Jay Idzes — slideshow foto pers satu foto per fakta + 1-2 sisipan footage — tanpa kartu intro terpisah (detik pertama foto full frame + teks Anton pop) — durasi sekitar 40 detik — subtitle wajib preset mesin sport, teks penjelasan wajib kartu pool template mesin — angka STATIS penuh, penghitung berjalan DILARANG (aturan Bos 26 Nov 2026) — watermark bola belah dua sesudah intro — isi/urutan/sudut cerita wajib orisinal
+- `styleC-revisi-terakhir`: durasi 40-60 detik — naskah 120-180 kata — tanpa intro (frame 0 langsung momen kunci + caption hook) — kalimat VO pertama adalah klaim judul — momen kunci boleh diulang multi-sudut sebagai ritme — berhenti di fakta/vonis terakhir, tanpa penutup A/B — untuk memecah satu peristiwa panas jadi beberapa video sempit + trivia evergreen — PAGAR TETAP PENUH: footage UEFA dilarang, sumber bersih + kredit wajib, akurasi tidak dilonggarkan, angka statis, caption tetap maks 3 kata; yang diambil struktur dan ritmenya, bukan kelonggaran sumber/akurasinya
 
 ## audio
 - `pola`: VO Bos adalah tulang punggung semua lini, tidak diganti suara sintetis kecuali Bos yang meminta
