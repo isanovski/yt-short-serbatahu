@@ -3,6 +3,28 @@
 Sistem produksi video fakta **Serba Tahu** (@serbatahumedia, YouTube Shorts dan Facebook).
 Diperbarui 21 November 2026: style Serba Tahu dipecah dua supaya tidak menumpuk campur.
 
+## Status terbaru — 27 November 2026
+
+Repo ini memuat dua lini:
+
+- **Serba Tahu** (@serbatahumedia) — dua style yang diakui: 2D Point Nemo (`skill/2d/`, kit di
+  `kit/2d/`) dan Video foto/footage (`skill/video/`, kit di `kit/video/`). Satu video satu style.
+- **Aspal Rumput** (@aspalrumput) — panduan gaya editnya ada di folder `gaya-edit-muse/`. Tiga
+  style Shorts sport DIBEKUKAN 26 November 2026: A Cutout Pop-up, B Selingan, C Revisi Terakhir
+  (spesifikasi di `gaya-edit-muse/src/SportTigaStyle.md`). Satu video satu style, dipilih sebelum
+  skrip ditulis.
+
+Peta keputusan tunggal: `gaya-edit-muse/src/konten.md` menang atas berkas lain. Aturan lanskap
+sport ada di `gaya-edit-muse/src/Sport.md`. Footage kompetisi UEFA dilarang total, kecuali
+pengecualian eksplisit per episode.
+
+**Urutan baca untuk agen AI yang baru meng-clone repo ini:** README ini →
+`gaya-edit-muse/README.md` → `gaya-edit-muse/src/konten.md` → berkas style yang relevan dengan
+tugasnya.
+
+Catatan: mesin eksekusi video (template-muse) dan berkas produksi per episode TIDAK ada di repo
+ini. Repo ini berisi panduan, skill, dan kit.
+
 ## Dua style Serba Tahu
 
 Satu video memakai satu style. Indeks lengkap: `skill/SKILL.md`.
