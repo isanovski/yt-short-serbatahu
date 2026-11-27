@@ -4,6 +4,22 @@ Sistem gaya edit video vertikal 9:16 untuk semua lini video Isanovski: fakta Ser
 
 Disusun oleh Muse untuk Isanovski. Isinya desain dan standar kerja Muse sendiri, dirangkai mengikuti pola struktur repo template yang rapi: semua isi yang bisa diganti terpusat di satu file `src/konten.md`.
 
+## Status terbaru — 27 November 2026
+
+- Repo induk `yt-short-serbatahu` memuat dua lini: Serba Tahu (@serbatahumedia) dengan DUA style
+  yang diakui (2D Point Nemo di `skill/2d/` dan Video foto/footage di `skill/video/`, kit terpisah
+  di `kit/2d/` dan `kit/video/`), dan panduan gaya edit Aspal Rumput (@aspalrumput) di folder ini.
+- TIGA style Shorts Aspal Rumput DIBEKUKAN 26 November 2026: A Cutout Pop-up, B Selingan,
+  C Revisi Terakhir. Spesifikasi lengkap di `src/SportTigaStyle.md`. Satu video satu style,
+  dipilih sebelum skrip ditulis, tidak dicampur.
+- Peta keputusan tunggal tetap `src/konten.md`, yang menang atas berkas lain. Aturan lanskap
+  sport ada di `src/Sport.md`. Footage kompetisi UEFA dilarang total, kecuali pengecualian
+  eksplisit per episode.
+- Urutan baca yang disarankan untuk agen AI yang baru meng-clone repo ini: README akar repo →
+  README folder ini → `src/konten.md` → berkas style yang relevan dengan tugasnya.
+- Mesin eksekusi video (template-muse) dan berkas produksi per episode TIDAK berada di repo ini;
+  repo ini berisi panduan, skill, dan kit.
+
 ## Cara pakai
 1. Baca `src/konten.md` dulu. Di situ ada peta keputusan, prinsip inti, dan semua angka gaya tiap sistem.
 2. Buka file sistem sesuai lini di `src/` (SerbaTahu, Sport, Eksperimen, LiniLain) untuk cara kerja lengkapnya.
